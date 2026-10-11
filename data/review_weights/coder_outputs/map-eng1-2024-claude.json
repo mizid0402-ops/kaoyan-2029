@@ -1,0 +1,484 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2024,
+    "subject": "eng1",
+    "node_table_sha256": "86b908b2d0bc5331bf0771de29790e69e31fa7efed361e9f09d8da28889f472d",
+    "started_at": "2026-09-13T20:45:57.946048+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "该题号落在试卷 Section I（单篇完形填空，20个空）范围内，标题与页面结构直接标注为该部分。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 23,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 24,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 25,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 26,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 27,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 28,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 29,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 30,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 31,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 32,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 33,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 34,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 35,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 36,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 37,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 38,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 39,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 40,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "该题号属于 Section II Reading Comprehension 的 Part A（四篇短文，每篇5道单选），页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 41,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "该题号属于 Part B（新题型，本年为7选5式的多人评论配对陈述句），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 42,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "该题号属于 Part B（新题型，本年为7选5式的多人评论配对陈述句），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 43,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "该题号属于 Part B（新题型，本年为7选5式的多人评论配对陈述句），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 44,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "该题号属于 Part B（新题型，本年为7选5式的多人评论配对陈述句），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 45,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "该题号属于 Part B（新题型，本年为7选5式的多人评论配对陈述句），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 46,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "该题号属于 Part C 英译汉（划线句子汉译），页面小标题明确标注 Part C；节点表中另设的『第三部分 翻译』说明其本质仍属阅读理解的一部分，故一并列出。"
+    },
+    {
+      "number": 47,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "该题号属于 Part C 英译汉（划线句子汉译），页面小标题明确标注 Part C；节点表中另设的『第三部分 翻译』说明其本质仍属阅读理解的一部分，故一并列出。"
+    },
+    {
+      "number": 48,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "该题号属于 Part C 英译汉（划线句子汉译），页面小标题明确标注 Part C；节点表中另设的『第三部分 翻译』说明其本质仍属阅读理解的一部分，故一并列出。"
+    },
+    {
+      "number": 49,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "该题号属于 Part C 英译汉（划线句子汉译），页面小标题明确标注 Part C；节点表中另设的『第三部分 翻译』说明其本质仍属阅读理解的一部分，故一并列出。"
+    },
+    {
+      "number": 50,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "该题号属于 Part C 英译汉（划线句子汉译），页面小标题明确标注 Part C；节点表中另设的『第三部分 翻译』说明其本质仍属阅读理解的一部分，故一并列出。"
+    },
+    {
+      "number": 51,
+      "nodes": [
+        "eng1.paper.part4.a"
+      ],
+      "primary_node": "eng1.paper.part4.a",
+      "confidence": "high",
+      "reason": "该题号为 Section III Writing 的 Part A（应用文，回复国际学生邮件），页面标注 Part A 且字数要求约100词符合应用文规格。"
+    },
+    {
+      "number": 52,
+      "nodes": [
+        "eng1.paper.part4.b"
+      ],
+      "primary_node": "eng1.paper.part4.b",
+      "confidence": "high",
+      "reason": "该题号为 Section III Writing 的 Part B（看图/图表作文，160-200词），页面标注 Part B 且字数要求符合大作文规格。"
+    }
+  ]
+}

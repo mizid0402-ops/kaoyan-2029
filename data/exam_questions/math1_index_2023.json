@@ -1,0 +1,684 @@
+{
+  "schema_version": 1,
+  "kind": "exam_question_index",
+  "exam_year": 2023,
+  "subject_id": "math1",
+  "question_count": 22,
+  "marks_total": 150,
+  "answer_source_coverage": {
+    "choice_answered": 10,
+    "choice_total": 10,
+    "cross_checked": 0,
+    "cross_checked_numbers": []
+  },
+  "calibration": "awaiting_official_book",
+  "provenance": {
+    "paper": {
+      "resource_id": "math1-exam-2023-qihang",
+      "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+      "source_tier": "community_archive",
+      "rights_status": "unknown",
+      "note": "题面来源；索引只记录元信息"
+    },
+    "answer": {
+      "resource_id": "math1-exam-2023-qihang",
+      "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+      "source_tier": "community_archive",
+      "rights_status": "unknown",
+      "note": "答案标记来源于题面/参考资料；未存原文"
+    }
+  },
+  "content_policy": "仅保存年份、题号、题型、分值、答案字母、定位和哈希，不保存题干、选项、解析原文",
+  "verified_facts": [
+    "数学一题号为1..22；1..10选择题、11..16填空题、17..22解答题"
+  ],
+  "unverified_facts": [],
+  "entries": [
+    {
+      "question_id": "math1-2023-01",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 1,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 1,
+        "line": 3
+      },
+      "knowledge_point_id": "math1.hs.ch01.content",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch01.content": 0.667,
+        "math1.hs.ch02.content": 0.333
+      }
+    },
+    {
+      "question_id": "math1-2023-02",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 2,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 1,
+        "line": 48
+      },
+      "knowledge_point_id": "math1.hs.ch08.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch08.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-03",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 3,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 2,
+        "line": 7
+      },
+      "knowledge_point_id": "math1.hs.ch02.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch02.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-04",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 4,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 2,
+        "line": 74
+      },
+      "knowledge_point_id": "math1.hs.ch07.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch07.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-05",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 5,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 3,
+        "line": 56
+      },
+      "knowledge_point_id": "math1.la.ch10.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.la.ch10.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-06",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 6,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 4,
+        "line": 19
+      },
+      "knowledge_point_id": "math1.la.ch13.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.la.ch13.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-07",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 7,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 4,
+        "line": 54
+      },
+      "knowledge_point_id": "math1.la.ch11.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.la.ch11.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-08",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 8,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 5,
+        "line": 31
+      },
+      "knowledge_point_id": "math1.pr.ch18.content",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.pr.ch18.content": 0.5,
+        "math1.pr.ch16.content": 0.5
+      }
+    },
+    {
+      "question_id": "math1-2023-09",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 9,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 5,
+        "line": 39
+      },
+      "knowledge_point_id": "math1.pr.ch20.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.pr.ch20.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-10",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 10,
+      "question_type": "single_choice",
+      "marks": 5,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 6,
+        "line": 21
+      },
+      "knowledge_point_id": "math1.pr.ch21.content",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.pr.ch21.content": 0.833,
+        "math1.pr.ch16.content": 0.167
+      }
+    },
+    {
+      "question_id": "math1-2023-11",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 11,
+      "question_type": "fill_blank",
+      "marks": 5,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 6,
+        "line": 69
+      },
+      "knowledge_point_id": "math1.hs.ch01.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch01.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-12",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 12,
+      "question_type": "fill_blank",
+      "marks": 5,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 7,
+        "line": 12
+      },
+      "knowledge_point_id": "math1.hs.ch05.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch05.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-13",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 13,
+      "question_type": "fill_blank",
+      "marks": 5,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 7,
+        "line": 30
+      },
+      "knowledge_point_id": "math1.hs.ch07.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch07.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-14",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 14,
+      "question_type": "fill_blank",
+      "marks": 5,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 8,
+        "line": 26
+      },
+      "knowledge_point_id": "math1.hs.ch03.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch03.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-15",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 15,
+      "question_type": "fill_blank",
+      "marks": 5,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 8,
+        "line": 50
+      },
+      "knowledge_point_id": "math1.la.ch11.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.la.ch11.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-16",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 16,
+      "question_type": "fill_blank",
+      "marks": 5,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 9,
+        "line": 1
+      },
+      "knowledge_point_id": "math1.pr.ch17.content",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.pr.ch17.content": 0.833,
+        "math1.pr.ch16.content": 0.167
+      }
+    },
+    {
+      "question_id": "math1-2023-17",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 17,
+      "question_type": "comprehensive_application",
+      "marks": 10,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 9,
+        "line": 18
+      },
+      "knowledge_point_id": "math1.hs.ch08.content",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch08.content": 0.379,
+        "math1.hs.ch03.content": 0.379,
+        "math1.hs.ch02.content": 0.242
+      }
+    },
+    {
+      "question_id": "math1-2023-18",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 18,
+      "question_type": "comprehensive_application",
+      "marks": 12,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 10,
+        "line": 13
+      },
+      "knowledge_point_id": "math1.hs.ch05.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch05.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-19",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 19,
+      "question_type": "comprehensive_application",
+      "marks": 12,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 11,
+        "line": 8
+      },
+      "knowledge_point_id": "math1.hs.ch06.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch06.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-20",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 20,
+      "question_type": "comprehensive_application",
+      "marks": 12,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 12,
+        "line": 3
+      },
+      "knowledge_point_id": "math1.hs.ch02.content",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.hs.ch02.content": 1.0
+      }
+    },
+    {
+      "question_id": "math1-2023-21",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 21,
+      "question_type": "comprehensive_application",
+      "marks": 12,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "math1.la.ch14.content",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.la.ch14.content": 0.833,
+        "math1.la.ch13.content": 0.167
+      }
+    },
+    {
+      "question_id": "math1-2023-22",
+      "exam_year": 2023,
+      "subject_id": "math1",
+      "number": 22,
+      "question_type": "comprehensive_application",
+      "marks": 12,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "math1-exam-2023-qihang",
+          "sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c",
+        "page": 14,
+        "line": 66
+      },
+      "knowledge_point_id": "math1.pr.ch17.content",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "math1.pr.ch17.content": 0.5,
+        "math1.pr.ch18.content": 0.5
+      }
+    }
+  ]
+}

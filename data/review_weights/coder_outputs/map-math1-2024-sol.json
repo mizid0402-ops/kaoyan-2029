@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "coder": "sol",
+    "year": 2024,
+    "subject": "math1",
+    "node_table_sha256": "8d9543368faf6fc8ebf45d8b548deffd59f15081253b94676788b95c0de56d82",
+    "started_at": "2026-09-13T19:46:44+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "math1.hs.ch03.chapter",
+        "math1.hs.ch01.chapter"
+      ],
+      "primary_node": "math1.hs.ch03.chapter",
+      "confidence": "medium",
+      "reason": "核心步骤是利用变上限积分与换元判断所得函数的奇偶性，同时涉及函数奇偶性的基本性质。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "math1.hs.ch06.chapter"
+      ],
+      "primary_node": "math1.hs.ch06.chapter",
+      "confidence": "high",
+      "reason": "考查第二类曲面积分按定向曲面投影到坐标面的换算。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "math1.hs.ch07.chapter"
+      ],
+      "primary_node": "math1.hs.ch07.chapter",
+      "confidence": "high",
+      "reason": "通过幂级数和函数及其导数提取带下标权重的系数和。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "math1.hs.ch02.chapter"
+      ],
+      "primary_node": "math1.hs.ch02.chapter",
+      "confidence": "high",
+      "reason": "比较一点处可导、导数极限和差商极限之间的逻辑关系。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "math1.la.ch12.chapter",
+        "math1.la.ch10.chapter"
+      ],
+      "primary_node": "math1.la.ch12.chapter",
+      "confidence": "medium",
+      "reason": "由三平面的公共解集合判断系数矩阵与增广矩阵的秩，矩阵秩是辅助工具。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "math1.la.ch11.chapter"
+      ],
+      "primary_node": "math1.la.ch11.chapter",
+      "confidence": "high",
+      "reason": "依据向量组整体相关而任意两向量无关的秩条件确定参数。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "math1.la.ch13.chapter"
+      ],
+      "primary_node": "math1.la.ch13.chapter",
+      "confidence": "high",
+      "reason": "从特征子空间确定特征值及重数，再由矩阵幂的特征值计算迹。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "math1.pr.ch17.chapter",
+        "math1.pr.ch16.chapter"
+      ],
+      "primary_node": "math1.pr.ch17.chapter",
+      "confidence": "medium",
+      "reason": "利用独立正态变量线性组合的分布进行概率等式换算，单变量正态分布是基础。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "math1.pr.ch18.chapter",
+        "math1.pr.ch17.chapter"
+      ],
+      "primary_node": "math1.pr.ch18.chapter",
+      "confidence": "high",
+      "reason": "先由条件分布形成联合分布，再计算混合矩与边缘期望以求协方差。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "math1.pr.ch17.chapter",
+        "math1.pr.ch16.chapter"
+      ],
+      "primary_node": "math1.pr.ch17.chapter",
+      "confidence": "high",
+      "reason": "考查两个独立连续随机变量之差的绝对值所诱导的分布。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "math1.hs.ch01.chapter"
+      ],
+      "primary_node": "math1.hs.ch01.chapter",
+      "confidence": "high",
+      "reason": "用等价无穷小或对数展开处理幂指型表达式的极限。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "math1.hs.ch05.chapter"
+      ],
+      "primary_node": "math1.hs.ch05.chapter",
+      "confidence": "high",
+      "reason": "根据全微分给出的偏导信息，应用多元复合函数链式法则求二阶导数。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "math1.hs.ch07.chapter"
+      ],
+      "primary_node": "math1.hs.ch07.chapter",
+      "confidence": "high",
+      "reason": "由余弦级数系数公式求特定下标系数并判断其渐近极限。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "math1.hs.ch08.chapter"
+      ],
+      "primary_node": "math1.hs.ch08.chapter",
+      "confidence": "high",
+      "reason": "通过变量代换把一阶方程化为可分离变量形式，并结合初值确定常数。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "math1.la.ch14.chapter"
+      ],
+      "primary_node": "math1.la.ch14.chapter",
+      "confidence": "high",
+      "reason": "给定双线性型的不等式对所有向量成立，归结为对称矩阵所对应二次型的半正定条件。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "math1.pr.ch15.chapter",
+        "math1.pr.ch16.chapter"
+      ],
+      "primary_node": "math1.pr.ch15.chapter",
+      "confidence": "medium",
+      "reason": "核心是独立重复试验中的条件概率，成功次数的二项分布可作为等价计算工具。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "math1.hs.ch06.chapter"
+      ],
+      "primary_node": "math1.hs.ch06.chapter",
+      "confidence": "high",
+      "reason": "需要识别平面区域的对称性并选择合适次序或坐标计算二重积分。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "math1.hs.ch05.chapter"
+      ],
+      "primary_node": "math1.hs.ch05.chapter",
+      "confidence": "high",
+      "reason": "先用偏导数求曲面切平面，再在其投影闭区域上比较内部驻点与边界极值。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "math1.hs.ch02.chapter",
+        "math1.hs.ch03.chapter"
+      ],
+      "primary_node": "math1.hs.ch02.chapter",
+      "confidence": "high",
+      "reason": "主要利用泰勒公式和二阶导数界证明误差估计，随后对该不等式积分得到整体界。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "math1.hs.ch06.chapter"
+      ],
+      "primary_node": "math1.hs.ch06.chapter",
+      "confidence": "high",
+      "reason": "把有向空间曲线上的第二类曲线积分借助斯托克斯公式转化为曲面积分。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "math1.la.ch13.chapter",
+        "math1.la.ch10.chapter"
+      ],
+      "primary_node": "math1.la.ch13.chapter",
+      "confidence": "high",
+      "reason": "将递推关系写成矩阵迭代，并通过特征值与相似对角化计算矩阵幂。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "math1.pr.ch21.chapter",
+        "math1.pr.ch20.chapter"
+      ],
+      "primary_node": "math1.pr.ch21.chapter",
+      "confidence": "high",
+      "reason": "围绕次序统计量构造参数估计量，分别以无偏性和均方误差最小为准则选取系数。"
+    }
+  ]
+}

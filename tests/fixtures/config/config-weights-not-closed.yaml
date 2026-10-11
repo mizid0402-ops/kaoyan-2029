@@ -1,0 +1,21 @@
+# Invalid on purpose: active weights sum to 0.9, not 1.0.
+# Used by tests/test_contracts.py to prove semantic validation rejects it.
+schema_version: 1
+project_id: kaoyan-2029
+default_daily_minutes: 120
+review_reserve_ratio: 0.45
+hard_max_ratio: 0.60
+
+subjects:
+  - subject_id: math1
+    display_name: 数学一
+    weight: 0.40
+    active: true
+  - subject_id: eng1
+    display_name: 英语一
+    weight: 0.20
+    active: true
+  - subject_id: cs408
+    display_name: "408"
+    weight: 0.30
+    active: true

@@ -1,0 +1,563 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2025,
+    "subject": "eng1",
+    "node_table_sha256": "ba119084615d2f04288a4a2e45efedaa9954247e63fb104189851cfa054b025a",
+    "node_table_sha256_task_stated": "86b908b2d0bc5331bf0771de29790e69e31fa7efed361e9f09d8da28889f472d",
+    "node_table_sha256_matches_task": false,
+    "started_at": "2026-09-13T13:06:38.918307+00:00",
+    "source_pdfs": [
+      "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\kaoyan-probe\\claude2\\dl\\bv_e1_2025.pdf",
+      "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\kaoyan-probe\\claude2\\dl\\lazy_e1_2025.pdf"
+    ],
+    "note": "题干通过随附的已提取文本文件 bv_e1_2025.txt / lazy_e1_2025.txt 核对，二者均可与原 PDF 对照；未修改 F:\\workspace\\kaoyan-ai-system 下任何文件，未执行 git。"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题干位于全文首个 Section I 'Use of English' 标题下，编号1-20，每题为文中一个编号空格，四选一，符合完形填空(第一部分 英语知识运用)的标准题型与编号区间；该题型同时考查语境中的词汇辨析与语法/逻辑衔接，故并列词汇、语法两个考查目标节点。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号21落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号22落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 23,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号23落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 24,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号24落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 25,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号25落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 26,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号26落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 27,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号27落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 28,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号28落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 29,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号29落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 30,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号30落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 31,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号31落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 32,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号32落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 33,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号33落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 34,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号34落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 35,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号35落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 36,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号36落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 37,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号37落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 38,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号38落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 39,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号39落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 40,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号40落在 'Section II Reading Comprehension Part A' 标题之后、Part B(41题起)之前区间内，四篇阅读文章各配5道单选题，题干以 'Directions: ... choosing A, B, C or D' 开头，与阅读理解A节(多项选择)的题型定义完全吻合，故归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 41,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号41-45位于 'Part B' 标题下，题干说明为将打乱顺序的段落重新排列(A-H中选出对应段落填入编号框)，属于阅读理解新题型(排序题)，与B节(新题型)定义一致，归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 42,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号41-45位于 'Part B' 标题下，题干说明为将打乱顺序的段落重新排列(A-H中选出对应段落填入编号框)，属于阅读理解新题型(排序题)，与B节(新题型)定义一致，归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 43,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号41-45位于 'Part B' 标题下，题干说明为将打乱顺序的段落重新排列(A-H中选出对应段落填入编号框)，属于阅读理解新题型(排序题)，与B节(新题型)定义一致，归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 44,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号41-45位于 'Part B' 标题下，题干说明为将打乱顺序的段落重新排列(A-H中选出对应段落填入编号框)，属于阅读理解新题型(排序题)，与B节(新题型)定义一致，归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 45,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号41-45位于 'Part B' 标题下，题干说明为将打乱顺序的段落重新排列(A-H中选出对应段落填入编号框)，属于阅读理解新题型(排序题)，与B节(新题型)定义一致，归入该节并关联阅读技能考查目标。"
+    },
+    {
+      "number": 46,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号46-50位于 'Section II Reading Comprehension Part C' 标题下，要求将文中标号划线部分译成汉语，与C节(英译汉)定义一致；同时该节在体例上体现'英译汉作为阅读理解的一部分'这一考纲说明，故并列关联该节点。"
+    },
+    {
+      "number": 47,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号46-50位于 'Section II Reading Comprehension Part C' 标题下，要求将文中标号划线部分译成汉语，与C节(英译汉)定义一致；同时该节在体例上体现'英译汉作为阅读理解的一部分'这一考纲说明，故并列关联该节点。"
+    },
+    {
+      "number": 48,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号46-50位于 'Section II Reading Comprehension Part C' 标题下，要求将文中标号划线部分译成汉语，与C节(英译汉)定义一致；同时该节在体例上体现'英译汉作为阅读理解的一部分'这一考纲说明，故并列关联该节点。"
+    },
+    {
+      "number": 49,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号46-50位于 'Section II Reading Comprehension Part C' 标题下，要求将文中标号划线部分译成汉语，与C节(英译汉)定义一致；同时该节在体例上体现'英译汉作为阅读理解的一部分'这一考纲说明，故并列关联该节点。"
+    },
+    {
+      "number": 50,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号46-50位于 'Section II Reading Comprehension Part C' 标题下，要求将文中标号划线部分译成汉语，与C节(英译汉)定义一致；同时该节在体例上体现'英译汉作为阅读理解的一部分'这一考纲说明，故并列关联该节点。"
+    },
+    {
+      "number": 51,
+      "nodes": [
+        "eng1.paper.part4.a",
+        "eng1.exam.objectives.skills.writing"
+      ],
+      "primary_node": "eng1.paper.part4.a",
+      "confidence": "high",
+      "reason": "题号51位于 'Section III Writing Part A' 标题下，要求以'Li Ming'身份回复同学邮件，属于应用文(书信类)写作，与A节(应用文写作)定义一致，并关联写作技能考查目标。"
+    },
+    {
+      "number": 52,
+      "nodes": [
+        "eng1.paper.part4.b",
+        "eng1.exam.objectives.skills.writing"
+      ],
+      "primary_node": "eng1.paper.part4.b",
+      "confidence": "high",
+      "reason": "题号52位于 'Section III Writing Part B' 标题下，要求依据统计表格写160-200词的短文(描述图表、说明含义、给出评论)，与B节(短文写作)定义一致，并关联写作技能考查目标。"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Invalid on purpose: reviews root declares an unsupported schema_version and
+# a misspelled key. load_review_items() must reject both with a located error
+# before any item reaches the scheduler.
+schema_version: 99
+iten:
+  - review_id: rv_bad_root_0001
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.limit.demo
+    title: 测试条目
+    granularity: concept
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-01
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4

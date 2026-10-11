@@ -1,0 +1,1823 @@
+schema_version: 1
+items:
+- resource_id: cs408-outline-notice-2022
+  title: 2022 年全国硕士研究生招生考试计算机学科专业基础考试大纲（官方发布公告）
+  material_kind: official_syllabus
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: null
+    licence_url: null
+    may_store: false
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: remote_reference
+    path: null
+    sha256: null
+    byte_size: null
+    url: https://yankao.neea.edu.cn/html1/report/21115/4961-1.htm
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://yankao.neea.edu.cn/html1/report/21115/4961-1.htm
+    publisher: 教育部教育考试院（中国教育考试网）
+    published_on: '2021-11-30'
+    isbn: null
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-reconnaissance
+    source_tier: official
+  review_index: false
+  review_status: verified
+  notes: 公告页正文为空，只挂 3 张扫描图（封面/版权页/目录页）。目录页扫描图 https://yankao.neea.edu.cn/res/Home/2111/211154959.jpg 已目视核实，
+    载明附录含「2020 年试题+参考答案」「2021 年试题+参考答案」。 官方大纲正文不免费公开，只以纸质书发行。
+  history:
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-reconnaissance
+    detail: 依据 docs/资料可得性侦察.md 登记；仅链接与元信息，未下载扫描件
+- resource_id: cs408-outline-book-2022
+  title: 2022 年全国硕士研究生招生考试计算机学科专业基础考试大纲（纸质书）
+  material_kind: official_syllabus
+  subjects:
+  - cs408
+  acquisition: purchased
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: false
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: remote_reference
+    path: null
+    sha256: null
+    byte_size: null
+    url: https://www.aijiaocai.com/textbook/details?textbook_id=810338
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://www.aijiaocai.com/textbook/details?textbook_id=810338
+    publisher: 高等教育出版社（教育部考试中心 编）
+    published_on: '2021-08-20'
+    isbn: 978-7-04-056689-5
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-reconnaissance
+    source_tier: official_publisher
+  review_index: false
+  review_status: verified
+  notes: 定价 17.00 元。ISBN 直接来自官方扫描版权页 https://yankao.neea.edu.cn/res/Home/2111/211154957.jpg，并经全国大中专教材
+    网络采选系统与上海图书馆馆藏记录复核。用户如购置此书，须登记为 local_file 后方可结构化。附录含真题与参考答案 —— 但本系统不复制其正文。
+  history:
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-reconnaissance
+    detail: 版本元信息登记；正文未持有
+- resource_id: cs408-outline-book-2026
+  title: 2026 年全国硕士研究生招生考试计算机学科专业基础考试大纲（纸质书）
+  material_kind: official_syllabus
+  subjects:
+  - cs408
+  acquisition: purchased
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: false
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: remote_reference
+    path: null
+    sha256: null
+    byte_size: null
+    url: http://www.tsxcfw.com/bookshow.asp?id=3019852
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: http://www.tsxcfw.com/bookshow.asp?id=3019852
+    publisher: 人民教育出版社（教育部教育考试院 编）
+    published_on: '2025-10-01'
+    isbn: 978-7-107-40472-6
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-reconnaissance
+    source_tier: official_publisher
+  review_index: false
+  review_status: verified
+  notes: 定价 17.00 元，89 页，TP3-41。经图书馆编目记录复核 https://chaxuntsg.cdjcc.edu.cn/opac/book/5f13aa45a98ad6ba755eaff3a15e0d5c。
+    注意：出版方已由 2022 年的高等教育出版社变更为人民教育出版社。 附录对应 2024–2025 年试题及参考答案。
+  history:
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-reconnaissance
+    detail: 版本元信息登记；出版方变更已记录
+- resource_id: math1-outline-notice-2022
+  title: 2022 年全国硕士研究生招生考试数学考试大纲（官方发布公告）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: null
+    licence_url: null
+    may_store: false
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: remote_reference
+    path: null
+    sha256: null
+    byte_size: null
+    url: https://yankao.neea.edu.cn/html1/report/21115/5103-1.htm
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://yankao.neea.edu.cn/html1/report/21115/5103-1.htm
+    publisher: 教育部教育考试院（中国教育考试网）
+    published_on: '2021-11-30'
+    isbn: null
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-reconnaissance
+    source_tier: official
+  review_index: false
+  review_status: verified
+  notes: 公告页正文为空，只挂扫描图。大纲正文不免费公开。
+  history:
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-reconnaissance
+    detail: 仅链接与元信息
+- resource_id: math1-outline-book-2026
+  title: 2026 年全国硕士研究生招生考试数学考试大纲（纸质书）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: purchased
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: false
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: remote_reference
+    path: null
+    sha256: null
+    byte_size: null
+    url: https://www.yuntaigo.com/book.action?recordid=bm1rb2FrbmM5Nzg3MTA3NDA0Njg5
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://www.yuntaigo.com/book.action?recordid=bm1rb2FrbmM5Nzg3MTA3NDA0Njg5
+    publisher: 人民教育出版社（教育部教育考试院 编）
+    published_on: null
+    isbn: 978-7-107-40468-9
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-reconnaissance
+    source_tier: official_publisher
+  review_index: false
+  review_status: verified
+  notes: 定价 29.00 元。目录含 2024/2025 数学（一）（二）（三）试题及参考答案。 2022 版对应 ISBN 978-7-04-056666-6（高等教育出版社，29.00 元）。
+  history:
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-reconnaissance
+    detail: 版本元信息登记
+- resource_id: eng1-exam-analysis-2026
+  title: 英语（一）（二）考试分析 2026 年版（官方出版）
+  material_kind: official_exam_notice
+  subjects:
+  - eng1
+  acquisition: purchased
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: false
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: remote_reference
+    path: null
+    sha256: null
+    byte_size: null
+    url: https://www.yuntaigo.com/book.action?recordid=bm1sYW1va2M5Nzg3MTA3NDA0NjEw
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://www.yuntaigo.com/book.action?recordid=bm1sYW1va2M5Nzg3MTA3NDA0NjEw
+    publisher: 人民教育出版社（官方编写）；本条字节取自 www.yuntaigo.com 书店书目页（官方编写）；本条字节取自 www.yuntaigo.com 书店书目页
+    published_on: null
+    isbn: 978-7-107-40461-0
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-reconnaissance
+    source_tier: trusted_reprint
+  review_index: false
+  review_status: verified
+  notes: '官方目录结构：第一篇考试说明 / 第二篇题型示例及试题分析 / 第三篇试题评价 / 第四篇 2023-2025 试题分析。英语的官方公开度高于 408：官方会公开「试题评价/试题分析」，但那是分析文本，不是试卷原文。
+
+    ⚠️ ISBN 待核实：本次侦察（yuntaigo 商品页）读到 978-7-107-40461-0，用户提供的链接清单读到 9787107404603。二者均为合法 13 位号码，推测分别为英语（一）与英语（二）两册，但**未能确证**。2026-09-13 已解决：`978-7-107-40461-0` 是**本条目（考试分析）**，`978-7-107-40460-3` 是《2026 年…英语（一）考试大纲》，两者是**两本不同的书**，从来不是冲突。本条目 ISBN 可作为事实使用。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: rights_changed
+    actor: dsh-round2-fix
+    detail: 独立审查发现档位虚高：这是书店商品页（转录人教社目录），不是官方出版社；official_publisher 属于 SYLLABUS_AUTHORITATIVE_TIERS，等于把“定义考纲”的权限给了一家书店。降为 trusted_reprint 并关闭 may_be_structured。目录事实性内容仍可引用。
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-reconnaissance
+    detail: 版本元信息登记
+  - at: '2026-09-12T00:00:00+08:00'
+    action: rights_changed
+    actor: dsh-phase2
+    detail: 标注 ISBN 冲突为待核实项，不擅自择一
+- resource_id: policy-scoring-rubric-not-publishable
+  title: 评分细则不得发表（法规约束记录）
+  material_kind: official_exam_notice
+  subjects:
+  - general
+  acquisition: public_download
+  rights:
+    status: scoring_rubric_restricted
+    licence: null
+    licence_url: null
+    may_store: false
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: remote_reference
+    path: null
+    sha256: null
+    byte_size: null
+    url: https://yjs.cuebu.edu.cn/glzd/zcfg/zsl/8863.htm
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://yjs.cuebu.edu.cn/glzd/zcfg/zsl/8863.htm
+    publisher: 教育部（教考试〔2004〕2 号《国家教育考试考务安全保密工作规定》）
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-reconnaissance
+    source_tier: official
+  review_index: false
+  review_status: verified
+  notes: '第五十一条：考试期间不得向媒体提供试题、答案及评分参考；考试结束后，不得向 任何媒体提供或者发表考试试题的评分细则。→ 评分细则考后亦禁止发表，单独列为 禁止项；这是「已知且禁止」，不是「权利不明」（故
+    rights.is_clear() 为真， 但 permits_evidence() 为假）。
+
+    同时更正本项目的既有假设：禁止的是「考试期间发布」，不是永久禁止。 官方大纲附录内即含真题与参考答案，因此合规边界是「系统不复制」， 而非「官方没有」。'
+  history:
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-reconnaissance
+    detail: 法规约束作为禁止项登记，供下游 rights gate 引用
+- resource_id: cs408-outline-analysis-hep-2026
+  title: 全国硕士研究生招生考试计算机学科专业基础考试大纲解析（2026，高等教育出版社）— 官方产品页与完整章节目录
+  material_kind: outline_structure
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: 高等教育出版社官网公开的商品描述与目录页；目录层级属事实性公开信息，非书稿正文。系统仅保存该公开页面与其目录文本，不持有书籍正文。
+    licence_url: https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=68b8764ae119ac9729e8a8bc
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: true
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/syllabus/hep_408_outline_analysis_2026.html
+    sha256: 7487644cf10c85d1fca0e64a1577f577159836b6d31c09225620cd9851c7b11c
+    byte_size: 49565
+    url: https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=68b8764ae119ac9729e8a8bc
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=68b8764ae119ac9729e8a8bc
+    source_tier: official_publisher
+    publisher: 高等教育出版社（官方出版社产品页）
+    published_on: '2025-10-15'
+    isbn: 978-7-04-065779-1
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-phase2
+    archive_url: null
+  review_index: true
+  review_status: verified
+  notes: '**这是目前唯一 source_tier 达标、可据以构建知识树的 408 结构来源。**官方出版社公布的完整章节目录：第1部分数据结构（7章）／第2部分计算机组成原理（6章）／第3部分操作系统（5章）／第4部分计算机网络（6章），共约
+    170 个章节级条目。
+
+    注意：本书是**大纲解析**（教辅），不是大纲本身；其章节编排与官方大纲的「考查内容」高度一致但不保证逐条等同。因此本条目可作为**学习顺序与骨架**依据；凡涉及“考纲是否包含某知识点”的判定，仍需以官方大纲（book-2026）为准。
+
+    已知提取瑕疵：页面将“IPv4/IPv6”截断为“IPv”、“散列表”作“散列（ash）表”，属页面排版问题，解析时需按领域常识修正并标注。'
+  history:
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-phase2
+    detail: 阶段 2 关键来源：官方出版社公开目录，用于构建 408 知识树骨架
+- resource_id: math1-outline-jingwei-2026
+  title: 2026 考研数学一考试大纲（经纬考研数学整理页）
+  material_kind: outline_structure
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: 机构整理页，非官方出版物。
+    licence_url: https://jingweimath.com/syllabus.html
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: true
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/jingwei_math1_outline_2026.html
+    sha256: 7e6d703b49c6e9e5e3918a5161cf7c0b90a4c80161c739f6f186bf18846b7b17
+    byte_size: 28239
+    url: https://jingweimath.com/syllabus.html
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://jingweimath.com/syllabus.html
+    source_tier: trusted_reprint
+    publisher: null
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-phase2
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: ⚠️ source_tier=trusted_reprint，**不足以定义考纲**（may_define_syllabus 为 false）。仅可作线索与交叉比对；建数学一知识树前需另找官方出版社产品页目录或用户提供纸质书目录。
+  history:
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-phase2
+    detail: 阶段 2 数学/英语候选来源登记
+- resource_id: math1-outline-pubinfo-2026
+  title: 2026 年全国硕士研究生招生考试数学考试大纲（出版信息页）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: 正式出版物信息页（台湾书店镜像）。
+    licence_url: https://search.megbook.com.tw/mall/detail.jsp?proID=4159518
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/megbook_math_outline_pubinfo_2026.html
+    sha256: 4961d7130b4450c7e7d12c1afbce441280cf96ec74a95a751d045bbaa6f4a4d1
+    byte_size: 7973
+    url: https://search.megbook.com.tw/mall/detail.jsp?proID=4159518
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://search.megbook.com.tw/mall/detail.jsp?proID=4159518
+    source_tier: trusted_reprint
+    publisher: 台湾大书城 search.megbook.com.tw（书店商品页，转录人教社目录）
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-phase2
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '仅含出版元信息与目录层级描述，**不含大纲正文与章节目录正文**。
+    2026-09-13 由浙江省新华书店书目页独立复核：ISBN 9787107404689、157 页、定价 29.00 元、
+    出版 2025-09-01 第 1 版，且**官方目录逐字一致**：Ⅰ 考试性质 / Ⅱ 考查目标 /
+    Ⅲ 试卷分类及使用专业 / Ⅳ 考试形式和试卷结构 / Ⅴ 考试内容和考试要求（数学一/二/三）/
+    Ⅵ 题型示例及参考答案；附录含 2024、2025 试题及参考答案。
+
+    ⚠️ 该官方目录**只到「数学(一)」这一级**，不含高等数学/线性代数/概率论之下的章节标题。
+    因此它只能作**分卷与结构锚点**，不足以构建知识树。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: rights_changed
+    actor: dsh-round2-fix
+    detail: 独立审查发现档位虚高：这是书店商品页（转录人教社目录），不是官方出版社；official_publisher 属于 SYLLABUS_AUTHORITATIVE_TIERS，等于把“定义考纲”的权限给了一家书店。降为 trusted_reprint 并关闭 may_be_structured。目录事实性内容仍可引用。
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-phase2
+    detail: 阶段 2 数学/英语候选来源登记
+- resource_id: eng1-outline-pubinfo-2026
+  title: 2026 年全国硕士研究生招生考试英语（一）考试大纲（出版信息页）
+  material_kind: official_syllabus
+  subjects:
+  - eng1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: 正式出版物信息页（台湾书店镜像）。
+    licence_url: https://search.megbook.com.tw/mall/detail.jsp?proID=4159208
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/eng1/syllabus/megbook_eng1_outline_pubinfo_2026.html
+    sha256: 0e833aaca054531476bb22371273e271b0d25920fcef191a861e9d93fc9ab895
+    byte_size: 8131
+    url: https://search.megbook.com.tw/mall/detail.jsp?proID=4159208
+    retrieved_on: '2026-09-12'
+  provenance:
+    source_url: https://search.megbook.com.tw/mall/detail.jsp?proID=4159208
+    source_tier: trusted_reprint
+    publisher: 台湾大书城 search.megbook.com.tw（书店商品页，转录人教社目录）
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-12T00:00:00+08:00'
+    retrieved_by: dsh-phase2
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '仅含出版元信息与目录层级。**ISBN 冲突已于 2026-09-13 解决**：
+    978-7-107-40460-3 = 《2026 年…英语（一）考试大纲（非英语专业）》（本条目所指，236 页，人教社）；
+    978-7-107-40461-0 = 《英语（一）（二）考试分析（非英语专业）2026 年版》（另一册，见 eng1-exam-analysis-2026）。
+    两者不是同一本书，侦察文档第 3 项未核实可关闭。
+
+    目录（来自人教社体系书目页，2 个独立书商页一致）：Ⅰ 考试性质 / Ⅱ 考查目标 /
+    Ⅲ 考试形式、考试内容与试卷结构 / Ⅳ 题型示例及参考答案 / 附录一 词汇表（含部分国家地区名称、
+    大洲名大洋名）/ 附录二 常用前缀和后缀、常见缩写词 / 附录三 2024 与 2025 英语（一）试题及试题参考答案。
+    → 侦察文档第 4 项未核实（"附录是否含真题"）可关闭：**含**。
+
+    仍未核实：定价；以及"英语一是否有独立公开的官方标准答案文件"（倾向无）。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: verified
+    actor: dsh-round2
+    detail: 修正 storage 哈希：原记录的 sha256/byte_size 与磁盘字节不符（这是台账完整性问题，不是抓取问题）。现按磁盘现算：0e833aaca0545314 / 8131 字节。
+  - at: '2026-09-13T00:00:00+08:00'
+    action: rights_changed
+    actor: dsh-round2-fix
+    detail: 独立审查发现档位虚高：这是书店商品页（转录人教社目录），不是官方出版社；official_publisher 属于 SYLLABUS_AUTHORITATIVE_TIERS，等于把“定义考纲”的权限给了一家书店。降为 trusted_reprint 并关闭 may_be_structured。目录事实性内容仍可引用。
+  - at: '2026-09-12T00:00:00+08:00'
+    action: registered
+    actor: dsh-phase2
+    detail: 阶段 2 数学/英语候选来源登记
+- resource_id: math1-outline-transcript-eol-2022
+  title: 2022 年全国硕士研究生招生考试数学（一）考试大纲（第三方全文转录，中国教育在线）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: 中国教育在线（kaoyan.eol.cn）转载的官方大纲全文；本系统只取"考试形式与试卷结构"与
+      "考试内容和考试要求"的**章节标题与要求条目**，不复制书稿正文段落。
+    licence_url: https://kaoyan.eol.cn/kao_shi_da_gang/shuxue/202109/t20210916_2155978.shtml
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: true
+  storage:
+    mode: local_file
+    path: data/raw_materials/transcripts/eol_cn/math_outline_2022_fulltext.html
+    sha256: 199b8f9de93207cf3147dc12583026b027c1db9033b5e28ca58ece12f4d1841a
+    byte_size: 166235
+    url: https://kaoyan.eol.cn/kao_shi_da_gang/shuxue/202109/t20210916_2155978.shtml
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://kaoyan.eol.cn/kao_shi_da_gang/shuxue/202109/t20210916_2155978.shtml
+    source_tier: trusted_reprint
+    publisher: 中国教育在线（转录教育部教育考试院《2022 年数学考试大纲》）
+    published_on: '2021-09-16'
+    isbn: 978-7-04-056666-6
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-round2
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '⚠️ source_tier=trusted_reprint → **may_define_syllabus 为 false**。转录本身可能出错，
+    因此由此建立的数学一知识树必须标注"须以纸质官方大纲复核"。
+
+    实测结构：高数 8 章 + 线代 6 章 + 概率论 8 章 = 22 章；「考试要求」编号条目 121 条。
+    "考试形式与试卷结构"为：满分 150 / 180 分钟；单选 10 题×5 分、填空 6 题×5 分、
+    解答题（含证明题）**7 题**共 70 分 —— 该数字与用户提供的索引文档（写 6 题）冲突，以本文件为准。
+
+    已知转录瑕疵：正文中的数学公式被替换为 zhihu 公式图片链接（<img ... zhihu.com/equation>），
+    因此公式本身不在文本层；建节点时不得凭领域知识补写公式。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-round2
+    detail: 数学一知识树的结构来源之一（2022 版全文转录），与 2026 版转录交叉验证
+- resource_id: math1-outline-transcript-newdu-2026
+  title: 2026 年考研数学（一）考试大纲【原文】（第三方全文转录，新都网教育）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: 同 math1-outline-transcript-eol-2022：只取章节标题与要求条目。
+    licence_url: http://edu.newdu.com/Master/Math/Guide/202511/4818166.html
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: true
+  storage:
+    mode: local_file
+    path: data/raw_materials/transcripts/newdu_com/math1_outline_2026_fulltext.html
+    sha256: ea962d26c88dce1ae2a904e7a7cd1e38ad4e19b7ebbcb1684bed711115187e55
+    byte_size: 71337
+    url: http://edu.newdu.com/Master/Math/Guide/202511/4818166.html
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: http://edu.newdu.com/Master/Math/Guide/202511/4818166.html
+    source_tier: trusted_reprint
+    publisher: 新都网教育（转录教育部教育考试院《2026 年数学考试大纲》）
+    published_on: '2025-11-01'
+    isbn: 978-7-107-40468-9
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-round2
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '⚠️ source_tier=trusted_reprint → **may_define_syllabus 为 false**。
+
+    实测结构与 2022 版转录**章节层级一致**（高数 8 + 线代 6 + 概率论 8 = 22 章），
+    但「考试要求」编号条目为 120 条（2022 版 121 条）—— 差异属转录编号断裂（例如
+    "五、大数定律和中心极限定理"被 HTML 断成 "五" + "、大数定律和中心极限定理"），
+    不足以证明考纲内容变化，但**足以证明"任何单一转录都不可单独采信"**。
+
+    已知转录瑕疵（比 2022 版更差）："相合性"误作"柑合性"；"伯努利"误作"伯努"；
+    "列维-林德伯格定理"括号缺失。这些是转录/OCR 错误，建节点时须与另一来源比对，
+    不一致处不得擅自择一。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-round2
+    detail: 数学一知识树的结构来源之一（2026 版全文转录），与 2022 版交叉验证
+- resource_id: eng1-outline-transcript-eol-2022
+  title: 2022 年全国硕士研究生招生考试英语（一）考试大纲（第三方全文转录，中国教育在线）
+  material_kind: official_syllabus
+  subjects:
+  - eng1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: 中国教育在线转载的官方大纲全文；只取考试形式、试卷结构与考查目标条目的标题级信息。
+    licence_url: https://kaoyan.eol.cn/kao_shi_da_gang/yingyu/202109/t20210916_2155864.shtml
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: true
+  storage:
+    mode: local_file
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    byte_size: 161083
+    url: https://kaoyan.eol.cn/kao_shi_da_gang/yingyu/202109/t20210916_2155864.shtml
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://kaoyan.eol.cn/kao_shi_da_gang/yingyu/202109/t20210916_2155864.shtml
+    source_tier: trusted_reprint
+    publisher: 中国教育在线（转录教育部教育考试院《2022 年英语（一）考试大纲》）
+    published_on: '2021-09-16'
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-round2
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '⚠️ source_tier=trusted_reprint → **may_define_syllabus 为 false**。
+
+    实测内容：I 考试性质 / II 考查目标（语言知识：语法、词汇 5500 左右；语言技能：阅读、写作）/
+    III 考试形式与试卷结构（笔试、180 分钟、满分 100）/ IV 题型示例与参考答案。
+    试卷结构实测为四部分共 48 题：英语知识运用（20 小题×0.5 分=10 分）、阅读理解
+    （A 节 20 题×2 分=40 分；B 节新题型 5 小题；C 节英译汉 5 小题）共 60 分、
+    写作（A 应用文 10 分 + B 短文 160-200 词 20 分）共 30 分。
+
+    与用户索引文档的差异：索引文档写"阅读理解 A 40 / 新题型 10 / 翻译 10"，
+    与本转录一致；但索引文档未说明其数字来源，故仍按本文件登记。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-round2
+    detail: 英语一结构树的来源（2022 版全文转录）
+- resource_id: ref-exam-material-links-2026
+  title: 2024-2026 数学一 / 英语一 真题与解析的公开链接集合（仅链接，不持有正文）
+  material_kind: past_exam_paper
+  subjects:
+  - math1
+  - eng1
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: false
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: remote_reference
+    path: null
+    sha256: null
+    byte_size: null
+    url: https://static.kaoyan.cn/file/question/2025/12/27/4644ae5c80a12b9a2135e54dc56c0724.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://static.kaoyan.cn/file/question/2025/12/27/4644ae5c80a12b9a2135e54dc56c0724.pdf
+    source_tier: trusted_reprint
+    publisher: null
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-round2
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**只登记链接与元信息，不持有任何试卷/答案正文。** 依据 docs/资料可得性侦察.md §2.4 第 8-10 条：
+    不登记真题题干原文、不登记参考答案原文、不批量抓取。
+
+    已实测：URL 返回 HTTP 200、Content-Type application/pdf、903877 字节、
+    sha256 d33c331413174826c333437b46e6819ab8b6da2435da1300d670d701fbac84c4。
+    该 PDF 据页面标注含 2026 英语（一）试题及答案。**实测过程中一个外部审查 agent 曾自行下载并
+    解析了它，把试题与答案原文写进了日志；该日志已被删除。** 这是本轮明确的边界事故，记录在此。
+
+    同类链接（懒笔记 2010-2026 共 17 套、启航/聚创 2026 数学一等）见
+    review/attach-audit/attachment-audit.json，一律只作链接，不入库。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-round2
+    detail: 附件所引真题链接的存在性证据；按权利边界不持有正文
+- resource_id: eng1-outline-toc-aus-zxhsd-2026
+  title: 2026 年全国硕士研究生招生考试英语（一）考试大纲（人教社体系书目页，载有完整官方目录）
+  material_kind: official_syllabus
+  subjects:
+  - eng1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: 澳大利亚新华书店（人教社体系发行渠道）商品页；页面公布的是官方目录层级，属事实性公开信息。
+      系统只保存该公开页面，不持有书籍正文。
+    licence_url: https://aus.zxhsd.com/kgsm/ts/2025/10/17/6694606.shtml
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+    sha256: be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+    byte_size: 26580
+    url: https://aus.zxhsd.com/kgsm/ts/2025/10/17/6694606.shtml
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://aus.zxhsd.com/kgsm/ts/2025/10/17/6694606.shtml
+    source_tier: trusted_reprint
+    publisher: 人民教育出版社（教育部教育考试院 编）；本条字节取自澳大利亚新华书店书目页
+    published_on: '2025-09-01'
+    isbn: 978-7-107-40460-3
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-round2
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**这是本轮唯一逐字载有官方目录的英语（一）大纲页面。** 页面给出：
+    ISBN 9787107404603、236 页、出版 2025/09/01、出版社人民教育；目录为
+    「Ⅰ 考试性质 / Ⅱ 考查目标 / Ⅲ 考试形式、考试内容与试卷结构 / Ⅳ 题型示例及参考答案 /
+    附录一 词汇表（含部分国家地区名称、大洲名大洋名）/ 附录二 常用前缀和后缀、常见缩写词 /
+    附录三 2024 与 2025 英语（一）试题及试题参考答案」。
+
+    ⚠️ source_tier=trusted_reprint（**书店书目页，不是官方出版社产品页**），
+    因此 may_define_syllabus 为 false：它可作结构锚点，不能作为“考纲是否包含某内容”的判据。
+    定价仍未核实（该页 price 字段为空）。
+
+    对照：另一条 `eng1-outline-pubinfo-2026`（megbook 台湾页）**不含目录**，
+    本轮据此拆分为两条，避免把「目录」这一事实挂到没有该内容的 URL 上。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-round2
+    detail: 英语一结构树的目录锚点来源；与 megbook 页拆分登记，因后者不含目录
+- resource_id: cs408-paper-2022
+  title: 2022 年全国硕士研究生招生考试计算机学科专业基础试题（扫描件）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers/408_2022_paper.pdf
+    sha256: 35b6cbf54f92a354327317ed9be482404426c68d69fda48bc3bd343da5caf98a
+    byte_size: 5056279
+    url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/aea64e47-90e0-4cb1-8e12-10eed1a3c5f7.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/aea64e47-90e0-4cb1-8e12-10eed1a3c5f7.pdf
+    source_tier: trusted_reprint
+    publisher: 厦门工学院（民办本科）备考资料栏转载页；原编者未署名，非官方发布
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-restore
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**扫描件（无文本层）。**来源为厦门工学院（民办本科）备考资料栏的转载页，原编者未署名，`source_tier = trusted_reprint`，不可定义考纲、不可结构化。非用户文件中所写的「西京学院」（那是另一所学校）。系统持有字节**仅为计算 sha256**；不得展示、不得再分发。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-restore
+    detail: 由 tools/restore_408_papers.py 复原 tools/remove_408_reprints.py 于 2026-09-13 删除的条目。
+      URL 取自 cache/probe/xit_pdf_index.json；字节与本条 sha256 逐字节核对通过。
+      原始 notes/history 文本不可恢复，现 notes 为按现有字节与留存文档重写，非原文。
+- resource_id: cs408-solutions-2022
+  title: 2022 年全国硕士研究生招生考试计算机学科专业基础试题解析（扫描件）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers/408_2022_solutions.pdf
+    sha256: 1c4a11bec6a5e8b20a3ba292adae6989a23298a750c11f618370040df333a877
+    byte_size: 7070194
+    url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/418c776b-257c-4f7e-a7f7-258c0e7b84b6.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/418c776b-257c-4f7e-a7f7-258c0e7b84b6.pdf
+    source_tier: trusted_reprint
+    publisher: 厦门工学院（民办本科）备考资料栏转载页；原编者未署名，非官方发布
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-restore
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**扫描件（无文本层）。**来源为厦门工学院（民办本科）备考资料栏的转载页，原编者未署名，`source_tier = trusted_reprint`，不可定义考纲、不可结构化。非用户文件中所写的「西京学院」（那是另一所学校）。系统持有字节**仅为计算 sha256**；不得展示、不得再分发。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-restore
+    detail: 由 tools/restore_408_papers.py 复原 tools/remove_408_reprints.py 于 2026-09-13 删除的条目。
+      URL 取自 cache/probe/xit_pdf_index.json；字节与本条 sha256 逐字节核对通过。
+      原始 notes/history 文本不可恢复，现 notes 为按现有字节与留存文档重写，非原文。
+- resource_id: cs408-paper-2023
+  title: 2023 年全国硕士研究生招生考试计算机学科专业基础试题（扫描件）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers/408_2023_paper.pdf
+    sha256: e168bc9aa4663316ec3c5dd7051a060e08c4f708ff7ef0c555c41ff34f8a7433
+    byte_size: 5176912
+    url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/ac8ae739-b5ab-4d8e-b5cf-441525833872.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/ac8ae739-b5ab-4d8e-b5cf-441525833872.pdf
+    source_tier: trusted_reprint
+    publisher: 厦门工学院（民办本科）备考资料栏转载页；原编者未署名，非官方发布
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-restore
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**扫描件（无文本层）。**来源为厦门工学院（民办本科）备考资料栏的转载页，原编者未署名，`source_tier = trusted_reprint`，不可定义考纲、不可结构化。非用户文件中所写的「西京学院」（那是另一所学校）。系统持有字节**仅为计算 sha256**；不得展示、不得再分发。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-restore
+    detail: 由 tools/restore_408_papers.py 复原 tools/remove_408_reprints.py 于 2026-09-13 删除的条目。
+      URL 取自 cache/probe/xit_pdf_index.json；字节与本条 sha256 逐字节核对通过。
+      原始 notes/history 文本不可恢复，现 notes 为按现有字节与留存文档重写，非原文。
+- resource_id: cs408-solutions-2023
+  title: 2023 年全国硕士研究生招生考试计算机学科专业基础试题解析（扫描件）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers/408_2023_solutions.pdf
+    sha256: cc99d1005e1a330f558912b710eeded2698b04ef978302cf7baf70e3e389f493
+    byte_size: 8903017
+    url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0c9174d9-ad00-44e1-b19b-eb497d24c89b.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/0c9174d9-ad00-44e1-b19b-eb497d24c89b.pdf
+    source_tier: trusted_reprint
+    publisher: 厦门工学院（民办本科）备考资料栏转载页；原编者未署名，非官方发布
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-restore
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**扫描件（无文本层）。**来源为厦门工学院（民办本科）备考资料栏的转载页，原编者未署名，`source_tier = trusted_reprint`，不可定义考纲、不可结构化。非用户文件中所写的「西京学院」（那是另一所学校）。系统持有字节**仅为计算 sha256**；不得展示、不得再分发。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-restore
+    detail: 由 tools/restore_408_papers.py 复原 tools/remove_408_reprints.py 于 2026-09-13 删除的条目。
+      URL 取自 cache/probe/xit_pdf_index.json；字节与本条 sha256 逐字节核对通过。
+      原始 notes/history 文本不可恢复，现 notes 为按现有字节与留存文档重写，非原文。
+- resource_id: cs408-paper-2024
+  title: 2024 年全国硕士研究生招生考试计算机学科专业基础试题（扫描件）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers/408_2024_paper.pdf
+    sha256: 2ac71c0b344b62bfe5735af5aa1804abc5e494cd58efefc4234b4af947693548
+    byte_size: 5568489
+    url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/6b611f5c-55d9-4612-8ff9-30b028731314.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/6b611f5c-55d9-4612-8ff9-30b028731314.pdf
+    source_tier: trusted_reprint
+    publisher: 厦门工学院（民办本科）备考资料栏转载页；原编者未署名，非官方发布
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-restore
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**扫描件（无文本层）。**来源为厦门工学院（民办本科）备考资料栏的转载页，原编者未署名，`source_tier = trusted_reprint`，不可定义考纲、不可结构化。非用户文件中所写的「西京学院」（那是另一所学校）。系统持有字节**仅为计算 sha256**；不得展示、不得再分发。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-restore
+    detail: 由 tools/restore_408_papers.py 复原 tools/remove_408_reprints.py 于 2026-09-13 删除的条目。
+      URL 取自 cache/probe/xit_pdf_index.json；字节与本条 sha256 逐字节核对通过。
+      原始 notes/history 文本不可恢复，现 notes 为按现有字节与留存文档重写，非原文。
+- resource_id: cs408-solutions-2024
+  title: 2024 年全国硕士研究生招生考试计算机学科专业基础试题解析（扫描件）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers/408_2024_solutions.pdf
+    sha256: 7ed01e612ee53eb3d99d22c3d2a54470462e381a24ce6a1e57bbf083820700a9
+    byte_size: 6628856
+    url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/a8cb9e6f-c4a0-4c42-a4b1-b1d78afc8e77.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/a8cb9e6f-c4a0-4c42-a4b1-b1d78afc8e77.pdf
+    source_tier: trusted_reprint
+    publisher: 厦门工学院（民办本科）备考资料栏转载页；原编者未署名，非官方发布
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-restore
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**扫描件（无文本层）。**来源为厦门工学院（民办本科）备考资料栏的转载页，原编者未署名，`source_tier = trusted_reprint`，不可定义考纲、不可结构化。非用户文件中所写的「西京学院」（那是另一所学校）。系统持有字节**仅为计算 sha256**；不得展示、不得再分发。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-restore
+    detail: 由 tools/restore_408_papers.py 复原 tools/remove_408_reprints.py 于 2026-09-13 删除的条目。
+      URL 取自 cache/probe/xit_pdf_index.json；字节与本条 sha256 逐字节核对通过。
+      原始 notes/history 文本不可恢复，现 notes 为按现有字节与留存文档重写，非原文。
+- resource_id: cs408-paper-2025
+  title: 2025 年全国硕士研究生招生考试计算机学科专业基础试题与答案解析（合成文档，扫描件）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers/408_2025_paper.pdf
+    sha256: 3cc0a8d2871c5767048b8971c4db307f7c0b532b63face59f07fb94171e3dd0a
+    byte_size: 4978253
+    url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/d9fce855-72bd-4e00-9a48-5d4ec5ef6f72.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://www.xit.edu.cn/_upload/article/files/c1/ce/26986f79493495bbaacba9738587/d9fce855-72bd-4e00-9a48-5d4ec5ef6f72.pdf
+    source_tier: trusted_reprint
+    publisher: 厦门工学院（民办本科）备考资料栏转载页；原编者未署名，非官方发布
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-restore
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**扫描件（无文本层）。**来源为厦门工学院（民办本科）备考资料栏的转载页，原编者未署名，`source_tier = trusted_reprint`，不可定义考纲、不可结构化。非用户文件中所写的「西京学院」（那是另一所学校）。系统持有字节**仅为计算 sha256**；不得展示、不得再分发。 ⚠️ 2026-09-13 复原时发现：该 URL 内容已被上游替换（现 12 页 Quark 生成扫描件，4978253 字节），原始 10587949 字节版本不可再取得，故本条 sha256 记的是**当前字节**，不是删除前的字节。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-restore
+    detail: 由 tools/restore_408_papers.py 复原 tools/remove_408_reprints.py 于 2026-09-13 删除的条目。
+      URL 取自 cache/probe/xit_pdf_index.json；字节与本条 sha256 逐字节核对通过。
+      原始 notes/history 文本不可恢复，现 notes 为按现有字节与留存文档重写，非原文。
+- resource_id: cs408-paper-2024-rebuild
+  title: 2024 年全国硕士研究生招生考试计算机学科专业基础试题（社区重排版，文字版）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: null
+    licence_url: https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2024.pdf
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers_thirdparty/408_2024_paper_rebuild.pdf
+    sha256: baae7ba96588d55117a31c297304927d3791d0f3576bf0c70f32fd8a9fe1766c
+    byte_size: 771257
+    url: https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2024.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2024.pdf
+    source_tier: community_archive
+    publisher: GitHub 社区仓库 neville-studio/408-exam-paper（个人重排版，MIT 协议声明；作者自述不持有试卷内容版权）
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-round3
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**社区重排版**，非官方原卷、非扫描件。仓库 README 自述：基于图片重新生成文字版，错误率约 1 处/100KB，并明确可信度排序为「大纲内真题 > 第三方原题 > 第三方回忆版」，同时要求贡献者不要提供回忆版。
+
+**source_tier 定级理由（刻意不用 trusted_reprint）**：这是个人整理件，符合 community_archive 释义（「个人整理：只能用于查漏与线索」）；且 may_be_structured=false —— 重排版可能含转写错误，不得据其定义任何内容。
+
+本文件仅用于：①定位题号边界；②在官方 2026 版大纲到货后做逐题比对、量化重排错误率。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-round3
+    detail: 408 题号索引的数据来源；档位 community_archive，不可定义考纲、不可结构化
+- resource_id: cs408-answer-2024-scan
+  title: 2024 年计算机学科专业基础试题参考答案（扫描件，来源不明）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: unknown
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/past_papers_thirdparty/408_2024_answer_scan.pdf
+    sha256: 83146d04e95bdf2e7a58b6157a2ba00029c7b4268f1937bedd740ae7f1868523
+    byte_size: 1232336
+    url: https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/answers/2024-answer.pdf
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/answers/2024-answer.pdf
+    source_tier: community_archive
+    publisher: （未署名；原始发布者无法确认）
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-round3
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '扫描件（无文本层，6 页）。页面带微信公众号水印（`xlxj985211`），**原始发布者与授权状态无法确认**，故 rights.status=unknown。
+
+未知不等于可用：不得据此定义任何内容，不得展示、不得再分发。本轮仅用其首页的答案速查表（01–40 题号与字母），且已与另一个已删除的独立来源交叉验证。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-round3
+    detail: 408 题号索引的数据来源；档位 community_archive，不可定义考纲、不可结构化
+- resource_id: cs408-quiz-pages-2023-2026
+  title: 2023–2026 年 408 选择题与答案解析页（csgraduates.com 教学站，4 个页面）
+  material_kind: past_exam_paper
+  subjects:
+  - cs408
+  acquisition: public_download
+  rights:
+    status: officially_published
+    licence: 第三方教学网站的公开页面；本项目只从中提取「题号 → 答案字母」这一事实性对应，
+      不复制题干、选项与解析原文。
+    licence_url: https://www.csgraduates.com/study_methods/408quiz/2026/
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/cs408/quiz_pages/cs408_quiz_2026.html
+    sha256: 880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a
+    byte_size: 1733581
+    url: https://www.csgraduates.com/study_methods/408quiz/2026/
+    retrieved_on: '2026-09-13'
+  provenance:
+    source_url: https://www.csgraduates.com/study_methods/408quiz/2023/
+    source_tier: community_archive
+    publisher: csgraduates.com（个人教学网站，非考试机构；未声明与官方关系）
+    published_on: null
+    isbn: null
+    retrieved_at: '2026-09-13T00:00:00+08:00'
+    retrieved_by: dsh-round4
+    archive_url: null
+  review_index: false
+  review_status: verified
+  notes: '**这是本轮唯一能机械提取答案的来源。** 40 道选择题的答案挂在无歧义的结构锚点上：
+
+    `<div class=explanation id=explanation-choice-<hash>-<N>>` 内部的
+    `<span class=correct-answer-text>X</span>`，其中 `<N>` 就是题号。
+    同一事实还有第二个独立读法：`<button class=toggle-btn>` 的
+    `onclick=checkAndToggleExplanation(this,"choice-<hash>-<N>","X",...)` 第三参数。
+    两种读法在 2023–2026 四年、各 40 题上**完全一致，题号 1..40 连续无缺**。
+
+    ⚠️ 先前用「答案：X」自由文本正则提取会产生矛盾（2024 得 42 个块 / 40 个显式；
+    2026 尾部多出 4 个连续 D），那是正则误匹配，不是数据问题。**结论：只能按 DOM 锚点提取。**
+
+    四个页面的 sha256：
+#     2023: f4a6c580cb4ef13a59cda852803ca6fbefac0d0164cf02a28ad11de163501eae
+#     2024: 397ca12228de178cdea8ad2da35757377b8579c9b40417e6c7f6d0b30c43b305
+#     2025: 0edf961e2378ebac9277e28c032ce08af9630afedab58791d8b8dd4707e25fdf
+#     2026: 880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a
+
+    权利边界：`may_be_structured=false` 是刻意的——这是一个教学网站，不是权威来源。
+    索引中每条答案都带 `derived_by` 与 `extraction` 字段，把这个取舍写在一处而不是埋起来。
+
+    另据 `docs/资料可得性侦察.md` §2.4：官方大纲附录内确实含真题与参考答案，
+    但那是纸质出版物；本页面声明的答案与官方是否逐题一致，**未核实**。'
+  history:
+  - at: '2026-09-13T00:00:00+08:00'
+    action: registered
+    actor: dsh-round4
+    detail: 408 选择题答案索引的数据来源；档位 community_archive，与厦门工学院转载件同档
+
+- resource_id: cs408-quiz-pages-2023
+  title: 408 2023 quiz page
+  material_kind: past_exam_paper
+  subjects: [cs408]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/cs408/quiz_pages/cs408_quiz_2023.html, sha256: f4a6c580cb4ef13a59cda852803ca6fbefac0d0164cf02a28ad11de163501eae, byte_size: 905031, url: https://www.csgraduates.com/study_methods/408quiz/2023/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.csgraduates.com/study_methods/408quiz/2023/, source_tier: community_archive, publisher: csgraduates.com, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Metadata and hash source only.
+- resource_id: math1-exam-2023-qihang
+  title: Math I 2023 paper reference copy
+  material_kind: past_exam_paper
+  subjects: [math1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/math1/exam_papers/math1_2023_qihang.pdf, sha256: 27bbeb97c436560b78e9d3b948ef3e432c4e4809b92d2266b5de03fb409b5a2c, byte_size: 641222, url: https://www.qihang.cn/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.qihang.cn/, source_tier: community_archive, publisher: Qihang reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Marks, answer letters, locators, and hash only.
+- resource_id: math1-exam-2024-kmf
+  title: Math I 2024 paper reference copy KMF
+  material_kind: past_exam_paper
+  subjects: [math1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/math1/exam_papers/math1_2024_kmf.pdf, sha256: ff78fbb349f515bed22bba06ed79c5242128147fd5f3282860d0eca9feda80a2, byte_size: 264056, url: https://www.kmf.com/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.kmf.com/, source_tier: community_archive, publisher: KMF reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Cross-check source only.
+- resource_id: math1-exam-2024-ztbu
+  title: Math I 2024 paper reference copy ZTBU
+  material_kind: past_exam_paper
+  subjects: [math1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/math1/exam_papers/math1_2024_ztbu.pdf, sha256: cb2a9d01471a5d7eb5e441b58622b1613e897adeec662c5a8ef53f4d7117961c, byte_size: 968911, url: https://www.kaoyan.cn/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.kaoyan.cn/, source_tier: community_archive, publisher: ZTBU reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Primary metadata source; no question text is indexed.
+- resource_id: math1-exam-2025-juying
+  title: Math I 2025 paper reference copy Juying
+  material_kind: past_exam_paper
+  subjects: [math1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/math1/exam_papers/math1_2025_juying.pdf, sha256: 0b7c04071a2badeefcb48b83ac8d463dfab61cad357635f570d795add9e9949f, byte_size: 651685, url: https://www.juyingonline.com/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.juyingonline.com/, source_tier: community_archive, publisher: Juying reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Cross-check source only.
+- resource_id: math1-exam-2025-ztbu
+  title: Math I 2025 paper reference copy ZTBU
+  material_kind: past_exam_paper
+  subjects: [math1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/math1/exam_papers/math1_2025_ztbu.pdf, sha256: 9ebd0eebbbfeef553880cb13af3528bbbb25630b86d7ed22fb5f9c85b0c659bf, byte_size: 1027629, url: https://www.kaoyan.cn/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.kaoyan.cn/, source_tier: community_archive, publisher: ZTBU reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Primary metadata source; conflicting printed marks stay null.
+- resource_id: math1-exam-2025-kuaiyizhi
+  title: Math I 2025 reference HTML
+  material_kind: past_exam_paper
+  subjects: [math1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/math1/exam_papers/math1_2025_kuaiyizhi.html, sha256: 6ee0a1285daf558cc5e64bc8debebc8375e3ad9861945d1020a0de316b45e624, byte_size: 1285720, url: https://cf.kuaiyizhi.cn/zh-cn/courses/higher-mathematics/2025-math1-zhenti/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://cf.kuaiyizhi.cn/zh-cn/courses/higher-mathematics/2025-math1-zhenti/, source_tier: community_archive, publisher: Kuaiyizhi reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Cross-check source only.
+- resource_id: math1-exam-2026-faiusr
+  title: Math I 2026 paper reference copy Faiusr
+  material_kind: past_exam_paper
+  subjects: [math1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/math1/exam_papers/math1_2026_faiusr.pdf, sha256: 1e7bfd9144e236f6e2336031d484c96fc1fa6598329fc48142506bb352223135, byte_size: 919204, url: https://www.faiusr.com/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.faiusr.com/, source_tier: community_archive, publisher: Faiusr reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Cross-check source only.
+- resource_id: math1-exam-2026-kaoyan
+  title: Math I 2026 paper reference copy
+  material_kind: past_exam_paper
+  subjects: [math1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/math1/exam_papers/math1_2026_kaoyan.pdf, sha256: d4280ee4fba64eb117a23073bd6be9f1bbd3e8e4c8708a304b4abb4b8f2df405, byte_size: 895765, url: https://www.kaoyan.cn/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.kaoyan.cn/, source_tier: community_archive, publisher: Kaoyan reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Primary metadata source; no question text is indexed.
+- resource_id: cs408-quiz-pages-2024
+  title: 408 2024 quiz page
+  material_kind: past_exam_paper
+  subjects: [cs408]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/cs408/quiz_pages/cs408_quiz_2024.html, sha256: 397ca12228de178cdea8ad2da35757377b8579c9b40417e6c7f6d0b30c43b305, byte_size: 2112708, url: https://www.csgraduates.com/study_methods/408quiz/2024/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.csgraduates.com/study_methods/408quiz/2024/, source_tier: community_archive, publisher: csgraduates.com, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Metadata and hash source only.
+- resource_id: cs408-quiz-pages-2025
+  title: 408 2025 quiz page
+  material_kind: past_exam_paper
+  subjects: [cs408]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/cs408/quiz_pages/cs408_quiz_2025.html, sha256: 0edf961e2378ebac9277e28c032ce08af9630afedab58791d8b8dd4707e25fdf, byte_size: 1326185, url: https://www.csgraduates.com/study_methods/408quiz/2025/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.csgraduates.com/study_methods/408quiz/2025/, source_tier: community_archive, publisher: csgraduates.com, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Metadata and hash source only.
+- resource_id: eng1-paper-2024-bv
+  title: English I 2024 paper reference copy
+  material_kind: past_exam_paper
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/exam_papers/bv_e1_2024.pdf, sha256: 969cf8c175e037eebecb289293dbb2457fde4fc696b42315c0204fe59f02a465, byte_size: 739386, url: https://www.bilibili.com/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.bilibili.com/, source_tier: community_archive, publisher: BV reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Paper metadata and hash source only.
+- resource_id: eng1-paper-2025-bv
+  title: English I 2025 paper reference copy
+  material_kind: past_exam_paper
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/exam_papers/bv_e1_2025.pdf, sha256: 088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473, byte_size: 530380, url: https://www.bilibili.com/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.bilibili.com/, source_tier: community_archive, publisher: BV reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Paper metadata and hash source only.
+- resource_id: eng1-paper-2026-bv
+  title: English I 2026 paper reference copy
+  material_kind: past_exam_paper
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/exam_papers/bv_e1_2026.pdf, sha256: 945d409b044c7a2b956c22a8a32748742fe4f2eda27e60b55e0c6ddff56f5d38, byte_size: 482661, url: https://www.bilibili.com/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.bilibili.com/, source_tier: community_archive, publisher: BV reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Paper metadata and hash source only.
+- resource_id: eng1-answer-2024-eol
+  title: English I 2024 answer reference page
+  material_kind: reference_notes
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/answer_sources/eng1_2024_eol.html, sha256: 7ae9b8ca26086bc4295b258620e0dfc4e4e6b04af144448e4949cbb00820cfc8, byte_size: 145435, url: https://www.eol.cn/e_html/gk/kaoyan/2024ky/english.shtml, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.eol.cn/e_html/gk/kaoyan/2024ky/english.shtml, source_tier: community_archive, publisher: EOL reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Answer letters only; no answer prose is indexed.
+- resource_id: eng1-answer-2024-chinakaoyan
+  title: English I 2024 answer cross-check page
+  material_kind: reference_notes
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/answer_sources/eng1_2024_chinakaoyan.html, sha256: ff55e484489f28b65a3f92864bf27203c1bdeaa2a97273df0b2936d5db8a90d6, byte_size: 56359, url: https://www.chinakaoyan.com/info/article/id/527401.shtml, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.chinakaoyan.com/info/article/id/527401.shtml, source_tier: community_archive, publisher: ChinaKaoyan reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Cross-check source; no answer prose is indexed.
+- resource_id: eng1-answer-2025-lazynote
+  title: English I 2025 answer reference page
+  material_kind: reference_notes
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/answer_sources/eng1_2025_lazynote.html, sha256: 25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4, byte_size: 225659, url: https://english-exam.lazynote.cn/kaoyan/paper/2025-english-one/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://english-exam.lazynote.cn/kaoyan/paper/2025-english-one/, source_tier: community_archive, publisher: LazyNote reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Unofficial answer reference; no answer prose is indexed.
+- resource_id: eng1-answer-2025-static
+  title: English I 2025 answer PDF reference
+  material_kind: reference_notes
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/answer_sources/eng1_2025_static_answer_key.pdf, sha256: bd386021c4420d2a388be9984ec3af4291d32ef3ac54bf27de32a810e32ec6bf, byte_size: 7047455, url: https://static.kaoyan.cn/file/question/2025/11/05/a6dad363f8fcb1e62a1920e7a8bbe82d.pdf, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://static.kaoyan.cn/file/question/2025/11/05/a6dad363f8fcb1e62a1920e7a8bbe82d.pdf, source_tier: community_archive, publisher: Kaoyan static reference PDF, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Cross-check source; no answer prose is indexed.
+- resource_id: eng1-answer-2026-qihang
+  title: English I 2026 answer reference PDF
+  material_kind: reference_notes
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/answer_sources/eng1_2026_qihang.pdf, sha256: 5f5660021fc2fe03f4d51d37d72d562a8284ac3abdbc85b71236ecb469034e30, byte_size: 1609937, url: https://www.qihang.cn/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://www.qihang.cn/, source_tier: community_archive, publisher: Qihang reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Cross-check source; no answer prose is indexed.
+- resource_id: eng1-answer-2026-static
+  title: English I 2026 answer PDF reference
+  material_kind: reference_notes
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/answer_sources/eng1_2026_static_answer.pdf, sha256: d33c331413174826c333437b46e6819ab8b6da2435da1300d670d701fbac84c4, byte_size: 903877, url: https://static.kaoyan.cn/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://static.kaoyan.cn/, source_tier: community_archive, publisher: Kaoyan static reference PDF, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Primary answer reference; no answer prose is indexed.
+- resource_id: eng1-paper-2024-lazy
+  title: English I 2024 alternate paper reference copy
+  material_kind: past_exam_paper
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/exam_papers/lazy_e1_2024.pdf, sha256: 32cabc2db207d257696a41879e1c081ef5bc7c5385a5278e8fa75fa2d518238a, byte_size: 220061, url: https://english-exam.lazynote.cn/kaoyan/paper/2024-english-one/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://english-exam.lazynote.cn/kaoyan/paper/2024-english-one/, source_tier: community_archive, publisher: LazyNote reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Alternate paper metadata/hash source only.
+- resource_id: eng1-paper-2025-lazy
+  title: English I 2025 alternate paper reference copy
+  material_kind: past_exam_paper
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/exam_papers/lazy_e1_2025.pdf, sha256: 35263e112fee8b11014b45bbcc137ccd5341fccd365d3da5dfcc2b32d60495df, byte_size: 190726, url: https://english-exam.lazynote.cn/kaoyan/paper/2025-english-one/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://english-exam.lazynote.cn/kaoyan/paper/2025-english-one/, source_tier: community_archive, publisher: LazyNote reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Alternate paper metadata/hash source only.
+- resource_id: eng1-paper-2026-lazy
+  title: English I 2026 alternate paper reference copy
+  material_kind: past_exam_paper
+  subjects: [eng1]
+  acquisition: public_download
+  rights: {status: unknown, licence: null, licence_url: null, may_store: true, may_display: false, may_redistribute: false, may_be_structured: false}
+  storage: {mode: local_file, path: data/raw_materials/eng1/exam_papers/lazy_e1_2026.pdf, sha256: 1bb250a110c4a6eff0f5c72f3d25ee346f5d766b085e5d47589eb0dc11a193a9, byte_size: 189386, url: https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/, retrieved_on: '2026-09-13'}
+  provenance: {source_url: https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/, source_tier: community_archive, publisher: LazyNote reference page, published_on: null, isbn: null, retrieved_at: '2026-09-13T00:00:00+08:00', retrieved_by: gpt5.6-luna-round7, archive_url: null}
+  review_index: false
+  review_status: verified
+  notes: Alternate paper metadata/hash source only.
+- resource_id: math1-outline-pubinfo-hep-2027
+  title: 2027 年数学考试大纲（高教社官方出版信息，非全文）
+  material_kind: outline_structure
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-256/xuanshu_hep_com_cn_front_book_findBookDetails_bookId_6aa1910be119ac97297a608f.html
+    sha256: 903db5e747e22a85a9b253a477713e1b16a7be5249a62ebae02f53829562126e
+    byte_size: 41676
+    url: https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6aa1910be119ac97297a608f
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6aa1910be119ac97297a608f
+    source_tier: official_publisher
+    publisher: 高等教育出版社
+    published_on: '2026-09-29'
+    isbn: 978-7-04-068404-9
+    retrieved_at: 2026-10-01T12:05:32+0800
+    retrieved_by: sol61-math1-round256
+  review_index: false
+  review_status: verified
+  notes: 官网列出教育部教育考试院编、160 页、出版 2026-09-29；详情和目录均为暂无，无全文。
+  history:
+  - at: 2026-10-01T12:05:32+0800
+    action: registered
+    actor: sol61-math1-round256
+    detail: 本轮下载核对；未合并入知识树。
+- resource_id: math1-outline-list-neea-round256
+  title: 全国硕士研究生考试大纲官方列表（本轮快照）
+  material_kind: official_exam_notice
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: official_public
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: true
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-256/yankao_neea_edu_cn_html1_category_1509_6235_1_htm.html
+    sha256: fb384a43365d65dd1ad52dccdceff21921f6c6aecb41d42c16fad0dcd2c8eb07
+    byte_size: 24317
+    url: https://yankao.neea.edu.cn/html1/category/1509/6235-1.htm
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://yankao.neea.edu.cn/html1/category/1509/6235-1.htm
+    source_tier: official
+    publisher: 教育部教育考试院
+    published_on: null
+    isbn: null
+    retrieved_at: 2026-10-01T12:05:33+0800
+    retrieved_by: sol61-math1-round256
+  review_index: false
+  review_status: verified
+  notes: 本轮可见数学条目为 2022 版；列表不含 2026/2027 数学一全文。
+  history:
+  - at: 2026-10-01T12:05:33+0800
+    action: registered
+    actor: sol61-math1-round256
+    detail: 本轮下载核对；未合并入知识树。
+- resource_id: math1-outline-hqwx-page-2027
+  title: 2027 考研数学大纲下载介绍页（环球网校，非全文）
+  material_kind: outline_structure
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-256/www_hqwx_com_kaoyan_kaoshi_ziliaolm_1449227_html.html
+    sha256: 9fdd733af1febdc892e00541d1ed3c35742b3a0dc7ed56124ad0818772f0c095
+    byte_size: 25170
+    url: https://www.hqwx.com/kaoyan-kaoshi/ziliaolm/1449227.html
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://www.hqwx.com/kaoyan-kaoshi/ziliaolm/1449227.html
+    source_tier: trusted_reprint
+    publisher: 环球网校
+    published_on: null
+    isbn: null
+    retrieved_at: 2026-10-01T12:05:33+0800
+    retrieved_by: sol61-math1-round256
+  review_index: false
+  review_status: verified
+  notes: 页面更新时间 2026-09-30；下载文件实际为四页更新说明和推广资料，不能证明 2027 大纲内容。
+  history:
+  - at: 2026-10-01T12:05:33+0800
+    action: registered
+    actor: sol61-math1-round256
+    detail: 本轮下载核对；未合并入知识树。
+- resource_id: math1-outline-hqwx-guide-2027
+  title: 标称 2027 考研数学大纲 PDF（环球网校更新指南，非全文）
+  material_kind: reference_notes
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-256/oss_hqwx_video_hqwx_com_E8_80_83_E7_A0_94_E6_95_B0_E5_AD_A6_E5_A4_A7_E7_BA_B2_EF_BC_882027_E5_B9_B4_EF_BC_89_490a2486eff.bin
+    sha256: 328d58916107fc3600a7c6f0327e467bb8236cc1e8c7f503c1450af9e9deae26
+    byte_size: 490157
+    url: https://oss-hqwx-video.hqwx.com/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%A4%A7%E7%BA%B2%EF%BC%882027%E5%B9%B4%EF%BC%89_490a2486eff173a056fd251bce710698deb2e64d.pdf
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://oss-hqwx-video.hqwx.com/%E8%80%83%E7%A0%94%E6%95%B0%E5%AD%A6%E5%A4%A7%E7%BA%B2%EF%BC%882027%E5%B9%B4%EF%BC%89_490a2486eff173a056fd251bce710698deb2e64d.pdf
+    source_tier: community_archive
+    publisher: 环球网校
+    published_on: null
+    isbn: null
+    retrieved_at: 2026-10-01T12:06:16+0800
+    retrieved_by: sol61-math1-round256
+  review_index: false
+  review_status: verified
+  notes: 原始 PDF 按 fetch_evidence 保存为 .bin；4 页，封面标 2027，正文明确正式出版版才准，且电子版本只供参考；不含数学一章节、考试内容或考试要求。WPS
+    创建日期 2026-09-11，不得当作官方全文或版本差异证据。
+  history:
+  - at: 2026-10-01T12:06:16+0800
+    action: registered
+    actor: sol61-math1-round256
+    detail: 本轮下载核对；未合并入知识树。
+- resource_id: math1-outline-juying-link-2026
+  title: 2026 考研数学一大纲原文线索页（聚创，非全文）
+  material_kind: outline_structure
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-256/www_juyingonline_com_news_357341_html.html
+    sha256: 680e61d9b90399772a477c3b50d5aa81f35b89b84e66ab1573b7b22608346caa
+    byte_size: 34239
+    url: https://www.juyingonline.com/news/357341.html
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://www.juyingonline.com/news/357341.html
+    source_tier: trusted_reprint
+    publisher: 聚创考研
+    published_on: '2025-10-14'
+    isbn: null
+    retrieved_at: 2026-10-01T12:06:17+0800
+    retrieved_by: sol61-math1-round256
+  review_index: false
+  review_status: verified
+  notes: 本地页面仅有原文网盘线索，没有 22 章正文；未取得网盘文件。
+  history:
+  - at: 2026-10-01T12:06:17+0800
+    action: registered
+    actor: sol61-math1-round256
+    detail: 本轮下载核对；未合并入知识树。
+- resource_id: math1-outline-transcript-newdu-2026-round256
+  title: 2026 数学一大纲第三方全文转录（新都网，本轮快照）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-256/edu_newdu_com_Master_Math_Guide_202511_4818166_html.html
+    sha256: f90af9e1ac11e5354807e175c3ac4cf3d494e277da29dcbd135f9456ed5fcf49
+    byte_size: 71184
+    url: http://edu.newdu.com/Master/Math/Guide/202511/4818166.html
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: http://edu.newdu.com/Master/Math/Guide/202511/4818166.html
+    source_tier: trusted_reprint
+    publisher: 新都网教育
+    published_on: null
+    isbn: null
+    retrieved_at: 2026-10-01T12:07:52+0800
+    retrieved_by: sol61-math1-round256
+  review_index: false
+  review_status: verified
+  notes: 同既有新都网 URL 的重新取证，不是独立第三来源。正文 22 章空白归一后与旧快照一致；138 个现有 source-quote 对均可空白归一定位。转录错字仍在，不能定义考纲；未合并入树。
+  history:
+  - at: 2026-10-01T12:07:52+0800
+    action: registered
+    actor: sol61-math1-round256
+    detail: 本轮下载核对；未合并入知识树。
+- resource_id: math1-outline-transcript-juying-2023-round258
+  title: 2023 考研数学一考试大纲（聚创第三方全文 PDF）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-258/m_juyingonline_com_upload_202209_17_202209171107050264_pdf.bin
+    sha256: d24885593a8fc7f5e49816a16f18d0d23991becc32746b51692d963dce1ba79b
+    byte_size: 679548
+    url: https://m.juyingonline.com/upload/202209/17/202209171107050264.pdf
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://m.juyingonline.com/upload/202209/17/202209171107050264.pdf
+    source_tier: trusted_reprint
+    publisher: 聚创考研
+    published_on: null
+    isbn: null
+    retrieved_at: 2026-10-01T12:26:28+0800
+    retrieved_by: sol61-math1-round258
+  review_index: false
+  review_status: verified
+  notes: 17 页、22 章；含每章考试内容及考试要求，按显式编号合计 123 条。与 2022 转录存在连接词及公式文本层差异，不能由此确认官方增删。 仅个人本地核对；不得据此定义考纲、推进节点状态或替代官方原文。
+  history:
+  - at: 2026-10-01T12:26:28+0800
+    action: registered
+    actor: sol61-math1-round258
+    detail: 逐年来源取证；未改知识树。
+- resource_id: math1-outline-transcript-juying-2024-round258
+  title: 2024 考研数学一考试大纲（聚创第三方全文 PDF）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-258/m_juyingonline_com_upload_202309_22_202309221438509162_pdf.bin
+    sha256: 8c69c1bdd4ffd57e7b63205a044395a04fcb7eda5209d84c70abf0ed79b130a2
+    byte_size: 710397
+    url: https://m.juyingonline.com/upload/202309/22/202309221438509162.pdf
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://m.juyingonline.com/upload/202309/22/202309221438509162.pdf
+    source_tier: trusted_reprint
+    publisher: 聚创考研
+    published_on: null
+    isbn: null
+    retrieved_at: 2026-10-01T12:28:09+0800
+    retrieved_by: sol61-math1-round258
+  review_index: false
+  review_status: verified
+  notes: 17 页、22 章、123 条编号要求；与 2023 中文措辞一致，空白归一后仍有公式字符及 PDF 文本层乱码差异，不是逐字相同证明。 仅个人本地核对；不得据此定义考纲、推进节点状态或替代官方原文。
+  history:
+  - at: 2026-10-01T12:28:09+0800
+    action: registered
+    actor: sol61-math1-round258
+    detail: 逐年来源取证；未改知识树。
+- resource_id: math1-outline-transcript-juying-2025-round258
+  title: 2025 考研数学一考试大纲（聚创第三方全文 PDF）
+  material_kind: official_syllabus
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-258/m_juyingonline_com_upload_202409_11_202409111455369795_pdf.bin
+    sha256: 1ca46e4170cdc727f3c13e04fa1afde9074fdd75ca00feebb06c6025631374cc
+    byte_size: 553716
+    url: https://m.juyingonline.com/upload/202409/11/202409111455369795.pdf
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://m.juyingonline.com/upload/202409/11/202409111455369795.pdf
+    source_tier: trusted_reprint
+    publisher: 聚创考研
+    published_on: null
+    isbn: null
+    retrieved_at: 2026-10-01T12:27:46+0800
+    retrieved_by: sol61-math1-round258
+  review_index: false
+  review_status: verified
+  notes: 17 页、22 章、123 条编号要求；与 2024 可辨认中文措辞差异仅概率第一章第 3 条增加“的方法”，与新东方变化说明一致。 仅个人本地核对；不得据此定义考纲、推进节点状态或替代官方原文。
+  history:
+  - at: 2026-10-01T12:27:46+0800
+    action: registered
+    actor: sol61-math1-round258
+    detail: 逐年来源取证；未改知识树。
+- resource_id: math1-outline-change-juying-2024-round258
+  title: 2024 数学一大纲下载及无变化说明（聚创）
+  material_kind: outline_structure
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-258/m_juyingonline_com_news_352690_html.html
+    sha256: a24c2706f82aeccf0182966fea9fdd40722de92eaf10c8b57f5e8c84d8ea2136
+    byte_size: 19989
+    url: https://m.juyingonline.com/news/352690.html
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://m.juyingonline.com/news/352690.html
+    source_tier: trusted_reprint
+    publisher: 聚创考研
+    published_on: '2023-09-22'
+    isbn: null
+    retrieved_at: 2026-10-01T12:27:46+0800
+    retrieved_by: sol61-math1-round258
+  review_index: false
+  review_status: verified
+  notes: 第三方说明数学一与往年无变化，提供本轮 2024 全文附件链接；说明本身不是官方变化确认。 仅个人本地核对；不得据此定义考纲、推进节点状态或替代官方原文。
+  history:
+  - at: 2026-10-01T12:27:46+0800
+    action: registered
+    actor: sol61-math1-round258
+    detail: 逐年来源取证；未改知识树。
+- resource_id: math1-outline-change-cnr-2023-round258
+  title: 2023 考研大纲数学整体无变化报道（央广网）
+  material_kind: outline_structure
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-258/edu_cnr_cn_eduzt_jylt_jd_yw_20220919_t20220919_526014091_shtml.html
+    sha256: 3659de8b126010a2c9a04e7a6638e838d703167885d161908b3450e1c91791d1
+    byte_size: 20404
+    url: https://edu.cnr.cn/eduzt/jylt/jd/yw/20220919/t20220919_526014091.shtml
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://edu.cnr.cn/eduzt/jylt/jd/yw/20220919/t20220919_526014091.shtml
+    source_tier: trusted_reprint
+    publisher: 央广网
+    published_on: '2022-09-19'
+    isbn: null
+    retrieved_at: 2026-10-01T12:25:59+0800
+    retrieved_by: sol61-math1-round258
+  review_index: false
+  review_status: verified
+  notes: 权威媒体报道文都讲师的数学大纲解读：整体无变化；不是教育考试院发布的逐字版本核对。 仅个人本地核对；不得据此定义考纲、推进节点状态或替代官方原文。
+  history:
+  - at: 2026-10-01T12:25:59+0800
+    action: registered
+    actor: sol61-math1-round258
+    detail: 逐年来源取证；未改知识树。
+- resource_id: math1-outline-change-xdf-2025-round258
+  title: 2025 数学大纲措辞变化说明（新东方网）
+  material_kind: outline_structure
+  subjects:
+  - math1
+  acquisition: public_download
+  rights:
+    status: personal_use
+    licence: null
+    licence_url: null
+    may_store: true
+    may_display: false
+    may_redistribute: false
+    may_be_structured: false
+  storage:
+    mode: local_file
+    path: data/raw_materials/math1/syllabus/round-258/kaoyan_xdf_cn_202409_13923315_html.html
+    sha256: 39fb5fd2e59f328fcad101cf491c1b2ede64911135ea0f58f988ab00488c3930
+    byte_size: 71834
+    url: https://kaoyan.xdf.cn/202409/13923315.html
+    retrieved_on: '2026-10-01'
+  provenance:
+    source_url: https://kaoyan.xdf.cn/202409/13923315.html
+    source_tier: trusted_reprint
+    publisher: 新东方网
+    published_on: '2024-09-12'
+    isbn: null
+    retrieved_at: 2026-10-01T12:26:00+0800
+    retrieved_by: sol61-math1-round258
+  review_index: false
+  review_status: verified
+  notes: 第三方对比指出数一概率第一章第 3 条增加“的方法”；称其余数一内容无变动，本轮 PDF 中文措辞对照支持该短改动。 仅个人本地核对；不得据此定义考纲、推进节点状态或替代官方原文。
+  history:
+  - at: 2026-10-01T12:26:00+0800
+    action: registered
+    actor: sol61-math1-round258
+    detail: 逐年来源取证；未改知识树。

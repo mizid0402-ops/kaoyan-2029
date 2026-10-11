@@ -1,0 +1,30 @@
+# kaoyan-2029 exam configuration contract.
+# Budget split per user decision B8 (2026-09-12):
+#   math1 40% / eng1 20% / cs408 40% / politics inactive until 12 months before the exam.
+schema_version: 1
+project_id: kaoyan-2029
+default_daily_minutes: 120
+review_reserve_ratio: 0.45
+hard_max_ratio: 0.60
+
+subjects:
+  - subject_id: math1
+    display_name: 数学一
+    weight: 0.40
+    active: true
+    min_daily_minutes: 0
+  - subject_id: eng1
+    display_name: 英语一
+    weight: 0.20
+    active: true
+    min_daily_minutes: 15
+  - subject_id: cs408
+    display_name: "408"
+    weight: 0.40
+    active: true
+    min_daily_minutes: 0
+  - subject_id: politics
+    display_name: 政治
+    weight: 0.0
+    active: false
+    min_daily_minutes: 0

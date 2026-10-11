@@ -1,0 +1,53 @@
+==============================================================================================
+residual 1: does tools/daily_words.py still write the vocabulary database?
+==============================================================================================
+  frozen hash      : 839d48be37d7716b1a12da04e3e2293868ee379b6e09a13dd198dae5498d0e2c
+  current hash     : 839d48be37d7716b1a12da04e3e2293868ee379b6e09a13dd198dae5498d0e2c
+  write statements in daily_words.py: ['DELETE', 'INSERT', 'delivery_log']
+  opens the db read-write? True
+  files under data/ modified recently: 4
+
+  is the NEW path independent of it? (preview is read-only)
+  preview_batch(10) changed the db: False
+
+  what still calls the writing path?
+    writes delivery_log: tools\build_eng1_vocabulary.py
+    writes delivery_log: tools\daily_words.py
+    writes delivery_log: tools\verify_eng1_vocabulary.py
+    writes delivery_log: ky\schedule\vocab_channel.py
+
+==============================================================================================
+residual 2: vocab/phrase single-item bound is still the channel total
+==============================================================================================
+  max_single_item_minutes: int | None = None,
+  ) -> GuardResult:
+      """The invariants that survive the removal of a fixed daily budget.
+  
+      1. Every quantity field closes individually: ``available_minutes``, ``knowledge_minutes``,
+         ``vocab_minutes``, ``phrase_minutes``, ``vocab_new_items`` and ``backlog_minutes`` must
+         each be non-negative on their own -- a negative ``vocab_new_items`` or
+         ``backlog_minutes`` used to pass silently because nothing looked at those two fields.
+      2. ``day.subject_minutes`` must sum to exactly ``day.knowledge_minutes``. This is the only
+         way the guard can see a per-subject breakdown at all, so it is mandatory rather than an
+         optional override: a caller that never mentions ``subject_minutes`` cannot smuggle a
+         whole day's knowledge allocation past the inversion check by simply omitting it.
+      3. No subject's declared share is inverted (a heavier
+
+  who passes max_single_item_minutes?
+    ky\__main__.py: 6 occurrences
+    ky\schedule\longitudinal.py: 7 occurrences
+    ky\schedule\monthly_close.py: 3 occurrences
+    ky\storage\day_plan_store.py: 8 occurrences
+
+==============================================================================================
+residual 3: RoutePlan.stage1_input_hash is shape-checked only
+==============================================================================================
+  ``stage1_input_hash`` records which upstream stage-1 inputs (knowledge trees, vocabulary
+  stage1_input_hash: str
+  def _is_sha256_hex(value: str) -> bool:
+  if not _is_sha256_hex(plan.stage1_input_hash):
+  "stage1_input_hash must be a 64-character lowercase hex SHA-256 digest",
+  "stage1_input_hash",
+
+  does anything actually compute that hash from files?
+    no other producer found: True

@@ -1,0 +1,15 @@
+# Round 77 Codex 复审：`ce93d20`
+
+范围限于第 73 轮 M1/M2、`ce93d20` 采纳的建议及直接引入的回退。证据来自 `git show ce93d20`、实现者报告和系统临时目录中的 `git archive ce93d20`。归档内 `py -3.12 -m unittest tests.contract.test_syllabus_migration_port`：**17 项通过**；未跑全量，未碰 H5 worktree。
+
+| 项目 | 判断 | 证据、可复现输入与意见 |
+|---|---|---|
+| M1：同版本图校验 | **不改** | `ky/review/syllabus_migration.py:28-43` 已先拒重复边、再查全图环，之后才返回空链。原输入 `[2026→2027, 2026→2027]` 请求 `2026→2026`，现报 `mappings: duplicate mapping edge`；`2026→2027→2026` 同样请求，报 `mappings: mapping cycle`。合法图的同版本请求仍返回 `()`。`tests/contract/test_syllabus_migration_port.py:59-73` 新增两个交叉负例；进程内恢复旧的提前返回后，该测试出现 **2 个失败**。M1 关闭。 |
+| M2：缺省队列目录 | **不改** | `ky/__main__.py:886` 已改用 `workspace.review_queue`。用测试夹具注册表，其 `state.review_queue: data/queue` 指向已存在的分片队列，省略 `--store` 分别运行 `review-queue check` 与 `review-queue migrate --subject cs408 --from 2026 --to 2027`，均退出 **0**。`tests/contract/test_syllabus_migration_port.py:295-306` 覆盖两条命令；在临时归档中把该行恢复为 `workspace.require("state.review_queue")`，两条精确测试均变红，报 `state.review_queue: not registered`；已恢复归档文件并核对其 Git blob 与 `ce93d20` 一致。M2 关闭。 |
+| N1：空链提前返回跳过目标树与参照检查 | **必须改** | `ky/__main__.py:900-927` 在 `if not chain` 返回时，尚未 `workspace.require(target_key)`，也未运行 `check_queue_references`。临时工作区只登记 2026/2027 两树、队列仍为 2026：① `migrate --subject cs408 --from 2099 --to 2099 --apply --store DIR` 退出 **0**、打印“无需迁移”，尽管 2099 未登记；② `--from 2027 --to 2027 --apply` 同样退出 **0**，尽管队列中旧版 ID 不在 2027 树。两次均未写盘，但把无效目标或不匹配队列报告为成功。对照 `4701bdc` 归档，同两输入分别退出 **2**，报“版本未登记”和目标树参照错误。建议在空链返回前仍验证目标版本树与迁移后的队列参照，成功时继续保持不写盘；补未登记版本和队列不匹配两个负例。这是本轮修复直接引入的输入校验回退。 |
+| 合并新规则 | **不改** | `ky/review/syllabus_migration.py:166-186` 按 `(state != "queued", due_date, review_id)` 排序，符合决策者新规则。把早到期 suspended 或过期 scheduled 与较晚到期 queued 映射到同一知识点，两次实测均保留 queued、退役另一项；同优先档继续按到期日及 ID 选择，既有测试仍通过。`tests/contract/test_syllabus_migration_port.py:139-159` 两个新用例在进程内撤去 queued 优先级后各变红。此规则会让较早到期的 scheduled 计划输给较晚的 queued；但当前调度器只把 queued 选为可执行复习项（`ky/schedule/review_clip.py:244-250`），接受该明确取舍，不另设阻断。 |
+| 空链 `--apply` 不写盘与摘要分类 | **不改** | 对有效的 `2026→2026 --apply`，退出 0，输出“无需迁移”，队列目录及 manifest 字节不变；`ky/__main__.py:912-916`、`tests/contract/test_syllabus_migration_port.py:308-319`。在临时归档中只让空链分支继续写盘，同时保留“无需迁移”提示且不输出 `Applied`，该测试仍因 manifest 从版本 1 增至 2 而变红，说明目录快照断言有实效。`_snapshot()` 现同时记录目录项与文件字节（测试 `:247-252`）。摘要和规格均说明 `renamed`/`merged`/`retired` 可重叠（`ky/__main__.py:952-960`、`contracts/syllabus_migration.md:31-37`）。N1 的校验缺口另列，不否定“不写盘”修复。 |
+| 路径搜索提前停止 | **建议改** | `ky/review/syllabus_migration.py:70-85` 在找到第二条路径后停止深入；用三条 `2026→{2027,2028,2029}→2030` 路径实测 `_find_paths` 只返回 2 条，公开端口仍报 `multiple mapping paths`。算法不再枚举指数级路径，结果正确。现有多路径测试仅造 **2 条**路径；进程内恢复“枚举全部路径”的旧 `_find_paths` 后，该测试仍全绿。因此性能修复缺专门的撤改哨兵；建议增加三条以上路径、断言搜索最多保存两条的定向测试或等效计数探针。不因测试缺口阻断本次正确实现。 |
+| 多步拆分回归断言 | **不改** | `tests/contract/test_syllabus_migration_port.py:109-124` 现检查第二步改名后子项仍用第一步生成的 `review_id` 且 revision 为 2，未改名的另一子项 revision 为 1；比第 73 轮只比活跃知识点集合更强。输入 `A→(X,Y)`、`X→Z` 的预期身份可直接复现。 |
+
+**整体结论：FAIL。** M1、M2 和采纳的规则修复均成立；空链 `--apply` 新增的提前返回跳过了目标版本及队列参照校验，需修 N1 并保留不写盘行为。

@@ -1,0 +1,2972 @@
+{
+  "meta": {
+    "policy": "confidence-weighted multi-coder attribution; each question normalised to 1.0",
+    "confidence_weights": {
+      "high": 1.0,
+      "medium": 0.6,
+      "low": 0.3
+    },
+    "coders": [
+      "sol",
+      "luna",
+      "claude"
+    ],
+    "batches": 11,
+    "caveat": "eng1/math1 trees are coarse (no item tier for eng1 sections), so they carry less discrimination than cs408; agreement there is cheaper to obtain"
+  },
+  "batch_stats": [
+    {
+      "subject": "cs408",
+      "year": 2023,
+      "questions": 47,
+      "single_node": 23,
+      "spread": 24
+    },
+    {
+      "subject": "cs408",
+      "year": 2024,
+      "questions": 47,
+      "single_node": 23,
+      "spread": 24
+    },
+    {
+      "subject": "cs408",
+      "year": 2025,
+      "questions": 47,
+      "single_node": 20,
+      "spread": 27
+    },
+    {
+      "subject": "cs408",
+      "year": 2026,
+      "questions": 47,
+      "single_node": 22,
+      "spread": 25
+    },
+    {
+      "subject": "math1",
+      "year": 2023,
+      "questions": 22,
+      "single_node": 15,
+      "spread": 7
+    },
+    {
+      "subject": "math1",
+      "year": 2024,
+      "questions": 22,
+      "single_node": 0,
+      "spread": 22
+    },
+    {
+      "subject": "math1",
+      "year": 2025,
+      "questions": 22,
+      "single_node": 13,
+      "spread": 9
+    },
+    {
+      "subject": "math1",
+      "year": 2026,
+      "questions": 22,
+      "single_node": 0,
+      "spread": 22
+    },
+    {
+      "subject": "eng1",
+      "year": 2024,
+      "questions": 52,
+      "single_node": 0,
+      "spread": 52
+    },
+    {
+      "subject": "eng1",
+      "year": 2025,
+      "questions": 52,
+      "single_node": 0,
+      "spread": 52
+    },
+    {
+      "subject": "eng1",
+      "year": 2026,
+      "questions": 52,
+      "single_node": 0,
+      "spread": 52
+    }
+  ],
+  "topic_weight": {
+    "cs408": {
+      "cs408.os.chapter-02": 15.104273504273504,
+      "cs408.co.chapter-02": 12.181818181818182,
+      "cs408.ds.chapter-06": 12.0,
+      "cs408.os.chapter-03": 11.005827505827504,
+      "cs408.ds.chapter-07": 11.0,
+      "cs408.co.chapter-03": 10.365384615384615,
+      "cs408.co.chapter-05": 10.141608391608392,
+      "cs408.ds.chapter-04": 10.0,
+      "cs408.cn.chapter-03": 9.833333333333334,
+      "cs408.cn.chapter-04": 9.824561403508769,
+      "cs408.co.chapter-04": 9.465034965034965,
+      "cs408.co.chapter-06": 8.025641025641026,
+      "cs408.ds.chapter-05": 8.0,
+      "cs408.os.chapter-01": 7.967676767676769,
+      "cs408.os.chapter-04": 7.196969696969696,
+      "cs408.os.chapter-05": 5.725252525252525,
+      "cs408.ds.chapter-02": 5.615384615384615,
+      "cs408.cn.chapter-05": 5.476495726495726,
+      "cs408.cn.chapter-02": 4.8921604711078395,
+      "cs408.ds.chapter-03": 4.1923076923076925,
+      "cs408.cn.chapter-06": 3.6901709401709404,
+      "cs408.co.chapter-01": 2.8205128205128207,
+      "cs408.cn.chapter-01": 2.2832781253833887,
+      "cs408.ds.chapter-01": 1.1923076923076923
+    },
+    "math1": {
+      "math1.hs.ch02.content": 7.206682206682207,
+      "math1.hs.ch06.content": 7.060606060606061,
+      "math1.hs.ch05.content": 5.636363636363637,
+      "math1.hs.ch07.content": 5.500000000000001,
+      "math1.hs.ch01.content": 4.580808080808081,
+      "math1.hs.ch03.content": 3.852369852369852,
+      "math1.la.ch13.content": 3.833333333333333,
+      "math1.pr.ch16.content": 3.7824397824397824,
+      "math1.pr.ch18.content": 3.43978243978244,
+      "math1.la.ch11.content": 3.2474747474747474,
+      "math1.la.ch10.content": 3.1717171717171713,
+      "math1.pr.ch17.content": 2.666666666666667,
+      "math1.hs.ch06.chapter": 2.666666666666667,
+      "math1.la.ch14.content": 2.3974358974358974,
+      "math1.hs.ch08.content": 2.3484848484848486,
+      "math1.hs.ch05.chapter": 2.2727272727272725,
+      "math1.la.ch12.content": 2.111111111111111,
+      "math1.hs.ch02.chapter": 1.8543123543123539,
+      "math1.pr.ch15.content": 1.7272727272727273,
+      "math1.pr.ch21.content": 1.6111111111111112,
+      "math1.pr.ch16.chapter": 1.5341880341880343,
+      "math1.la.ch13.chapter": 1.5,
+      "math1.hs.ch07.chapter": 1.4999999999999998,
+      "math1.hs.ch03.chapter": 1.4452214452214451,
+      "math1.hs.ch01.chapter": 1.1363636363636362,
+      "math1.pr.ch18.chapter": 1.132090132090132,
+      "math1.pr.ch20.content": 1.0,
+      "math1.la.ch10.chapter": 0.9696969696969696,
+      "math1.la.ch11.chapter": 0.9696969696969696,
+      "math1.la.ch14.chapter": 0.9358974358974358,
+      "math1.pr.ch22.content": 0.8333333333333334,
+      "math1.pr.ch17.chapter": 0.803030303030303,
+      "math1.hs.ch08.chapter": 0.803030303030303,
+      "math1.pr.ch15.chapter": 0.6923076923076923,
+      "math1.pr.ch21.chapter": 0.4444444444444444,
+      "math1.hs.ch04.chapter": 0.40909090909090906,
+      "math1.pr.ch20.chapter": 0.3333333333333333,
+      "math1.la.ch09.content": 0.3181818181818181,
+      "math1.la.ch12.chapter": 0.2727272727272727
+    },
+    "eng1": {
+      "eng1.paper.part1": 34.67094017094016,
+      "eng1.paper.part2.a": 33.86111111111112,
+      "eng1.exam.objectives.skills.reading": 27.9957264957265,
+      "eng1.exam.objectives.knowledge.vocabulary": 17.536324786324787,
+      "eng1.paper.part2.b": 8.472222222222221,
+      "eng1.paper.part2.c": 6.047008547008548,
+      "eng1.exam.objectives.knowledge.grammar": 5.993589743589742,
+      "eng1.paper.part3.note": 5.213675213675215,
+      "eng1.paper.part2": 5.111111111111106,
+      "eng1.exam.objectives.language-skills": 2.553418803418802,
+      "eng1.exam.objectives.language-knowledge": 2.1709401709401708,
+      "eng1.exam.objectives.skills.writing": 1.9786324786324785,
+      "eng1.paper.part4.a": 1.7072649572649574,
+      "eng1.paper.part4.b": 1.7072649572649574,
+      "eng1.paper.part3": 0.5662393162393163,
+      "eng1.paper.part4": 0.4145299145299145
+    }
+  },
+  "per_question": {
+    "cs408-2023-1": {
+      "distribution": {
+        "cs408.ds.chapter-02.section-02.item-01": 1.0
+      }
+    },
+    "cs408-2023-2": {
+      "distribution": {
+        "cs408.ds.chapter-02.section-02.item-02": 1.0
+      }
+    },
+    "cs408-2023-3": {
+      "distribution": {
+        "cs408.ds.chapter-03.section-05": 1.0
+      }
+    },
+    "cs408-2023-4": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-04.item-01": 1.0
+      }
+    },
+    "cs408-2023-5": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-02.item-03": 1.0
+      }
+    },
+    "cs408-2023-6": {
+      "distribution": {
+        "cs408.ds.chapter-05.section-03.item-02": 0.444,
+        "cs408.ds.chapter-05.section-04.item-02": 0.444,
+        "cs408.ds.chapter-05.section-04.item-01": 0.111
+      }
+    },
+    "cs408-2023-7": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-06": 1.0
+      }
+    },
+    "cs408-2023-8": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-04": 1.0
+      }
+    },
+    "cs408-2023-9": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-07": 0.833,
+        "cs408.ds.chapter-06.section-09": 0.167
+      }
+    },
+    "cs408-2023-10": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-06": 0.141,
+        "cs408.ds.chapter-07.section-07": 0.141,
+        "cs408.ds.chapter-07.section-08": 0.141,
+        "cs408.ds.chapter-07.section-09": 0.064,
+        "cs408.ds.chapter-07.section-10": 0.141,
+        "cs408.ds.chapter-07.section-12": 0.256,
+        "cs408.ds.chapter-07.section-01": 0.115
+      }
+    },
+    "cs408-2023-11": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-07": 1.0
+      }
+    },
+    "cs408-2023-12": {
+      "distribution": {
+        "cs408.co.chapter-01.section-02.detail-01": 1.0
+      }
+    },
+    "cs408-2023-13": {
+      "distribution": {
+        "cs408.co.chapter-02.section-03.item-02": 1.0
+      }
+    },
+    "cs408-2023-14": {
+      "distribution": {
+        "cs408.co.chapter-02.section-04.detail-01.note-01": 0.833,
+        "cs408.co.chapter-02.section-04.item-01": 0.167
+      }
+    },
+    "cs408-2023-15": {
+      "distribution": {
+        "cs408.co.chapter-03.section-04.item-03": 1.0
+      }
+    },
+    "cs408-2023-16": {
+      "distribution": {
+        "cs408.co.chapter-02.section-02.detail-03.note-01": 1.0
+      }
+    },
+    "cs408-2023-17": {
+      "distribution": {
+        "cs408.co.chapter-04.section-03": 1.0
+      }
+    },
+    "cs408-2023-18": {
+      "distribution": {
+        "cs408.co.chapter-05.section-03": 1.0
+      }
+    },
+    "cs408-2023-19": {
+      "distribution": {
+        "cs408.co.chapter-05.section-06.item-03": 1.0
+      }
+    },
+    "cs408-2023-20": {
+      "distribution": {
+        "cs408.co.chapter-06.section-01.item-02": 0.577,
+        "cs408.co.chapter-06.section-01.item-03": 0.423
+      }
+    },
+    "cs408-2023-21": {
+      "distribution": {
+        "cs408.co.chapter-05.section-05.item-03": 0.75,
+        "cs408.co.chapter-05.section-05": 0.083,
+        "cs408.co.chapter-05.section-05.item-01": 0.083,
+        "cs408.co.chapter-05.section-05.item-02": 0.083
+      }
+    },
+    "cs408-2023-22": {
+      "distribution": {
+        "cs408.co.chapter-06.section-03.item-01": 0.111,
+        "cs408.co.chapter-06.section-03.item-02": 0.111,
+        "cs408.co.chapter-06.section-03.item-04": 0.444,
+        "cs408.co.chapter-06.section-03": 0.333
+      }
+    },
+    "cs408-2023-23": {
+      "distribution": {
+        "cs408.os.chapter-01.section-04.detail-01": 1.0
+      }
+    },
+    "cs408-2023-24": {
+      "distribution": {
+        "cs408.os.chapter-01.section-03.item-03": 0.667,
+        "cs408.co.chapter-05.section-05": 0.167,
+        "cs408.co.chapter-05.section-05.item-03": 0.167
+      }
+    },
+    "cs408-2023-25": {
+      "distribution": {
+        "cs408.os.chapter-03.section-02.item-03": 1.0
+      }
+    },
+    "cs408-2023-26": {
+      "distribution": {
+        "cs408.os.chapter-01.section-03.detail-01.note-01": 0.111,
+        "cs408.os.chapter-01.section-03.item-01": 0.778,
+        "cs408.os.chapter-01.section-03.item-04": 0.111
+      }
+    },
+    "cs408-2023-27": {
+      "distribution": {
+        "cs408.os.chapter-02.section-01.item-02": 1.0
+      }
+    },
+    "cs408-2023-28": {
+      "distribution": {
+        "cs408.os.chapter-01.section-03.item-06": 0.167,
+        "cs408.os.chapter-03.section-02.item-01": 0.833
+      }
+    },
+    "cs408-2023-29": {
+      "distribution": {
+        "cs408.os.chapter-02.section-02.item-02": 0.167,
+        "cs408.os.chapter-02.section-02.item-05": 0.667,
+        "cs408.os.chapter-02.section-02.detail-03.note-01": 0.167
+      }
+    },
+    "cs408-2023-30": {
+      "distribution": {
+        "cs408.os.chapter-03.section-01.detail-01.note-01": 0.692,
+        "cs408.os.chapter-03.section-02.item-01": 0.192,
+        "cs408.os.chapter-03.section-01.item-04": 0.115
+      }
+    },
+    "cs408-2023-31": {
+      "distribution": {
+        "cs408.os.chapter-04.section-01.item-02": 0.833,
+        "cs408.os.chapter-04.section-01.item-03": 0.167
+      }
+    },
+    "cs408-2023-32": {
+      "distribution": {
+        "cs408.os.chapter-05.section-02.item-02": 1.0
+      }
+    },
+    "cs408-2023-33": {
+      "distribution": {
+        "cs408.cn.chapter-01.section-01.item-03": 0.227,
+        "cs408.cn.chapter-02.section-01.item-04": 0.227,
+        "cs408.cn.chapter-02.section-01.item-01": 0.545
+      }
+    },
+    "cs408-2023-34": {
+      "distribution": {
+        "cs408.cn.chapter-02.section-01.item-02": 0.833,
+        "cs408.cn.chapter-02.section-01.item-03": 0.167
+      }
+    },
+    "cs408-2023-35": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-04.item-01": 0.269,
+        "cs408.cn.chapter-03.section-04.item-02": 0.269,
+        "cs408.cn.chapter-03.section-04.item-03": 0.192,
+        "cs408.cn.chapter-03.section-04.item-04": 0.269
+      }
+    },
+    "cs408-2023-36": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-05.detail-03.note-01": 0.667,
+        "cs408.cn.chapter-03.section-05.item-03": 0.333
+      }
+    },
+    "cs408-2023-37": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-03.item-01": 1.0
+      }
+    },
+    "cs408-2023-38": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-03.item-02": 0.833,
+        "cs408.cn.chapter-04.section-03.item-03": 0.167
+      }
+    },
+    "cs408-2023-39": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-03.item-03": 1.0
+      }
+    },
+    "cs408-2023-40": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-03.item-01": 0.167,
+        "cs408.cn.chapter-04.section-04.item-01": 0.667,
+        "cs408.cn.chapter-04.section-04.item-02": 0.167
+      }
+    },
+    "cs408-2023-41": {
+      "distribution": {
+        "cs408.ds.chapter-05.section-02.item-01": 1.0
+      }
+    },
+    "cs408-2023-42": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-11": 1.0
+      }
+    },
+    "cs408-2023-43": {
+      "distribution": {
+        "cs408.co.chapter-03.section-06.item-01": 0.242,
+        "cs408.co.chapter-03.section-06.item-02": 0.379,
+        "cs408.co.chapter-03.section-07.item-02": 0.379
+      }
+    },
+    "cs408-2023-44": {
+      "distribution": {
+        "cs408.co.chapter-03.section-07.item-02": 0.182,
+        "cs408.co.chapter-04.section-03": 0.273,
+        "cs408.co.chapter-04.section-04": 0.273,
+        "cs408.co.chapter-04.section-06.item-03": 0.114,
+        "cs408.co.chapter-04.section-02": 0.068,
+        "cs408.co.chapter-03.section-07": 0.091
+      }
+    },
+    "cs408-2023-45": {
+      "distribution": {
+        "cs408.os.chapter-02.section-03.detail-02.note-01": 0.611,
+        "cs408.os.chapter-02.section-03.item-02": 0.278,
+        "cs408.os.chapter-02.section-03.item-04": 0.111
+      }
+    },
+    "cs408-2023-46": {
+      "distribution": {
+        "cs408.os.chapter-01.section-03.detail-01.note-01": 0.091,
+        "cs408.os.chapter-01.section-03.item-03": 0.091,
+        "cs408.os.chapter-02.section-01.item-02": 0.145,
+        "cs408.os.chapter-02.section-02.item-03": 0.091,
+        "cs408.os.chapter-05.section-01.item-05": 0.091,
+        "cs408.os.chapter-01.section-03.item-04": 0.055,
+        "cs408.os.chapter-01.section-03.item-01": 0.191,
+        "cs408.os.chapter-05.section-01.detail-03.note-01": 0.055,
+        "cs408.os.chapter-05.section-01.detail-05.note-01": 0.191
+      }
+    },
+    "cs408-2023-47": {
+      "distribution": {
+        "cs408.cn.chapter-05.section-03.item-01": 0.096,
+        "cs408.cn.chapter-05.section-03.item-02": 0.237,
+        "cs408.cn.chapter-05.section-03.item-05": 0.237,
+        "cs408.cn.chapter-06.section-03.item-02": 0.16,
+        "cs408.cn.chapter-06.section-03.item-01": 0.064,
+        "cs408.cn.chapter-05.section-03.item-03": 0.064,
+        "cs408.cn.chapter-05.section-03.item-04": 0.064,
+        "cs408.cn.chapter-06.section-03": 0.077
+      }
+    },
+    "cs408-2024-1": {
+      "distribution": {
+        "cs408.ds.chapter-02.section-02.item-02": 1.0
+      }
+    },
+    "cs408-2024-2": {
+      "distribution": {
+        "cs408.ds.chapter-03.section-06": 1.0
+      }
+    },
+    "cs408-2024-3": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-02.item-03": 1.0
+      }
+    },
+    "cs408-2024-4": {
+      "distribution": {
+        "cs408.ds.chapter-05.section-02.item-03": 1.0
+      }
+    },
+    "cs408-2024-5": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-04": 1.0
+      }
+    },
+    "cs408-2024-6": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-08": 1.0
+      }
+    },
+    "cs408-2024-7": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-05.item-01": 1.0
+      }
+    },
+    "cs408-2024-8": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-07": 1.0
+      }
+    },
+    "cs408-2024-9": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-04.item-03": 1.0
+      }
+    },
+    "cs408-2024-10": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-09": 1.0
+      }
+    },
+    "cs408-2024-11": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-11": 1.0
+      }
+    },
+    "cs408-2024-12": {
+      "distribution": {
+        "cs408.co.chapter-02.section-03.item-02": 1.0
+      }
+    },
+    "cs408-2024-13": {
+      "distribution": {
+        "cs408.co.chapter-05.section-04": 0.409,
+        "cs408.co.chapter-04.section-01": 0.591
+      }
+    },
+    "cs408-2024-14": {
+      "distribution": {
+        "cs408.co.chapter-02.section-03.item-02": 0.308,
+        "cs408.co.chapter-02.section-04.item-01": 0.5,
+        "cs408.co.chapter-02.section-03": 0.192
+      }
+    },
+    "cs408-2024-15": {
+      "distribution": {
+        "cs408.co.chapter-02.section-02.item-05": 0.333,
+        "cs408.co.chapter-02.section-02.detail-05.note-01": 0.667
+      }
+    },
+    "cs408-2024-16": {
+      "distribution": {
+        "cs408.co.chapter-03.section-02": 0.5,
+        "cs408.co.chapter-03.section-07.item-02": 0.333,
+        "cs408.co.chapter-03.section-06.item-02": 0.167
+      }
+    },
+    "cs408-2024-17": {
+      "distribution": {
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 1.0
+      }
+    },
+    "cs408-2024-18": {
+      "distribution": {
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 0.769,
+        "cs408.co.chapter-03.section-07.item-01": 0.231
+      }
+    },
+    "cs408-2024-19": {
+      "distribution": {
+        "cs408.co.chapter-05.section-06.item-03": 1.0
+      }
+    },
+    "cs408-2024-20": {
+      "distribution": {
+        "cs408.co.chapter-06.section-01.item-02": 1.0
+      }
+    },
+    "cs408-2024-21": {
+      "distribution": {
+        "cs408.co.chapter-06.section-03.detail-02.note-01": 0.667,
+        "cs408.co.chapter-06.section-03.item-02": 0.333
+      }
+    },
+    "cs408-2024-22": {
+      "distribution": {
+        "cs408.co.chapter-06.section-03.detail-04.note-01": 0.667,
+        "cs408.co.chapter-06.section-03.item-04": 0.333
+      }
+    },
+    "cs408-2024-23": {
+      "distribution": {
+        "cs408.os.chapter-01.section-03.item-03": 0.5,
+        "cs408.os.chapter-01.section-03.item-04": 0.5
+      }
+    },
+    "cs408-2024-24": {
+      "distribution": {
+        "cs408.os.chapter-02.section-01.item-05": 0.333,
+        "cs408.os.chapter-02.section-01.item-01": 0.667
+      }
+    },
+    "cs408-2024-25": {
+      "distribution": {
+        "cs408.os.chapter-02.section-02.item-07": 0.5,
+        "cs408.os.chapter-03.section-01.item-04": 0.364,
+        "cs408.os.chapter-03.section-01.detail-01.note-01": 0.136
+      }
+    },
+    "cs408-2024-26": {
+      "distribution": {
+        "cs408.os.chapter-04.section-03.item-03": 1.0
+      }
+    },
+    "cs408-2024-27": {
+      "distribution": {
+        "cs408.os.chapter-03.section-01.item-03": 1.0
+      }
+    },
+    "cs408-2024-28": {
+      "distribution": {
+        "cs408.os.chapter-02.section-01.item-01": 0.667,
+        "cs408.os.chapter-02.section-01.item-03": 0.333
+      }
+    },
+    "cs408-2024-29": {
+      "distribution": {
+        "cs408.os.chapter-04.section-01.item-03": 0.273,
+        "cs408.os.chapter-04.section-02.item-03": 0.136,
+        "cs408.os.chapter-04.section-01.detail-03.note-01": 0.455,
+        "cs408.os.chapter-01.section-03.item-04": 0.136
+      }
+    },
+    "cs408-2024-30": {
+      "distribution": {
+        "cs408.os.chapter-02.section-02.item-05": 1.0
+      }
+    },
+    "cs408-2024-31": {
+      "distribution": {
+        "cs408.os.chapter-05.section-02.item-01": 0.333,
+        "cs408.co.chapter-06.section-03.detail-02.note-01": 0.167,
+        "cs408.co.chapter-06.section-02.item-01": 0.333,
+        "cs408.os.chapter-05.section-01.detail-03.note-01": 0.167
+      }
+    },
+    "cs408-2024-32": {
+      "distribution": {
+        "cs408.os.chapter-05.section-03.detail-01.note-01": 1.0
+      }
+    },
+    "cs408-2024-33": {
+      "distribution": {
+        "cs408.cn.chapter-01.section-01.item-03": 0.684,
+        "cs408.cn.chapter-04.section-01.item-02": 0.158,
+        "cs408.cn.chapter-02.section-01.item-04": 0.158
+      }
+    },
+    "cs408-2024-34": {
+      "distribution": {
+        "cs408.cn.chapter-02.section-01.item-03": 1.0
+      }
+    },
+    "cs408-2024-35": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-06.item-04": 0.5,
+        "cs408.cn.chapter-04.section-03.item-04": 0.5
+      }
+    },
+    "cs408-2024-36": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-06.item-03": 0.333,
+        "cs408.cn.chapter-03.section-05.item-03": 0.167,
+        "cs408.cn.chapter-03.section-05.detail-03.note-01": 0.5
+      }
+    },
+    "cs408-2024-37": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-04.item-04": 1.0
+      }
+    },
+    "cs408-2024-38": {
+      "distribution": {
+        "cs408.cn.chapter-05.section-03.item-02": 0.885,
+        "cs408.cn.chapter-05.section-03.item-03": 0.115
+      }
+    },
+    "cs408-2024-39": {
+      "distribution": {
+        "cs408.cn.chapter-05.section-02.item-02": 1.0
+      }
+    },
+    "cs408-2024-40": {
+      "distribution": {
+        "cs408.cn.chapter-06.section-05.item-02": 0.833,
+        "cs408.cn.chapter-05.section-03.item-02": 0.167
+      }
+    },
+    "cs408-2024-41": {
+      "distribution": {
+        "cs408.ds.chapter-05.section-04.item-03": 0.667,
+        "cs408.ds.chapter-05.section-02.item-01": 0.333
+      }
+    },
+    "cs408-2024-42": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-07": 1.0
+      }
+    },
+    "cs408-2024-43": {
+      "distribution": {
+        "cs408.co.chapter-04.section-02": 0.318,
+        "cs408.co.chapter-05.section-03": 0.318,
+        "cs408.co.chapter-02.section-02.detail-03.note-01": 0.182,
+        "cs408.co.chapter-04.section-03": 0.114,
+        "cs408.co.chapter-05.section-04": 0.068
+      }
+    },
+    "cs408-2024-44": {
+      "distribution": {
+        "cs408.co.chapter-04.section-06": 0.212,
+        "cs408.co.chapter-04.section-04": 0.224,
+        "cs408.os.chapter-03.section-01.item-04": 0.096,
+        "cs408.co.chapter-04.section-02": 0.096,
+        "cs408.os.chapter-03.section-02.item-02": 0.115,
+        "cs408.co.chapter-04.section-03": 0.128,
+        "cs408.co.chapter-03.section-07.item-02": 0.128
+      }
+    },
+    "cs408-2024-45": {
+      "distribution": {
+        "cs408.os.chapter-03.section-02.item-02": 0.583,
+        "cs408.os.chapter-03.section-02.item-03": 0.083,
+        "cs408.os.chapter-03.section-01.item-04": 0.25,
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 0.083
+      }
+    },
+    "cs408-2024-46": {
+      "distribution": {
+        "cs408.os.chapter-02.section-03.item-05": 0.444,
+        "cs408.os.chapter-02.section-03.item-01": 0.278,
+        "cs408.os.chapter-02.section-03.item-07": 0.278
+      }
+    },
+    "cs408-2024-47": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-05.item-05": 0.192,
+        "cs408.cn.chapter-04.section-05.item-03": 0.096,
+        "cs408.cn.chapter-04.section-05.item-04": 0.192,
+        "cs408.cn.chapter-04.section-03.item-01": 0.192,
+        "cs408.cn.chapter-04.section-05": 0.115,
+        "cs408.cn.chapter-04.section-05.item-01": 0.115,
+        "cs408.cn.chapter-04.section-02.item-02": 0.096
+      }
+    },
+    "cs408-2025-1": {
+      "distribution": {
+        "cs408.ds.chapter-01.section-02": 1.0
+      }
+    },
+    "cs408-2025-2": {
+      "distribution": {
+        "cs408.ds.chapter-03.section-06": 1.0
+      }
+    },
+    "cs408-2025-3": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-02.item-02": 1.0
+      }
+    },
+    "cs408-2025-4": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-03.item-02": 0.667,
+        "cs408.ds.chapter-04.section-02.item-01": 0.333
+      }
+    },
+    "cs408-2025-5": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-04.item-01": 1.0
+      }
+    },
+    "cs408-2025-6": {
+      "distribution": {
+        "cs408.ds.chapter-05.section-01": 0.558,
+        "cs408.ds.chapter-05.section-03.item-02": 0.173,
+        "cs408.ds.chapter-05.section-04.item-02": 0.096,
+        "cs408.ds.chapter-05.section-04.item-03": 0.173
+      }
+    },
+    "cs408-2025-7": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-03": 1.0
+      }
+    },
+    "cs408-2025-8": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-06": 1.0
+      }
+    },
+    "cs408-2025-9": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-07": 1.0
+      }
+    },
+    "cs408-2025-10": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-12": 0.615,
+        "cs408.ds.chapter-07.section-05": 0.385
+      }
+    },
+    "cs408-2025-11": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-06": 1.0
+      }
+    },
+    "cs408-2025-12": {
+      "distribution": {
+        "cs408.co.chapter-02.section-03.item-02": 0.5,
+        "cs408.co.chapter-02.section-03.item-01": 0.5
+      }
+    },
+    "cs408-2025-13": {
+      "distribution": {
+        "cs408.co.chapter-02.section-04.detail-01.note-01": 1.0
+      }
+    },
+    "cs408-2025-14": {
+      "distribution": {
+        "cs408.co.chapter-02.section-02.detail-03.note-01": 0.833,
+        "cs408.co.chapter-02.section-03.item-02": 0.167
+      }
+    },
+    "cs408-2025-15": {
+      "distribution": {
+        "cs408.co.chapter-04.section-04": 1.0
+      }
+    },
+    "cs408-2025-16": {
+      "distribution": {
+        "cs408.co.chapter-04.section-01": 0.5,
+        "cs408.co.chapter-04.section-02": 0.5
+      }
+    },
+    "cs408-2025-17": {
+      "distribution": {
+        "cs408.co.chapter-04.section-05": 1.0
+      }
+    },
+    "cs408-2025-18": {
+      "distribution": {
+        "cs408.co.chapter-01.section-02.detail-01": 0.808,
+        "cs408.co.chapter-03.section-06.item-01": 0.192
+      }
+    },
+    "cs408-2025-19": {
+      "distribution": {
+        "cs408.co.chapter-05.section-03": 0.333,
+        "cs408.co.chapter-05.section-04": 0.333,
+        "cs408.co.chapter-05.section-06.item-03": 0.333
+      }
+    },
+    "cs408-2025-20": {
+      "distribution": {
+        "cs408.co.chapter-06.section-01.item-02": 1.0
+      }
+    },
+    "cs408-2025-21": {
+      "distribution": {
+        "cs408.co.chapter-06.section-03.item-04": 0.667,
+        "cs408.co.chapter-06.section-03.detail-04.note-01": 0.333
+      }
+    },
+    "cs408-2025-22": {
+      "distribution": {
+        "cs408.co.chapter-05.section-05.item-02": 0.667,
+        "cs408.co.chapter-06.section-03.item-04": 0.167,
+        "cs408.co.chapter-06.section-03.detail-02.note-01": 0.167
+      }
+    },
+    "cs408-2025-23": {
+      "distribution": {
+        "cs408.os.chapter-02.section-02.item-07": 0.864,
+        "cs408.os.chapter-03.section-01.item-04": 0.136
+      }
+    },
+    "cs408-2025-24": {
+      "distribution": {
+        "cs408.os.chapter-01.section-06": 1.0
+      }
+    },
+    "cs408-2025-25": {
+      "distribution": {
+        "cs408.os.chapter-02.section-02.item-05": 0.885,
+        "cs408.os.chapter-02.section-02.item-03": 0.115
+      }
+    },
+    "cs408-2025-26": {
+      "distribution": {
+        "cs408.os.chapter-03.section-02.item-04": 1.0
+      }
+    },
+    "cs408-2025-27": {
+      "distribution": {
+        "cs408.os.chapter-03.section-02.item-03": 0.864,
+        "cs408.co.chapter-04.section-03": 0.136
+      }
+    },
+    "cs408-2025-28": {
+      "distribution": {
+        "cs408.os.chapter-04.section-03.item-04": 1.0
+      }
+    },
+    "cs408-2025-29": {
+      "distribution": {
+        "cs408.os.chapter-04.section-01.item-02": 0.5,
+        "cs408.os.chapter-04.section-02.item-03": 0.385,
+        "cs408.os.chapter-04.section-02": 0.115
+      }
+    },
+    "cs408-2025-30": {
+      "distribution": {
+        "cs408.os.chapter-03.section-02.item-05": 0.885,
+        "cs408.os.chapter-02.section-01.item-06": 0.115
+      }
+    },
+    "cs408-2025-31": {
+      "distribution": {
+        "cs408.os.chapter-04.section-03.item-03": 1.0
+      }
+    },
+    "cs408-2025-32": {
+      "distribution": {
+        "cs408.os.chapter-04.section-03.item-01": 0.333,
+        "cs408.os.chapter-05.section-03": 0.111,
+        "cs408.os.chapter-05.section-03.item-01": 0.111,
+        "cs408.os.chapter-05.section-03.item-03": 0.111,
+        "cs408.os.chapter-05.section-03.detail-01.note-01": 0.333
+      }
+    },
+    "cs408-2025-33": {
+      "distribution": {
+        "cs408.cn.chapter-02.section-01.item-04": 1.0
+      }
+    },
+    "cs408-2025-34": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-03.item-01": 0.385,
+        "cs408.cn.chapter-03.section-03.item-02": 0.385,
+        "cs408.cn.chapter-03.section-03": 0.231
+      }
+    },
+    "cs408-2025-35": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-05.detail-03.note-01": 0.833,
+        "cs408.cn.chapter-03.section-05.item-03": 0.167
+      }
+    },
+    "cs408-2025-36": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-03.item-04": 1.0
+      }
+    },
+    "cs408-2025-37": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-03.item-02": 0.833,
+        "cs408.cn.chapter-05.section-02.item-02": 0.167
+      }
+    },
+    "cs408-2025-38": {
+      "distribution": {
+        "cs408.cn.chapter-05.section-03.item-04": 0.5,
+        "cs408.cn.chapter-05.section-03.item-05": 0.5
+      }
+    },
+    "cs408-2025-39": {
+      "distribution": {
+        "cs408.cn.chapter-05.section-01.item-03": 0.222,
+        "cs408.cn.chapter-05.section-03.item-02": 0.222,
+        "cs408.cn.chapter-06.section-01.item-01": 0.222,
+        "cs408.cn.chapter-06.section-01": 0.333
+      }
+    },
+    "cs408-2025-40": {
+      "distribution": {
+        "cs408.cn.chapter-06.section-04.item-03": 1.0
+      }
+    },
+    "cs408-2025-41": {
+      "distribution": {
+        "cs408.ds.chapter-03.section-06": 0.192,
+        "cs408.ds.chapter-01.section-02": 0.192,
+        "cs408.ds.chapter-02.section-03": 0.115,
+        "cs408.ds.chapter-02.section-02.item-01": 0.5
+      }
+    },
+    "cs408-2025-42": {
+      "distribution": {
+        "cs408.ds.chapter-05.section-04.item-04": 1.0
+      }
+    },
+    "cs408-2025-43": {
+      "distribution": {
+        "cs408.co.chapter-03.section-06.item-02": 0.372,
+        "cs408.co.chapter-03.section-06.item-01": 0.128,
+        "cs408.co.chapter-03.section-07.item-02": 0.372,
+        "cs408.os.chapter-03.section-02.item-02": 0.128
+      }
+    },
+    "cs408-2025-44": {
+      "distribution": {
+        "cs408.co.chapter-02.section-02.detail-05.note-01": 0.667,
+        "cs408.co.chapter-05.section-05.item-03": 0.333
+      }
+    },
+    "cs408-2025-45": {
+      "distribution": {
+        "cs408.os.chapter-02.section-03.item-05": 0.333,
+        "cs408.os.chapter-02.section-03.item-07": 0.667
+      }
+    },
+    "cs408-2025-46": {
+      "distribution": {
+        "cs408.os.chapter-01.section-03.item-06": 0.389,
+        "cs408.os.chapter-02.section-01.item-02": 0.389,
+        "cs408.os.chapter-05.section-01.item-05": 0.222
+      }
+    },
+    "cs408-2025-47": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-04.item-03": 0.333,
+        "cs408.cn.chapter-04.section-03.item-03": 0.333,
+        "cs408.cn.chapter-01.section-01.item-03": 0.205,
+        "cs408.cn.chapter-02.section-01.item-01": 0.128
+      }
+    },
+    "cs408-2026-1": {
+      "distribution": {
+        "cs408.ds.chapter-02.section-02.item-01": 1.0
+      }
+    },
+    "cs408-2026-2": {
+      "distribution": {
+        "cs408.ds.chapter-02.section-02.item-02": 1.0
+      }
+    },
+    "cs408-2026-3": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-02.item-03": 1.0
+      }
+    },
+    "cs408-2026-4": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-03.item-02": 1.0
+      }
+    },
+    "cs408-2026-5": {
+      "distribution": {
+        "cs408.ds.chapter-04.section-04.item-01": 1.0
+      }
+    },
+    "cs408-2026-6": {
+      "distribution": {
+        "cs408.ds.chapter-05.section-02.item-02": 1.0
+      }
+    },
+    "cs408-2026-7": {
+      "distribution": {
+        "cs408.ds.chapter-05.section-01": 1.0
+      }
+    },
+    "cs408-2026-8": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-05.item-02": 1.0
+      }
+    },
+    "cs408-2026-9": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-02": 1.0
+      }
+    },
+    "cs408-2026-10": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-10": 1.0
+      }
+    },
+    "cs408-2026-11": {
+      "distribution": {
+        "cs408.ds.chapter-07.section-11": 1.0
+      }
+    },
+    "cs408-2026-12": {
+      "distribution": {
+        "cs408.co.chapter-01.section-01": 0.885,
+        "cs408.co.chapter-04.section-01": 0.115
+      }
+    },
+    "cs408-2026-13": {
+      "distribution": {
+        "cs408.co.chapter-02.section-03.item-02": 1.0
+      }
+    },
+    "cs408-2026-14": {
+      "distribution": {
+        "cs408.co.chapter-02.section-04.detail-01.note-01": 0.667,
+        "cs408.co.chapter-02.section-04.item-01": 0.333
+      }
+    },
+    "cs408-2026-15": {
+      "distribution": {
+        "cs408.co.chapter-03.section-04.item-02": 0.333,
+        "cs408.co.chapter-03.section-04.item-01": 0.333,
+        "cs408.co.chapter-02.section-04.detail-01.note-01": 0.333
+      }
+    },
+    "cs408-2026-16": {
+      "distribution": {
+        "cs408.co.chapter-04.section-01": 1.0
+      }
+    },
+    "cs408-2026-17": {
+      "distribution": {
+        "cs408.co.chapter-04.section-01": 0.533,
+        "cs408.co.chapter-04.section-06.item-04": 0.133,
+        "cs408.co.chapter-05.section-05.item-01": 0.333
+      }
+    },
+    "cs408-2026-18": {
+      "distribution": {
+        "cs408.co.chapter-03.section-06.item-02": 1.0
+      }
+    },
+    "cs408-2026-19": {
+      "distribution": {
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 1.0
+      }
+    },
+    "cs408-2026-20": {
+      "distribution": {
+        "cs408.co.chapter-05.section-03": 0.513,
+        "cs408.co.chapter-01.section-02.detail-01": 0.128,
+        "cs408.co.chapter-05.section-06.item-01": 0.359
+      }
+    },
+    "cs408-2026-21": {
+      "distribution": {
+        "cs408.os.chapter-01.section-03.detail-01.note-01": 0.5,
+        "cs408.os.chapter-01.section-03.item-04": 0.227,
+        "cs408.os.chapter-01.section-03.item-01": 0.136,
+        "cs408.co.chapter-04.section-01": 0.136
+      }
+    },
+    "cs408-2026-22": {
+      "distribution": {
+        "cs408.co.chapter-05.section-05.item-03": 0.808,
+        "cs408.co.chapter-06.section-03.item-02": 0.192
+      }
+    },
+    "cs408-2026-23": {
+      "distribution": {
+        "cs408.os.chapter-01.section-03.item-05": 0.833,
+        "cs408.os.chapter-01.section-03.detail-01.note-01": 0.167
+      }
+    },
+    "cs408-2026-24": {
+      "distribution": {
+        "cs408.os.chapter-03.section-02.item-02": 0.318,
+        "cs408.os.chapter-01.section-03.item-03": 0.318,
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 0.227,
+        "cs408.os.chapter-03.section-02.item-01": 0.136
+      }
+    },
+    "cs408-2026-25": {
+      "distribution": {
+        "cs408.os.chapter-02.section-01.item-03": 0.5,
+        "cs408.os.chapter-02.section-01.item-01": 0.167,
+        "cs408.os.chapter-02.section-01.detail-03.note-01": 0.333
+      }
+    },
+    "cs408-2026-26": {
+      "distribution": {
+        "cs408.os.chapter-02.section-03.item-05": 1.0
+      }
+    },
+    "cs408-2026-27": {
+      "distribution": {
+        "cs408.os.chapter-02.section-03.item-01": 1.0
+      }
+    },
+    "cs408-2026-28": {
+      "distribution": {
+        "cs408.os.chapter-03.section-01.item-04": 0.385,
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 0.385,
+        "cs408.co.chapter-03.section-07.item-02": 0.231
+      }
+    },
+    "cs408-2026-29": {
+      "distribution": {
+        "cs408.os.chapter-03.section-02.item-06": 0.692,
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 0.308
+      }
+    },
+    "cs408-2026-30": {
+      "distribution": {
+        "cs408.os.chapter-03.section-02.item-05": 0.769,
+        "cs408.os.chapter-03.section-01.item-04": 0.231
+      }
+    },
+    "cs408-2026-31": {
+      "distribution": {
+        "cs408.os.chapter-05.section-02.item-04": 0.5,
+        "cs408.os.chapter-05.section-01.item-05": 0.167,
+        "cs408.os.chapter-05.section-01.detail-07.note-01": 0.333
+      }
+    },
+    "cs408-2026-32": {
+      "distribution": {
+        "cs408.os.chapter-05.section-01.item-05": 0.167,
+        "cs408.os.chapter-05.section-02.item-01": 0.333,
+        "cs408.os.chapter-05.section-01.detail-05.note-01": 0.5
+      }
+    },
+    "cs408-2026-33": {
+      "distribution": {
+        "cs408.cn.chapter-01.section-02.item-01": 1.0
+      }
+    },
+    "cs408-2026-34": {
+      "distribution": {
+        "cs408.cn.chapter-02.section-01.item-02": 0.833,
+        "cs408.cn.chapter-01.section-01.item-03": 0.167
+      }
+    },
+    "cs408-2026-35": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-05.detail-03.note-01": 0.833,
+        "cs408.cn.chapter-03.section-06.item-03": 0.167
+      }
+    },
+    "cs408-2026-36": {
+      "distribution": {
+        "cs408.cn.chapter-03.section-06.item-04": 0.667,
+        "cs408.cn.chapter-03.section-08.detail-01": 0.333
+      }
+    },
+    "cs408-2026-37": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-02.item-03": 0.611,
+        "cs408.cn.chapter-04.section-03.item-03": 0.278,
+        "cs408.cn.chapter-04.section-08.item-02": 0.111
+      }
+    },
+    "cs408-2026-38": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-05.item-04": 1.0
+      }
+    },
+    "cs408-2026-39": {
+      "distribution": {
+        "cs408.cn.chapter-04.section-03.item-03": 1.0
+      }
+    },
+    "cs408-2026-40": {
+      "distribution": {
+        "cs408.cn.chapter-06.section-05.item-02": 1.0
+      }
+    },
+    "cs408-2026-41": {
+      "distribution": {
+        "cs408.ds.chapter-06.section-05.item-01": 1.0
+      }
+    },
+    "cs408-2026-42": {
+      "distribution": {
+        "cs408.ds.chapter-03.section-06": 0.308,
+        "cs408.ds.chapter-03.section-01": 0.692
+      }
+    },
+    "cs408-2026-43": {
+      "distribution": {
+        "cs408.co.chapter-04.section-02": 0.833,
+        "cs408.co.chapter-04.section-06": 0.167
+      }
+    },
+    "cs408-2026-44": {
+      "distribution": {
+        "cs408.co.chapter-05.section-03": 0.611,
+        "cs408.co.chapter-05.section-04": 0.278,
+        "cs408.co.chapter-05.section-02": 0.111
+      }
+    },
+    "cs408-2026-45": {
+      "distribution": {
+        "cs408.os.chapter-02.section-02.item-05": 0.833,
+        "cs408.os.chapter-02.section-02.detail-03.note-01": 0.167
+      }
+    },
+    "cs408-2026-46": {
+      "distribution": {
+        "cs408.os.chapter-04.section-01.item-02": 0.528,
+        "cs408.os.chapter-04.section-01.item-07": 0.194,
+        "cs408.os.chapter-04.section-02.item-03": 0.194,
+        "cs408.os.chapter-04.section-03.item-03": 0.083
+      }
+    },
+    "cs408-2026-47": {
+      "distribution": {
+        "cs408.cn.chapter-05.section-03.item-02": 0.269,
+        "cs408.cn.chapter-05.section-03.item-04": 0.269,
+        "cs408.cn.chapter-05.section-03.item-05": 0.269,
+        "cs408.cn.chapter-05.section-03.item-03": 0.096,
+        "cs408.cn.chapter-05.section-03.item-01": 0.096
+      }
+    },
+    "math1-2023-1": {
+      "distribution": {
+        "math1.hs.ch01.content": 0.667,
+        "math1.hs.ch02.content": 0.333
+      }
+    },
+    "math1-2023-2": {
+      "distribution": {
+        "math1.hs.ch08.content": 1.0
+      }
+    },
+    "math1-2023-3": {
+      "distribution": {
+        "math1.hs.ch02.content": 1.0
+      }
+    },
+    "math1-2023-4": {
+      "distribution": {
+        "math1.hs.ch07.content": 1.0
+      }
+    },
+    "math1-2023-5": {
+      "distribution": {
+        "math1.la.ch10.content": 1.0
+      }
+    },
+    "math1-2023-6": {
+      "distribution": {
+        "math1.la.ch13.content": 1.0
+      }
+    },
+    "math1-2023-7": {
+      "distribution": {
+        "math1.la.ch11.content": 1.0
+      }
+    },
+    "math1-2023-8": {
+      "distribution": {
+        "math1.pr.ch18.content": 0.5,
+        "math1.pr.ch16.content": 0.5
+      }
+    },
+    "math1-2023-9": {
+      "distribution": {
+        "math1.pr.ch20.content": 1.0
+      }
+    },
+    "math1-2023-10": {
+      "distribution": {
+        "math1.pr.ch21.content": 0.833,
+        "math1.pr.ch16.content": 0.167
+      }
+    },
+    "math1-2023-11": {
+      "distribution": {
+        "math1.hs.ch01.content": 1.0
+      }
+    },
+    "math1-2023-12": {
+      "distribution": {
+        "math1.hs.ch05.content": 1.0
+      }
+    },
+    "math1-2023-13": {
+      "distribution": {
+        "math1.hs.ch07.content": 1.0
+      }
+    },
+    "math1-2023-14": {
+      "distribution": {
+        "math1.hs.ch03.content": 1.0
+      }
+    },
+    "math1-2023-15": {
+      "distribution": {
+        "math1.la.ch11.content": 1.0
+      }
+    },
+    "math1-2023-16": {
+      "distribution": {
+        "math1.pr.ch17.content": 0.833,
+        "math1.pr.ch16.content": 0.167
+      }
+    },
+    "math1-2023-17": {
+      "distribution": {
+        "math1.hs.ch08.content": 0.379,
+        "math1.hs.ch03.content": 0.379,
+        "math1.hs.ch02.content": 0.242
+      }
+    },
+    "math1-2023-18": {
+      "distribution": {
+        "math1.hs.ch05.content": 1.0
+      }
+    },
+    "math1-2023-19": {
+      "distribution": {
+        "math1.hs.ch06.content": 1.0
+      }
+    },
+    "math1-2023-20": {
+      "distribution": {
+        "math1.hs.ch02.content": 1.0
+      }
+    },
+    "math1-2023-21": {
+      "distribution": {
+        "math1.la.ch14.content": 0.833,
+        "math1.la.ch13.content": 0.167
+      }
+    },
+    "math1-2023-22": {
+      "distribution": {
+        "math1.pr.ch17.content": 0.5,
+        "math1.pr.ch18.content": 0.5
+      }
+    },
+    "math1-2024-1": {
+      "distribution": {
+        "math1.hs.ch03.chapter": 0.591,
+        "math1.hs.ch01.chapter": 0.136,
+        "math1.hs.ch01.content": 0.136,
+        "math1.hs.ch03.content": 0.136
+      }
+    },
+    "math1-2024-2": {
+      "distribution": {
+        "math1.hs.ch06.chapter": 0.667,
+        "math1.hs.ch06.content": 0.333
+      }
+    },
+    "math1-2024-3": {
+      "distribution": {
+        "math1.hs.ch07.chapter": 0.667,
+        "math1.hs.ch07.content": 0.333
+      }
+    },
+    "math1-2024-4": {
+      "distribution": {
+        "math1.hs.ch02.chapter": 0.667,
+        "math1.hs.ch01.content": 0.333
+      }
+    },
+    "math1-2024-5": {
+      "distribution": {
+        "math1.la.ch12.chapter": 0.136,
+        "math1.la.ch10.chapter": 0.136,
+        "math1.hs.ch04.chapter": 0.273,
+        "math1.la.ch12.content": 0.455
+      }
+    },
+    "math1-2024-6": {
+      "distribution": {
+        "math1.la.ch11.chapter": 0.667,
+        "math1.la.ch11.content": 0.333
+      }
+    },
+    "math1-2024-7": {
+      "distribution": {
+        "math1.la.ch13.chapter": 0.667,
+        "math1.la.ch13.content": 0.333
+      }
+    },
+    "math1-2024-8": {
+      "distribution": {
+        "math1.pr.ch17.chapter": 0.115,
+        "math1.pr.ch16.chapter": 0.5,
+        "math1.pr.ch17.content": 0.385
+      }
+    },
+    "math1-2024-9": {
+      "distribution": {
+        "math1.pr.ch18.chapter": 0.385,
+        "math1.pr.ch17.chapter": 0.385,
+        "math1.pr.ch18.content": 0.115,
+        "math1.pr.ch17.content": 0.115
+      }
+    },
+    "math1-2024-10": {
+      "distribution": {
+        "math1.pr.ch17.chapter": 0.167,
+        "math1.pr.ch16.chapter": 0.5,
+        "math1.pr.ch17.content": 0.333
+      }
+    },
+    "math1-2024-11": {
+      "distribution": {
+        "math1.hs.ch01.chapter": 0.667,
+        "math1.hs.ch01.content": 0.333
+      }
+    },
+    "math1-2024-12": {
+      "distribution": {
+        "math1.hs.ch05.chapter": 0.667,
+        "math1.hs.ch05.content": 0.333
+      }
+    },
+    "math1-2024-13": {
+      "distribution": {
+        "math1.hs.ch07.chapter": 0.5,
+        "math1.hs.ch07.content": 0.5
+      }
+    },
+    "math1-2024-14": {
+      "distribution": {
+        "math1.hs.ch08.chapter": 0.667,
+        "math1.hs.ch08.content": 0.333
+      }
+    },
+    "math1-2024-15": {
+      "distribution": {
+        "math1.la.ch14.chapter": 0.769,
+        "math1.la.ch14.content": 0.231
+      }
+    },
+    "math1-2024-16": {
+      "distribution": {
+        "math1.pr.ch15.chapter": 0.5,
+        "math1.pr.ch16.chapter": 0.115,
+        "math1.pr.ch15.content": 0.385
+      }
+    },
+    "math1-2024-17": {
+      "distribution": {
+        "math1.hs.ch06.chapter": 0.667,
+        "math1.hs.ch06.content": 0.333
+      }
+    },
+    "math1-2024-18": {
+      "distribution": {
+        "math1.hs.ch05.chapter": 0.667,
+        "math1.hs.ch05.content": 0.333
+      }
+    },
+    "math1-2024-19": {
+      "distribution": {
+        "math1.hs.ch02.chapter": 0.385,
+        "math1.hs.ch03.chapter": 0.385,
+        "math1.hs.ch02.content": 0.115,
+        "math1.hs.ch03.content": 0.115
+      }
+    },
+    "math1-2024-20": {
+      "distribution": {
+        "math1.hs.ch06.chapter": 0.667,
+        "math1.hs.ch06.content": 0.333
+      }
+    },
+    "math1-2024-21": {
+      "distribution": {
+        "math1.la.ch13.chapter": 0.333,
+        "math1.la.ch10.chapter": 0.333,
+        "math1.la.ch13.content": 0.333
+      }
+    },
+    "math1-2024-22": {
+      "distribution": {
+        "math1.pr.ch21.chapter": 0.333,
+        "math1.pr.ch20.chapter": 0.333,
+        "math1.pr.ch21.content": 0.333
+      }
+    },
+    "math1-2025-1": {
+      "distribution": {
+        "math1.hs.ch02.content": 0.692,
+        "math1.hs.ch03.content": 0.308
+      }
+    },
+    "math1-2025-2": {
+      "distribution": {
+        "math1.hs.ch07.content": 1.0
+      }
+    },
+    "math1-2025-3": {
+      "distribution": {
+        "math1.hs.ch01.content": 0.444,
+        "math1.hs.ch02.content": 0.444,
+        "math1.hs.ch03.content": 0.111
+      }
+    },
+    "math1-2025-4": {
+      "distribution": {
+        "math1.hs.ch06.content": 1.0
+      }
+    },
+    "math1-2025-5": {
+      "distribution": {
+        "math1.la.ch14.content": 0.833,
+        "math1.la.ch13.content": 0.167
+      }
+    },
+    "math1-2025-6": {
+      "distribution": {
+        "math1.la.ch12.content": 0.5,
+        "math1.la.ch11.content": 0.5
+      }
+    },
+    "math1-2025-7": {
+      "distribution": {
+        "math1.la.ch10.content": 1.0
+      }
+    },
+    "math1-2025-8": {
+      "distribution": {
+        "math1.pr.ch18.content": 0.5,
+        "math1.pr.ch17.content": 0.5
+      }
+    },
+    "math1-2025-9": {
+      "distribution": {
+        "math1.pr.ch16.content": 1.0
+      }
+    },
+    "math1-2025-10": {
+      "distribution": {
+        "math1.pr.ch22.content": 0.833,
+        "math1.pr.ch16.content": 0.167
+      }
+    },
+    "math1-2025-11": {
+      "distribution": {
+        "math1.hs.ch01.content": 1.0
+      }
+    },
+    "math1-2025-12": {
+      "distribution": {
+        "math1.hs.ch07.content": 1.0
+      }
+    },
+    "math1-2025-13": {
+      "distribution": {
+        "math1.hs.ch05.content": 1.0
+      }
+    },
+    "math1-2025-14": {
+      "distribution": {
+        "math1.hs.ch06.content": 1.0
+      }
+    },
+    "math1-2025-15": {
+      "distribution": {
+        "math1.la.ch12.content": 0.455,
+        "math1.la.ch10.content": 0.227,
+        "math1.la.ch09.content": 0.318
+      }
+    },
+    "math1-2025-16": {
+      "distribution": {
+        "math1.pr.ch15.content": 1.0
+      }
+    },
+    "math1-2025-17": {
+      "distribution": {
+        "math1.hs.ch03.content": 1.0
+      }
+    },
+    "math1-2025-18": {
+      "distribution": {
+        "math1.hs.ch05.content": 0.273,
+        "math1.hs.ch08.content": 0.273,
+        "math1.hs.ch02.content": 0.455
+      }
+    },
+    "math1-2025-19": {
+      "distribution": {
+        "math1.hs.ch02.content": 1.0
+      }
+    },
+    "math1-2025-20": {
+      "distribution": {
+        "math1.hs.ch06.content": 1.0
+      }
+    },
+    "math1-2025-21": {
+      "distribution": {
+        "math1.la.ch13.content": 1.0
+      }
+    },
+    "math1-2025-22": {
+      "distribution": {
+        "math1.pr.ch16.content": 0.5,
+        "math1.pr.ch18.content": 0.273,
+        "math1.pr.ch15.content": 0.227
+      }
+    },
+    "math1-2026-1": {
+      "distribution": {
+        "math1.hs.ch05.chapter": 0.333,
+        "math1.hs.ch05.content": 0.667
+      }
+    },
+    "math1-2026-2": {
+      "distribution": {
+        "math1.hs.ch07.chapter": 0.333,
+        "math1.hs.ch07.content": 0.667
+      }
+    },
+    "math1-2026-3": {
+      "distribution": {
+        "math1.hs.ch02.chapter": 0.333,
+        "math1.hs.ch02.content": 0.667
+      }
+    },
+    "math1-2026-4": {
+      "distribution": {
+        "math1.hs.ch06.chapter": 0.333,
+        "math1.hs.ch06.content": 0.667
+      }
+    },
+    "math1-2026-5": {
+      "distribution": {
+        "math1.la.ch10.chapter": 0.333,
+        "math1.la.ch10.content": 0.667
+      }
+    },
+    "math1-2026-6": {
+      "distribution": {
+        "math1.la.ch11.chapter": 0.136,
+        "math1.la.ch12.chapter": 0.136,
+        "math1.la.ch12.content": 0.591,
+        "math1.la.ch11.content": 0.136
+      }
+    },
+    "math1-2026-7": {
+      "distribution": {
+        "math1.la.ch14.chapter": 0.167,
+        "math1.la.ch13.chapter": 0.167,
+        "math1.la.ch14.content": 0.5,
+        "math1.la.ch13.content": 0.167
+      }
+    },
+    "math1-2026-8": {
+      "distribution": {
+        "math1.pr.ch18.chapter": 0.385,
+        "math1.pr.ch18.content": 0.5,
+        "math1.pr.ch16.content": 0.115
+      }
+    },
+    "math1-2026-9": {
+      "distribution": {
+        "math1.pr.ch18.chapter": 0.115,
+        "math1.pr.ch16.chapter": 0.115,
+        "math1.pr.ch16.content": 0.192,
+        "math1.pr.ch18.content": 0.577
+      }
+    },
+    "math1-2026-10": {
+      "distribution": {
+        "math1.pr.ch15.chapter": 0.192,
+        "math1.pr.ch16.chapter": 0.192,
+        "math1.pr.ch16.content": 0.5,
+        "math1.pr.ch15.content": 0.115
+      }
+    },
+    "math1-2026-11": {
+      "distribution": {
+        "math1.hs.ch05.chapter": 0.136,
+        "math1.hs.ch04.chapter": 0.136,
+        "math1.hs.ch06.content": 0.727
+      }
+    },
+    "math1-2026-12": {
+      "distribution": {
+        "math1.hs.ch01.chapter": 0.333,
+        "math1.hs.ch01.content": 0.667
+      }
+    },
+    "math1-2026-13": {
+      "distribution": {
+        "math1.hs.ch02.chapter": 0.333,
+        "math1.hs.ch02.content": 0.667
+      }
+    },
+    "math1-2026-14": {
+      "distribution": {
+        "math1.hs.ch03.chapter": 0.333,
+        "math1.hs.ch03.content": 0.667
+      }
+    },
+    "math1-2026-15": {
+      "distribution": {
+        "math1.la.ch13.chapter": 0.333,
+        "math1.la.ch13.content": 0.667
+      }
+    },
+    "math1-2026-16": {
+      "distribution": {
+        "math1.pr.ch18.chapter": 0.136,
+        "math1.pr.ch17.chapter": 0.136,
+        "math1.pr.ch18.content": 0.364,
+        "math1.pr.ch16.content": 0.364
+      }
+    },
+    "math1-2026-17": {
+      "distribution": {
+        "math1.hs.ch05.chapter": 0.333,
+        "math1.hs.ch05.content": 0.667
+      }
+    },
+    "math1-2026-18": {
+      "distribution": {
+        "math1.hs.ch08.chapter": 0.136,
+        "math1.hs.ch05.chapter": 0.136,
+        "math1.hs.ch08.content": 0.364,
+        "math1.hs.ch05.content": 0.364
+      }
+    },
+    "math1-2026-19": {
+      "distribution": {
+        "math1.hs.ch06.chapter": 0.333,
+        "math1.hs.ch06.content": 0.667
+      }
+    },
+    "math1-2026-20": {
+      "distribution": {
+        "math1.hs.ch02.chapter": 0.136,
+        "math1.hs.ch03.chapter": 0.136,
+        "math1.hs.ch02.content": 0.591,
+        "math1.hs.ch03.content": 0.136
+      }
+    },
+    "math1-2026-21": {
+      "distribution": {
+        "math1.la.ch11.chapter": 0.167,
+        "math1.la.ch10.chapter": 0.167,
+        "math1.la.ch11.content": 0.278,
+        "math1.la.ch12.content": 0.111,
+        "math1.la.ch10.content": 0.278
+      }
+    },
+    "math1-2026-22": {
+      "distribution": {
+        "math1.pr.ch21.chapter": 0.111,
+        "math1.pr.ch16.chapter": 0.111,
+        "math1.pr.ch18.chapter": 0.111,
+        "math1.pr.ch21.content": 0.444,
+        "math1.pr.ch16.content": 0.111,
+        "math1.pr.ch18.content": 0.111
+      }
+    },
+    "eng1-2024-1": {
+      "distribution": {
+        "eng1.paper.part1": 0.654,
+        "eng1.exam.objectives.knowledge.grammar": 0.269,
+        "eng1.exam.objectives.language-knowledge": 0.077
+      }
+    },
+    "eng1-2024-2": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.278,
+        "eng1.exam.objectives.language-knowledge": 0.111
+      }
+    },
+    "eng1-2024-3": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.278,
+        "eng1.exam.objectives.language-knowledge": 0.111
+      }
+    },
+    "eng1-2024-4": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.278,
+        "eng1.exam.objectives.language-knowledge": 0.111
+      }
+    },
+    "eng1-2024-5": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.278,
+        "eng1.exam.objectives.language-knowledge": 0.111
+      }
+    },
+    "eng1-2024-6": {
+      "distribution": {
+        "eng1.paper.part1": 0.628,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.244,
+        "eng1.exam.objectives.language-knowledge": 0.128
+      }
+    },
+    "eng1-2024-7": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.278,
+        "eng1.exam.objectives.language-knowledge": 0.111
+      }
+    },
+    "eng1-2024-8": {
+      "distribution": {
+        "eng1.paper.part1": 0.628,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.244,
+        "eng1.exam.objectives.language-knowledge": 0.128
+      }
+    },
+    "eng1-2024-9": {
+      "distribution": {
+        "eng1.paper.part1": 0.654,
+        "eng1.exam.objectives.knowledge.grammar": 0.269,
+        "eng1.exam.objectives.language-knowledge": 0.077
+      }
+    },
+    "eng1-2024-10": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.grammar": 0.167,
+        "eng1.exam.objectives.language-knowledge": 0.111,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.111
+      }
+    },
+    "eng1-2024-11": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.grammar": 0.167,
+        "eng1.exam.objectives.language-knowledge": 0.111,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.111
+      }
+    },
+    "eng1-2024-12": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.278,
+        "eng1.exam.objectives.language-knowledge": 0.111
+      }
+    },
+    "eng1-2024-13": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.grammar": 0.167,
+        "eng1.exam.objectives.language-knowledge": 0.111,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.111
+      }
+    },
+    "eng1-2024-14": {
+      "distribution": {
+        "eng1.paper.part1": 0.654,
+        "eng1.exam.objectives.knowledge.grammar": 0.269,
+        "eng1.exam.objectives.language-knowledge": 0.077
+      }
+    },
+    "eng1-2024-15": {
+      "distribution": {
+        "eng1.paper.part1": 0.628,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.244,
+        "eng1.exam.objectives.language-knowledge": 0.128
+      }
+    },
+    "eng1-2024-16": {
+      "distribution": {
+        "eng1.paper.part1": 0.628,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.244,
+        "eng1.exam.objectives.language-knowledge": 0.128
+      }
+    },
+    "eng1-2024-17": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.278,
+        "eng1.exam.objectives.language-knowledge": 0.111
+      }
+    },
+    "eng1-2024-18": {
+      "distribution": {
+        "eng1.paper.part1": 0.654,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.192,
+        "eng1.exam.objectives.language-knowledge": 0.077,
+        "eng1.exam.objectives.knowledge.grammar": 0.077
+      }
+    },
+    "eng1-2024-19": {
+      "distribution": {
+        "eng1.paper.part1": 0.628,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.244,
+        "eng1.exam.objectives.language-knowledge": 0.128
+      }
+    },
+    "eng1-2024-20": {
+      "distribution": {
+        "eng1.paper.part1": 0.611,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.278,
+        "eng1.exam.objectives.language-knowledge": 0.111
+      }
+    },
+    "eng1-2024-21": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-22": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-23": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-24": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-25": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-26": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-27": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-28": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-29": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-30": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-31": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-32": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-33": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-34": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-35": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-36": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-37": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-38": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-39": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-40": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-41": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-42": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-43": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-44": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-45": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.paper.part2": 0.083,
+        "eng1.exam.objectives.language-skills": 0.083
+      }
+    },
+    "eng1-2024-46": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.389,
+        "eng1.exam.objectives.skills.reading": 0.222,
+        "eng1.paper.part2": 0.056,
+        "eng1.paper.part3": 0.056,
+        "eng1.paper.part3.note": 0.222,
+        "eng1.exam.objectives.language-skills": 0.056
+      }
+    },
+    "eng1-2024-47": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.389,
+        "eng1.exam.objectives.skills.reading": 0.222,
+        "eng1.paper.part2": 0.056,
+        "eng1.paper.part3": 0.056,
+        "eng1.paper.part3.note": 0.222,
+        "eng1.exam.objectives.language-skills": 0.056
+      }
+    },
+    "eng1-2024-48": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.389,
+        "eng1.exam.objectives.skills.reading": 0.222,
+        "eng1.paper.part2": 0.056,
+        "eng1.paper.part3": 0.056,
+        "eng1.paper.part3.note": 0.222,
+        "eng1.exam.objectives.language-skills": 0.056
+      }
+    },
+    "eng1-2024-49": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.389,
+        "eng1.exam.objectives.skills.reading": 0.222,
+        "eng1.paper.part2": 0.056,
+        "eng1.paper.part3": 0.056,
+        "eng1.paper.part3.note": 0.222,
+        "eng1.exam.objectives.language-skills": 0.056
+      }
+    },
+    "eng1-2024-50": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.389,
+        "eng1.exam.objectives.skills.reading": 0.222,
+        "eng1.paper.part2": 0.056,
+        "eng1.paper.part3": 0.056,
+        "eng1.paper.part3.note": 0.222,
+        "eng1.exam.objectives.language-skills": 0.056
+      }
+    },
+    "eng1-2024-51": {
+      "distribution": {
+        "eng1.paper.part4.a": 0.596,
+        "eng1.exam.objectives.skills.writing": 0.212,
+        "eng1.paper.part4": 0.096,
+        "eng1.exam.objectives.language-skills": 0.096
+      }
+    },
+    "eng1-2024-52": {
+      "distribution": {
+        "eng1.paper.part4.b": 0.596,
+        "eng1.exam.objectives.skills.writing": 0.212,
+        "eng1.paper.part4": 0.096,
+        "eng1.exam.objectives.language-skills": 0.096
+      }
+    },
+    "eng1-2025-1": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-2": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-3": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-4": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-5": {
+      "distribution": {
+        "eng1.paper.part1": 0.397,
+        "eng1.exam.objectives.knowledge.grammar": 0.397,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.205
+      }
+    },
+    "eng1-2025-6": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-7": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-8": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-9": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.111
+      }
+    },
+    "eng1-2025-10": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-11": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-12": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.111
+      }
+    },
+    "eng1-2025-13": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-14": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-15": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-16": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-17": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-18": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-19": {
+      "distribution": {
+        "eng1.paper.part1": 0.397,
+        "eng1.exam.objectives.knowledge.grammar": 0.205,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.397
+      }
+    },
+    "eng1-2025-20": {
+      "distribution": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    "eng1-2025-21": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-22": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-23": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-24": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-25": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-26": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-27": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-28": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-29": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-30": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-31": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-32": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-33": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-34": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-35": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-36": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-37": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-38": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-39": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-40": {
+      "distribution": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-41": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-42": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-43": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-44": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-45": {
+      "distribution": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    "eng1-2025-46": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    "eng1-2025-47": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    "eng1-2025-48": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    "eng1-2025-49": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    "eng1-2025-50": {
+      "distribution": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    "eng1-2025-51": {
+      "distribution": {
+        "eng1.paper.part4.a": 0.5,
+        "eng1.exam.objectives.skills.writing": 0.5
+      }
+    },
+    "eng1-2025-52": {
+      "distribution": {
+        "eng1.paper.part4.b": 0.5,
+        "eng1.exam.objectives.skills.writing": 0.5
+      }
+    },
+    "eng1-2026-1": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.167,
+        "eng1.exam.objectives.knowledge.grammar": 0.167
+      }
+    },
+    "eng1-2026-2": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-3": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-4": {
+      "distribution": {
+        "eng1.paper.part1": 0.692,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.308
+      }
+    },
+    "eng1-2026-5": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-6": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.167,
+        "eng1.exam.objectives.knowledge.grammar": 0.167
+      }
+    },
+    "eng1-2026-7": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-8": {
+      "distribution": {
+        "eng1.paper.part1": 0.654,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.077,
+        "eng1.exam.objectives.knowledge.grammar": 0.269
+      }
+    },
+    "eng1-2026-9": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-10": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-11": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-12": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.167,
+        "eng1.exam.objectives.knowledge.grammar": 0.167
+      }
+    },
+    "eng1-2026-13": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-14": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-15": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.167,
+        "eng1.exam.objectives.knowledge.grammar": 0.167
+      }
+    },
+    "eng1-2026-16": {
+      "distribution": {
+        "eng1.paper.part1": 0.692,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.308
+      }
+    },
+    "eng1-2026-17": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-18": {
+      "distribution": {
+        "eng1.paper.part1": 0.692,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.192,
+        "eng1.exam.objectives.knowledge.grammar": 0.115
+      }
+    },
+    "eng1-2026-19": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-20": {
+      "distribution": {
+        "eng1.paper.part1": 0.667,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.333
+      }
+    },
+    "eng1-2026-21": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-22": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-23": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-24": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-25": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-26": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-27": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-28": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-29": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-30": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-31": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-32": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-33": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-34": {
+      "distribution": {
+        "eng1.paper.part2": 0.083,
+        "eng1.paper.part2.a": 0.583,
+        "eng1.exam.objectives.skills.reading": 0.25,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.083
+      }
+    },
+    "eng1-2026-35": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-36": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-37": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-38": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-39": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-40": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.a": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-41": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.b": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-42": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.b": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-43": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.b": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-44": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.b": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-45": {
+      "distribution": {
+        "eng1.paper.part2": 0.111,
+        "eng1.paper.part2.b": 0.611,
+        "eng1.exam.objectives.skills.reading": 0.278
+      }
+    },
+    "eng1-2026-46": {
+      "distribution": {
+        "eng1.paper.part3": 0.058,
+        "eng1.paper.part2.c": 0.442,
+        "eng1.paper.part3.note": 0.442,
+        "eng1.exam.objectives.skills.reading": 0.058
+      }
+    },
+    "eng1-2026-47": {
+      "distribution": {
+        "eng1.paper.part3": 0.058,
+        "eng1.paper.part2.c": 0.442,
+        "eng1.paper.part3.note": 0.442,
+        "eng1.exam.objectives.skills.reading": 0.058
+      }
+    },
+    "eng1-2026-48": {
+      "distribution": {
+        "eng1.paper.part3": 0.058,
+        "eng1.paper.part2.c": 0.442,
+        "eng1.paper.part3.note": 0.442,
+        "eng1.exam.objectives.skills.reading": 0.058
+      }
+    },
+    "eng1-2026-49": {
+      "distribution": {
+        "eng1.paper.part3": 0.058,
+        "eng1.paper.part2.c": 0.442,
+        "eng1.paper.part3.note": 0.442,
+        "eng1.exam.objectives.skills.reading": 0.058
+      }
+    },
+    "eng1-2026-50": {
+      "distribution": {
+        "eng1.paper.part3": 0.058,
+        "eng1.paper.part2.c": 0.442,
+        "eng1.paper.part3.note": 0.442,
+        "eng1.exam.objectives.skills.reading": 0.058
+      }
+    },
+    "eng1-2026-51": {
+      "distribution": {
+        "eng1.paper.part4": 0.111,
+        "eng1.paper.part4.a": 0.611,
+        "eng1.exam.objectives.skills.writing": 0.278
+      }
+    },
+    "eng1-2026-52": {
+      "distribution": {
+        "eng1.paper.part4": 0.111,
+        "eng1.paper.part4.b": 0.611,
+        "eng1.exam.objectives.skills.writing": 0.278
+      }
+    }
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "coder": "sol",
+    "year": 2026,
+    "subject": "英语一",
+    "node_table_sha256": "ba119084615d2f04288a4a2e45efedaa9954247e63fb104189851cfa054b025a",
+    "started_at": "2026-09-13T21:10:58+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "空格要求依据前后语义的对照关系选择篇章连接词，属于英语知识运用中的词汇辨析。"
+    },
+    {
+      "number": 2,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需要根据人工智能对体验产生控制性影响的语境选择动词，核心是词义与搭配。"
+    },
+    {
+      "number": 3,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需要用名词概括前述风险所涉及的一个方面，考查名词语义辨析。"
+    },
+    {
+      "number": 4,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "四个同形态动词中需选出能表达创造力与算法协同关系者，判断重点是词义。"
+    },
+    {
+      "number": 5,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "空格指协作产生的艺术成果，依赖名词含义及其与修饰语的搭配。"
+    },
+    {
+      "number": 6,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "后文是对前述应用方式的举例，需辨认具有例示功能的连接短语。"
+    },
+    {
+      "number": 7,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "虚拟试用场景要求选择与妆容、发型及服饰自然搭配的动作动词。"
+    },
+    {
+      "number": 8,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "介词既要表达实体改变发生之前的时间关系，又受后接动名词结构约束，兼有词义和语法判断。"
+    },
+    {
+      "number": 9,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "试用不同外观是为了发现个人偏好，需按上下文选择恰当动词。"
+    },
+    {
+      "number": 10,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "算法处理面部特征和皮肤状况的动作应为分析，考查动词词义及宾语搭配。"
+    },
+    {
+      "number": 11,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "推荐针对个人独特特征进行调整，需辨认表示个性化的形容词。"
+    },
+    {
+      "number": 12,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "后句承接并总结个性化尝试的结果，考查表示方式或结果的篇章连接语。"
+    },
+    {
+      "number": 13,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "伦理语境要求填入表示问题或忧虑的名词，判断来自固定语义搭配。"
+    },
+    {
+      "number": 14,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "社会审美标准会形成外部压力，需辨析抽象名词与 beauty 的自然组合。"
+    },
+    {
+      "number": 15,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "后句补充另一项风险，需识别表示递进补充关系的连接副词。"
+    },
+    {
+      "number": 16,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "滤镜与身体不满之间是促成关系，考查短语动词的语义和介词搭配。"
+    },
+    {
+      "number": 17,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "造成伤害的是对技术的依赖，需从动名词选项中判断固定搭配。"
+    },
+    {
+      "number": 18,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "后列内容是伤害类型的例举，考查具有列举功能的介词短语。"
+    },
+    {
+      "number": 19,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "语境表达技术提升人们感受美的能力，需选择与 beauty 搭配合理的抽象名词。"
+    },
+    {
+      "number": 20,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "结尾强调技术不能取代真实体验，考查动词词义和否定语境。"
+    },
+    {
+      "number": 21,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "要求从首段的时间比较中定位驯化先后信息，属于阅读多项选择的细节理解。"
+    },
+    {
+      "number": 22,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需概括研究者引语中遗传证据相对书面记录的价值，考查引语含义理解。"
+    },
+    {
+      "number": 23,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需从研究过程段辨认团队追踪的动物传播路径，属于事实信息定位。"
+    },
+    {
+      "number": 24,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需根据沙漠扩张与役用能力的关联判断学者提出的是可能解释，属于推断理解。"
+    },
+    {
+      "number": 25,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "文章末段直接说明遗传研究对未来动物管理的用途，属于结论性细节题。"
+    },
+    {
+      "number": 26,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "工会暂停培训并劝退从业者的材料用于反映行业低迷，考查例证含义。"
+    },
+    {
+      "number": 27,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "州级税收优惠的例子用于说明各地吸引影视制作的政策竞争，属于论据功能判断。"
+    },
+    {
+      "number": 28,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需识别流媒体从扩张用户转向盈利与节目减少之间的因果关系。"
+    },
+    {
+      "number": 29,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "产量长期不足将导致关键人才外流，考查对未来后果的细节理解。"
+    },
+    {
+      "number": 30,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "结尾呼吁改善激励以留住制作活动，需概括作者维护本地行业地位的主张。"
+    },
+    {
+      "number": 31,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "引语强调不同身份者可同时收听，考查从人物观点提取广播普及性的细节。"
+    },
+    {
+      "number": 32,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "展览材料集中记录早期广播对日常生活的改变，属于主题概括题。"
+    },
+    {
+      "number": 33,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "段落通过偶然接触陌生内容说明线性广播带来意外收获，考查段意理解。"
+    },
+    {
+      "number": 34,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需结合两处上下文推断习语描述的是邻里随意交谈，兼具阅读语境与词义判断。"
+    },
+    {
+      "number": 35,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "末段既承认创新不可避免又提出审视其影响，考查作者对技术的总体态度。"
+    },
+    {
+      "number": 36,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "树轮留下的大量火痕构成令研究者意外的事实，属于首段细节定位。"
+    },
+    {
+      "number": 37,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "该段列举清除病死树和减少燃料等作用，考查段落主旨概括。"
+    },
+    {
+      "number": 38,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "研究把近期记录与历史节律比较并发现次数明显不足，属于研究发现定位。"
+    },
+    {
+      "number": 39,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需由长期压火与气候变化共同削弱控火能力推断现代策略的反作用。"
+    },
+    {
+      "number": 40,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "两位专家都认可恢复计划性低强度燃烧的必要性，考查跨段观点归纳。"
+    },
+    {
+      "number": 41,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需利用开篇建议与后续转折、指代关系确定首个待排段，属于段落排序。"
+    },
+    {
+      "number": 42,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需根据并列阅读建议与下一固定段的体裁转换安排衔接位置，考查篇章连贯。"
+    },
+    {
+      "number": 43,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "需把不同阅读门类的推荐与随后关于阅读效益的论述连接起来，考查逻辑排序。"
+    },
+    {
+      "number": 44,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "后选段含递进标记并延续前文的认知与社会效益，需据此判断相邻关系。"
+    },
+    {
+      "number": 45,
+      "nodes": ["eng1.paper.part2", "eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2",
+      "confidence": "high",
+      "reason": "末位应承担总结并再次号召阅读的功能，考查全文结构与收束作用。"
+    },
+    {
+      "number": 46,
+      "nodes": ["eng1.paper.part3", "eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part3",
+      "confidence": "medium",
+      "reason": "要求把含分词结构和宾语从句的长句译成中文；节点表对翻译同时采用独立部分与阅读 Part C 两种口径。"
+    },
+    {
+      "number": 47,
+      "nodes": ["eng1.paper.part3", "eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part3",
+      "confidence": "medium",
+      "reason": "需处理定语从句及两组对比成分并完成英译汉；双重题型节点均有直接依据。"
+    },
+    {
+      "number": 48,
+      "nodes": ["eng1.paper.part3", "eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part3",
+      "confidence": "medium",
+      "reason": "译句包含动名词复合结构、同位内容和目的说明，明确属于阅读材料中的英译汉。"
+    },
+    {
+      "number": 49,
+      "nodes": ["eng1.paper.part3", "eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part3",
+      "confidence": "medium",
+      "reason": "需识别强调结构及两个并列结果后再翻译；节点表中翻译 section 与 Part C item 重叠。"
+    },
+    {
+      "number": 50,
+      "nodes": ["eng1.paper.part3", "eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part3",
+      "confidence": "medium",
+      "reason": "句子说明某一关注点的历史成因并含并列来源，任务形式是阅读语篇内的句子翻译。"
+    },
+    {
+      "number": 51,
+      "nodes": ["eng1.paper.part4", "eng1.paper.part4.a", "eng1.exam.objectives.skills.writing"],
+      "primary_node": "eng1.paper.part4",
+      "confidence": "high",
+      "reason": "要求以指定身份回复私人邮件，补充手写家书背景及展出信息，属于应用文写作。"
+    },
+    {
+      "number": 52,
+      "nodes": ["eng1.paper.part4", "eng1.paper.part4.b", "eng1.exam.objectives.skills.writing"],
+      "primary_node": "eng1.paper.part4",
+      "confidence": "high",
+      "reason": "需围绕养老机器人调查图表完成数据概述、含义分析和观点表达，属于图表短文写作。"
+    }
+  ]
+}

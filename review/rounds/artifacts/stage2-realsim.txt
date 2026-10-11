@@ -1,0 +1,89 @@
+==============================================================================================
+1. simulated study state, built from the REAL knowledge trees
+==============================================================================================
+  reference date (simulated today): 2027-03-01
+  target exam date               : 2029-12-21
+  review items generated         : 427
+  by subject: {'cs408': 359, 'math1': 44, 'eng1': 24}
+  by granularity: {'question_pattern': 173, 'concept': 254}
+  overdue=150  due today=4  future=273
+  total estimated minutes in queue: 3392
+
+==============================================================================================
+2. running the real CLI: py -m ky snapshot
+==============================================================================================
+  exit=0
+    as of              : 2027-03-01
+    days to exam       : 1026
+    math1      tree: 69 items (tree_status=extracted)
+               queue   44  due-today   0 (0 min)  backlog 144 min
+    eng1       tree: 24 items (tree_status=extracted)
+               queue   24  due-today   0 (0 min)  backlog 66 min
+    cs408      tree: 403 items (tree_status=extracted)
+               queue  359  due-today   4 (38 min)  backlog 956 min
+    politics   tree: no committed tree
+               queue    0  due-today   0 (0 min)  backlog 0 min
+    vocab delivered    : 15
+    vocab remaining    : 3137
+
+==============================================================================================
+3. same snapshot as JSON (machine-readable)
+==============================================================================================
+  exit=0
+  top-level keys: ['as_of', 'days_to_exam', 'subjects', 'vocab']
+{
+  "as_of": "2027-03-01",
+  "days_to_exam": 1026,
+  "subjects": [
+    {
+      "backlog_minutes": 144,
+      "due_today_count": 0,
+      "due_today_minutes": 0,
+      "in_review_queue": 44,
+      "subject_id": "math1",
+      "tree_total": {
+        "count": 69,
+        "tree_status": "extracted"
+      }
+    },
+    {
+      "backlog_minutes": 66,
+      "due_today_count": 0,
+      "due_today_minutes": 0,
+      "in_review_queue": 24,
+      "subject_id": "eng1",
+      "tree_total": {
+        "count": 24,
+        "tree_status": "extracted"
+      }
+    },
+    {
+      "backlog_minutes": 956,
+      "due_today_count": 4,
+      "due_today_minutes": 38,
+      "in_review_queue": 359,
+      "subject_id": "cs408",
+      "tree_total": {
+        "count": 403,
+        "tree_status": "extracted"
+      }
+    },
+    {
+      "backlog_minutes": 0,
+      "due_today_count": 0,
+      "due_today_minutes": 0,
+      "in_review_queue": 0,
+      "subject_id": "politics",
+      "tree_total": null
+    }
+  ],
+  "vocab": {
+    "delivered": 15,
+    "remaining": 3137
+  }
+}
+
+==============================================================================================
+4. did anything get written into the repository?
+==============================================================================================
+  git status entries: 0

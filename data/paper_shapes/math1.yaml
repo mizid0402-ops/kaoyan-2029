@@ -1,0 +1,60 @@
+schema_version: 1
+kind: paper_shapes
+subject_id: math1
+papers:
+  - exam_year: 2023
+    paper_source: national
+    question_count: 22
+    sections:
+      - numbers: [1, 10]
+        question_type: single_choice
+        answer_letters: ABCD
+      - numbers: [11, 16]
+        question_type: fill_blank
+      - numbers: [17, 22]
+        question_type: comprehensive_application
+    basis: >-
+      Copied from the hard-coded rules in tools/verify_408_index.py at 924fb0e:
+      22 = 10 choice + 6 fill-blank + 6 comprehensive application questions.
+  - exam_year: 2024
+    paper_source: national
+    question_count: 22
+    sections:
+      - numbers: [1, 10]
+        question_type: single_choice
+        answer_letters: ABCD
+      - numbers: [11, 16]
+        question_type: fill_blank
+      - numbers: [17, 22]
+        question_type: comprehensive_application
+    basis: >-
+      Copied from the hard-coded rules in tools/verify_408_index.py at 924fb0e:
+      22 = 10 choice + 6 fill-blank + 6 comprehensive application questions.
+  - exam_year: 2025
+    paper_source: national
+    question_count: 22
+    sections:
+      - numbers: [1, 10]
+        question_type: single_choice
+        answer_letters: ABCD
+      - numbers: [11, 16]
+        question_type: fill_blank
+      - numbers: [17, 22]
+        question_type: comprehensive_application
+    basis: >-
+      Copied from the hard-coded rules in tools/verify_408_index.py at 924fb0e:
+      22 = 10 choice + 6 fill-blank + 6 comprehensive application questions.
+  - exam_year: 2026
+    paper_source: national
+    question_count: 22
+    sections:
+      - numbers: [1, 10]
+        question_type: single_choice
+        answer_letters: ABCD
+      - numbers: [11, 16]
+        question_type: fill_blank
+      - numbers: [17, 22]
+        question_type: comprehensive_application
+    basis: >-
+      Copied from the hard-coded rules in tools/verify_408_index.py at 924fb0e:
+      22 = 10 choice + 6 fill-blank + 6 comprehensive application questions.

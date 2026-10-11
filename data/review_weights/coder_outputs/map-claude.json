@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2024,
+    "subject": "cs408",
+    "node_table_sha256": "447b9f6280be38868ac18a8adec60895cdaca247b13246b1b46cdc6b8b1ad386",
+    "started_at": "2026-09-13T08:36:45Z"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["cs408.ds.chapter-02.section-02.item-02"],
+      "primary_node": "cs408.ds.chapter-02.section-02.item-02",
+      "confidence": "high",
+      "reason": "单链表指针重接操作，考链式存储基本操作"
+    },
+    {
+      "number": 2,
+      "nodes": ["cs408.ds.chapter-03.section-06"],
+      "primary_node": "cs408.ds.chapter-03.section-06",
+      "confidence": "high",
+      "reason": "中缀转后缀表达式，属栈的经典应用"
+    },
+    {
+      "number": 3,
+      "nodes": ["cs408.ds.chapter-04.section-02.item-03"],
+      "primary_node": "cs408.ds.chapter-04.section-02.item-03",
+      "confidence": "medium",
+      "reason": "由中序遍历序列推结点子树归属关系"
+    },
+    {
+      "number": 4,
+      "nodes": ["cs408.ds.chapter-05.section-02.item-03"],
+      "primary_node": "cs408.ds.chapter-05.section-02.item-03",
+      "confidence": "high",
+      "reason": "邻接多重表结构求顶点度数"
+    },
+    {
+      "number": 5,
+      "nodes": ["cs408.ds.chapter-06.section-04"],
+      "primary_node": "cs408.ds.chapter-06.section-04",
+      "confidence": "high",
+      "reason": "折半查找前提为有序且支持随机存取"
+    },
+    {
+      "number": 6,
+      "nodes": ["cs408.ds.chapter-06.section-08"],
+      "primary_node": "cs408.ds.chapter-06.section-08",
+      "confidence": "high",
+      "reason": "KMP修正next数组与最长滑动距离"
+    },
+    {
+      "number": 7,
+      "nodes": ["cs408.ds.chapter-06.section-05.item-01"],
+      "primary_node": "cs408.ds.chapter-06.section-05.item-01",
+      "confidence": "high",
+      "reason": "二叉搜索树中序性质推子树关键字区间"
+    },
+    {
+      "number": 8,
+      "nodes": ["cs408.ds.chapter-07.section-07"],
+      "primary_node": "cs408.ds.chapter-07.section-07",
+      "confidence": "high",
+      "reason": "快速排序一趟划分后P、Q块间有序"
+    },
+    {
+      "number": 9,
+      "nodes": ["cs408.ds.chapter-04.section-04.item-03"],
+      "primary_node": "cs408.ds.chapter-04.section-04.item-03",
+      "confidence": "high",
+      "reason": "大根堆两次删除堆顶后的调整过程"
+    },
+    {
+      "number": 10,
+      "nodes": ["cs408.ds.chapter-07.section-09"],
+      "primary_node": "cs408.ds.chapter-07.section-09",
+      "confidence": "high",
+      "reason": "多个有序序列二路归并的比较次数统计"
+    },
+    {
+      "number": 11,
+      "nodes": ["cs408.ds.chapter-07.section-11"],
+      "primary_node": "cs408.ds.chapter-07.section-11",
+      "confidence": "high",
+      "reason": "外部排序败者树记录归并段号"
+    },
+    {
+      "number": 12,
+      "nodes": ["cs408.co.chapter-02.section-03.item-02"],
+      "primary_node": "cs408.co.chapter-02.section-03.item-02",
+      "confidence": "high",
+      "reason": "int/short互转涉及截断与符号扩展"
+    },
+    {
+      "number": 13,
+      "nodes": ["cs408.co.chapter-05.section-04"],
+      "primary_node": "cs408.co.chapter-05.section-04",
+      "confidence": "medium",
+      "reason": "辨析伪指令/微指令/机器指令的执行层级，靠近控制器工作原理，树中无更细的微程序控制节点"
+    },
+    {
+      "number": 14,
+      "nodes": ["cs408.co.chapter-02.section-04.item-01", "cs408.co.chapter-02.section-03.item-02"],
+      "primary_node": "cs408.co.chapter-02.section-04.item-01",
+      "confidence": "medium",
+      "reason": "按取值范围选整数或浮点表示，主考浮点精度覆盖"
+    },
+    {
+      "number": 15,
+      "nodes": ["cs408.co.chapter-02.section-02.detail-05.note-01"],
+      "primary_node": "cs408.co.chapter-02.section-02.detail-05.note-01",
+      "confidence": "high",
+      "reason": "阵列乘法器与ALU+移位器乘法电路结构对比"
+    },
+    {
+      "number": 16,
+      "nodes": ["cs408.co.chapter-03.section-07.item-02", "cs408.co.chapter-03.section-06.item-02"],
+      "primary_node": "cs408.co.chapter-03.section-07.item-02",
+      "confidence": "medium",
+      "reason": "对比Cache-主存与主存-外存两层映射/替换/写策略"
+    },
+    {
+      "number": 17,
+      "nodes": ["cs408.co.chapter-03.section-07.detail-02.note-01"],
+      "primary_node": "cs408.co.chapter-03.section-07.detail-02.note-01",
+      "confidence": "high",
+      "reason": "TLB组相联表项标记字段位数计算"
+    },
+    {
+      "number": 18,
+      "nodes": ["cs408.co.chapter-03.section-07.item-01"],
+      "primary_node": "cs408.co.chapter-03.section-07.item-01",
+      "confidence": "medium",
+      "reason": "MMU地址转换过程中检测的事件范围"
+    },
+    {
+      "number": 19,
+      "nodes": ["cs408.co.chapter-05.section-06.item-03"],
+      "primary_node": "cs408.co.chapter-05.section-06.item-03",
+      "confidence": "high",
+      "reason": "转发电路能否解决全部数据冒险的边界"
+    },
+    {
+      "number": 20,
+      "nodes": ["cs408.co.chapter-06.section-01.item-02"],
+      "primary_node": "cs408.co.chapter-06.section-01.item-02",
+      "confidence": "high",
+      "reason": "总线时钟频率、位宽、突发传送带宽计算"
+    },
+    {
+      "number": 21,
+      "nodes": ["cs408.co.chapter-06.section-03.detail-02.note-01"],
+      "primary_node": "cs408.co.chapter-06.section-03.detail-02.note-01",
+      "confidence": "high",
+      "reason": "中断屏蔽字作用及软硬件分工辨析"
+    },
+    {
+      "number": 22,
+      "nodes": ["cs408.co.chapter-06.section-03.detail-04.note-01"],
+      "primary_node": "cs408.co.chapter-06.section-03.detail-04.note-01",
+      "confidence": "high",
+      "reason": "DMA控制器数据传输通路位置"
+    },
+    {
+      "number": 23,
+      "nodes": ["cs408.os.chapter-01.section-03.item-03", "cs408.os.chapter-01.section-03.item-04"],
+      "primary_node": "cs408.os.chapter-01.section-03.item-03",
+      "confidence": "medium",
+      "reason": "中断/异常发生时机与系统调用内核例程辨析"
+    },
+    {
+      "number": 24,
+      "nodes": ["cs408.os.chapter-02.section-01.item-01"],
+      "primary_node": "cs408.os.chapter-02.section-01.item-01",
+      "confidence": "high",
+      "reason": "进程终止时子进程是否必然被终止"
+    },
+    {
+      "number": 25,
+      "nodes": ["cs408.os.chapter-02.section-02.item-07", "cs408.os.chapter-03.section-01.item-04"],
+      "primary_node": "cs408.os.chapter-02.section-02.item-07",
+      "confidence": "medium",
+      "reason": "进程切换需更新PC、栈基址、页表基址寄存器"
+    },
+    {
+      "number": 26,
+      "nodes": ["cs408.os.chapter-04.section-03.item-03"],
+      "primary_node": "cs408.os.chapter-04.section-03.item-03",
+      "confidence": "high",
+      "reason": "位图法空间开销与空闲块数量无关"
+    },
+    {
+      "number": 27,
+      "nodes": ["cs408.os.chapter-03.section-01.item-03"],
+      "primary_node": "cs408.os.chapter-03.section-01.item-03",
+      "confidence": "high",
+      "reason": "伙伴算法回收时仅合并等大小空闲分区"
+    },
+    {
+      "number": 28,
+      "nodes": ["cs408.os.chapter-02.section-01.item-01"],
+      "primary_node": "cs408.os.chapter-02.section-01.item-01",
+      "confidence": "high",
+      "reason": "同进程线程共享地址空间与文件描述符，栈私有"
+    },
+    {
+      "number": 29,
+      "nodes": ["cs408.os.chapter-04.section-01.item-03", "cs408.os.chapter-01.section-03.item-04"],
+      "primary_node": "cs408.os.chapter-04.section-01.item-03",
+      "confidence": "medium",
+      "reason": "open()系统调用含按路径名查找文件功能"
+    },
+    {
+      "number": 30,
+      "nodes": ["cs408.os.chapter-02.section-02.item-05"],
+      "primary_node": "cs408.os.chapter-02.section-02.item-05",
+      "confidence": "high",
+      "reason": "时间片轮转调度下队尾进程周转时间计算"
+    },
+    {
+      "number": 31,
+      "nodes": ["cs408.os.chapter-05.section-02.item-01", "cs408.os.chapter-05.section-01.detail-03.note-01"],
+      "primary_node": "cs408.os.chapter-05.section-02.item-01",
+      "confidence": "medium",
+      "reason": "键盘中断服务例程结束后数据落入内核缓冲区"
+    },
+    {
+      "number": 32,
+      "nodes": ["cs408.os.chapter-05.section-03.detail-01.note-01"],
+      "primary_node": "cs408.os.chapter-05.section-03.detail-01.note-01",
+      "confidence": "high",
+      "reason": "CSCAN磁盘调度算法移动距离计算"
+    },
+    {
+      "number": 33,
+      "nodes": ["cs408.cn.chapter-01.section-01.item-03", "cs408.cn.chapter-02.section-01.item-04"],
+      "primary_node": "cs408.cn.chapter-01.section-01.item-03",
+      "confidence": "medium",
+      "reason": "分组交换网络路径瓶颈链路决定最大吞吐量"
+    },
+    {
+      "number": 34,
+      "nodes": ["cs408.cn.chapter-02.section-01.item-03"],
+      "primary_node": "cs408.cn.chapter-02.section-01.item-03",
+      "confidence": "high",
+      "reason": "FSK调制需两个不同频率载波"
+    },
+    {
+      "number": 35,
+      "nodes": ["cs408.cn.chapter-03.section-06.item-04", "cs408.cn.chapter-04.section-03.item-04"],
+      "primary_node": "cs408.cn.chapter-03.section-06.item-04",
+      "confidence": "high",
+      "reason": "VLAN划分限制广播域，跨VLAN不出现ARP条目"
+    },
+    {
+      "number": 36,
+      "nodes": ["cs408.cn.chapter-03.section-05.detail-03.note-01"],
+      "primary_node": "cs408.cn.chapter-03.section-05.detail-03.note-01",
+      "confidence": "high",
+      "reason": "CSMA/CA中RTS/CTS推算NAV取值"
+    },
+    {
+      "number": 37,
+      "nodes": ["cs408.cn.chapter-03.section-04.item-04"],
+      "primary_node": "cs408.cn.chapter-03.section-04.item-04",
+      "confidence": "high",
+      "reason": "选择重传协议滑动窗口下续发帧序号推断"
+    },
+    {
+      "number": 38,
+      "nodes": ["cs408.cn.chapter-05.section-03.item-02"],
+      "primary_node": "cs408.cn.chapter-05.section-03.item-02",
+      "confidence": "high",
+      "reason": "TCP连接建立、数据传输与四次挥手总耗时"
+    },
+    {
+      "number": 39,
+      "nodes": ["cs408.cn.chapter-05.section-02.item-02"],
+      "primary_node": "cs408.cn.chapter-05.section-02.item-02",
+      "confidence": "high",
+      "reason": "UDP校验和反码求和计算"
+    },
+    {
+      "number": 40,
+      "nodes": ["cs408.cn.chapter-06.section-05.item-02"],
+      "primary_node": "cs408.cn.chapter-06.section-05.item-02",
+      "confidence": "high",
+      "reason": "非持久HTTP/1.0逐连接请求的RTT数统计"
+    },
+    {
+      "number": 41,
+      "nodes": ["cs408.ds.chapter-05.section-04.item-03", "cs408.ds.chapter-05.section-02.item-01"],
+      "primary_node": "cs408.ds.chapter-05.section-04.item-03",
+      "confidence": "high",
+      "reason": "设计思想与算法主考拓扑排序唯一性判定；邻接矩阵为存储基础"
+    },
+    {
+      "number": 42,
+      "nodes": ["cs408.ds.chapter-06.section-07"],
+      "primary_node": "cs408.ds.chapter-06.section-07",
+      "confidence": "high",
+      "reason": "散列表构造、装填因子、查找比较序列均属散列表主题"
+    },
+    {
+      "number": 43,
+      "nodes": [
+        "cs408.co.chapter-04.section-02",
+        "cs408.co.chapter-02.section-02.detail-03.note-01",
+        "cs408.co.chapter-05.section-04",
+        "cs408.co.chapter-05.section-03"
+      ],
+      "primary_node": "cs408.co.chapter-04.section-02",
+      "confidence": "medium",
+      "reason": "(1)(5)指令编码→指令格式；(2)ALU标志→补码加减标志位；(3)(4)Ext/ALUctr控制信号→控制器；数据通路为整体背景"
+    },
+    {
+      "number": 44,
+      "nodes": [
+        "cs408.co.chapter-04.section-03",
+        "cs408.co.chapter-04.section-04",
+        "cs408.co.chapter-03.section-07.item-02"
+      ],
+      "primary_node": "cs408.co.chapter-04.section-03",
+      "confidence": "high",
+      "reason": "(1)由指令语义定位寄存器→寻址方式；(2)小端存放/页号→大小端与页式虚存；(3)机器码编码→指令格式(与43同类，未单列)"
+    },
+    {
+      "number": 45,
+      "nodes": ["cs408.os.chapter-03.section-02.item-02", "cs408.os.chapter-03.section-01.item-04"],
+      "primary_node": "cs408.os.chapter-03.section-02.item-02",
+      "confidence": "high",
+      "reason": "(1)缺页异常处理与页框分配→请求页式管理；(2)页表自身寻址→页式管理"
+    },
+    {
+      "number": 46,
+      "nodes": ["cs408.os.chapter-02.section-03.item-05", "cs408.os.chapter-02.section-03.item-01"],
+      "primary_node": "cs408.os.chapter-02.section-03.item-05",
+      "confidence": "high",
+      "reason": "(1)临界区判定→同步互斥基本概念；(2)(3)信号量设计wait/signal→信号量"
+    },
+    {
+      "number": 47,
+      "nodes": [
+        "cs408.cn.chapter-04.section-05.item-04",
+        "cs408.cn.chapter-04.section-02.item-02",
+        "cs408.cn.chapter-04.section-05.item-05",
+        "cs408.cn.chapter-04.section-03.item-01"
+      ],
+      "primary_node": "cs408.cn.chapter-04.section-05.item-04",
+      "confidence": "high",
+      "reason": "(1)AS4选IGP→OSPF；(2)TTL→IPv4分组；(3)距离向量收敛时间→距离向量算法；(4)(5)BGP会话/选路→BGP路由协议"
+    }
+  ]
+}

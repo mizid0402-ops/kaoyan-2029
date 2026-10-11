@@ -1,0 +1,625 @@
+{
+  "meta": {
+    "coder": "luna",
+    "year": 2024,
+    "subject": "eng1",
+    "node_table_sha256": "86b908b2d0bc5331bf0771de29790e69e31fa7efed361e9f09d8da28889f472d",
+    "started_at": "2026-09-13T20:43:05+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.grammar",
+      "confidence": "medium",
+      "reason": "完形填空中判断让步结构的连接方式，依据句法关系归入语法知识。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中依据动词搭配和语境选择词项，主要考查词汇使用。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中辨析名词的语义及其与前后成分的搭配。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中依据时间语境选择副词，属于词义和用法辨析。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中辨析短语动词的语义和句中搭配。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中依据上下文判断名词的具体语义。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中依据位置和语义选择形容词，考查词项用法。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中辨析动词短语在谓语位置上的语义适配。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.grammar",
+      "confidence": "medium",
+      "reason": "完形填空中识别替代关系的连接结构，依据句法和逻辑关系归类。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中辨析表示占用或关联的词项及其搭配。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中依据动词的许可与作用语义选择词项。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中判断固定搭配在具体语境中的正确用词。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中辨析分词短语与介词的搭配关系。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.grammar",
+      "confidence": "medium",
+      "reason": "完形填空中判断让步从句连接词，核心依据是句间逻辑和从句结构。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中依据上下文选择表示规则或作用的名词。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中辨析感知类动词与主语及宾语的搭配。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中依据适用环境选择表示匹配或补充关系的动词。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.grammar",
+      "confidence": "medium",
+      "reason": "完形填空中判断举例衔接语，依据段内论证关系归入语法知识。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中依据主语和语境辨析动词的适用性。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.language-knowledge",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.exam.objectives.knowledge.vocabulary",
+      "confidence": "high",
+      "reason": "完形填空中比较形容词的语义强度和句中适配性。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节细节题，需从叙述原因中定位依据并完成同义判断。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节例证作用题，需把具体历史案例与段落论点对应。"
+    },
+    {
+      "number": 23,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节因果细节题，需区分主要因素与次要因素。"
+    },
+    {
+      "number": 24,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节段落推断题，需综合段内对比推出对象特征。"
+    },
+    {
+      "number": 25,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节主旨概括题，需统摄结尾论点而非只概括单一例子。"
+    },
+    {
+      "number": 26,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节定义细节题，需整合开头两段对概念实践的说明。"
+    },
+    {
+      "number": 27,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节例证作用题，需判断具体项目服务于哪一中心建议。"
+    },
+    {
+      "number": 28,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节观点细节题，需结合段落中的演化对照判断含义。"
+    },
+    {
+      "number": 29,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节推断题，需由规范比例和对照信息推出评价。"
+    },
+    {
+      "number": 30,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节标题题，需概括全文提出的借鉴方向和目标。"
+    },
+    {
+      "number": 31,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节人物信息题，需从开头介绍和使用数据提取结论。"
+    },
+    {
+      "number": 32,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节问题定位题，需对应训练数据来源及授权事实。"
+    },
+    {
+      "number": 33,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节事实细节题，需依据网络检索结果辨认发现内容。"
+    },
+    {
+      "number": 34,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节建议细节题，需将受访者提出的训练方案与选项对应。"
+    },
+    {
+      "number": 35,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节主旨题，需统摄艺术家遭遇、回应及治理建议。"
+    },
+    {
+      "number": 36,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节段落概括题，需从生态功能和公共价值归纳对象特征。"
+    },
+    {
+      "number": 37,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节事实细节题，需准确识别司法裁决对监管权限的影响。"
+    },
+    {
+      "number": 38,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节作者态度题，需结合风险描述和结尾倡议判断情绪取向。"
+    },
+    {
+      "number": 39,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节推断题，需由跨州污染背景推导联邦项目的协调作用。"
+    },
+    {
+      "number": 40,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "阅读理解 A 节作者主张题，需根据全文结论判断立法行动重点。"
+    },
+    {
+      "number": 41,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "阅读理解 B 节信息匹配题，需把评论者强调的文化访问权与概括句对应。"
+    },
+    {
+      "number": 42,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "阅读理解 B 节信息匹配题，需识别复制品、展览语境和原物关系的论点。"
+    },
+    {
+      "number": 43,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "阅读理解 B 节信息匹配题，需对应合法取得要求及文化尊严观点。"
+    },
+    {
+      "number": 44,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "阅读理解 B 节信息匹配题，需识别归还主张及对安全顾虑的回应。"
+    },
+    {
+      "number": 45,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "阅读理解 B 节信息匹配题，需判断其对西方保存能力假设的质疑。"
+    },
+    {
+      "number": 46,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.c",
+        "eng1.paper.part3",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "阅读理解 C 节英译汉，重点是并列动作、让步成分和指代关系的重组。"
+    },
+    {
+      "number": 47,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.c",
+        "eng1.paper.part3",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "阅读理解 C 节英译汉，重点是复杂宾语从句及结果、方式关系的转换。"
+    },
+    {
+      "number": 48,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.c",
+        "eng1.paper.part3",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "阅读理解 C 节英译汉，重点是选择结构和因果说明的准确表达。"
+    },
+    {
+      "number": 49,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.c",
+        "eng1.paper.part3",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "阅读理解 C 节英译汉，重点是被动结构、指代和冒号后的解释关系。"
+    },
+    {
+      "number": 50,
+      "nodes": [
+        "eng1.paper.part2",
+        "eng1.paper.part2.c",
+        "eng1.paper.part3",
+        "eng1.paper.part3.note",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "阅读理解 C 节英译汉，重点是实验结论、递进顺序和范围信息的整合。"
+    },
+    {
+      "number": 51,
+      "nodes": [
+        "eng1.paper.part4",
+        "eng1.paper.part4.a",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.writing"
+      ],
+      "primary_node": "eng1.paper.part4.a",
+      "confidence": "high",
+      "reason": "应用文写作，要求按邮件交际场景组织建议并遵守书信格式。"
+    },
+    {
+      "number": 52,
+      "nodes": [
+        "eng1.paper.part4",
+        "eng1.paper.part4.b",
+        "eng1.exam.objectives.language-skills",
+        "eng1.exam.objectives.skills.writing"
+      ],
+      "primary_node": "eng1.paper.part4.b",
+      "confidence": "high",
+      "reason": "短文写作，要求综合漫画与柱状图完成描述、寓意解释和评论。"
+    }
+  ]
+}

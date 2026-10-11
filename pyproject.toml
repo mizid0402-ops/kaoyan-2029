@@ -1,0 +1,24 @@
+# kaoyan-2029: deterministic scheduling core and rebuildable read-only projection.
+
+[project]
+name = "kaoyan-ai-system"
+version = "0.0.0"
+description = "Evidence-preserving study planning and local read-only projection"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13,<5",
+    "datasette==0.65.4",
+    "fsrs>=6,<7",
+    "icalendar>=7,<8",
+    "pypdf>=6,<7",
+    "plotly>=6,<7",
+    "python-dateutil>=2.8,<3",
+    "PyYAML>=6,<7",
+    "requests>=2.32,<3",
+    "sqlite-utils>=4.2,<5",
+    "tzdata",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

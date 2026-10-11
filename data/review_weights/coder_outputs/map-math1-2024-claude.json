@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2024,
+    "subject": "math1",
+    "node_table_sha256": "8d9543368faf6fc8ebf45d8b548deffd59f15081253b94676788b95c0de56d82",
+    "started_at": "2026-09-13"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["math1.hs.ch01.content", "math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "medium",
+      "reason": "判断由变上限积分定义的函数的奇偶性，核心考点是函数奇偶性的定义与判定（ch01），但解题手段是变限积分的换元技巧（ch03），两章知识交叉。"
+    },
+    {
+      "number": 2,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "第二类曲面积分向二重积分的转化，需用曲面方程消去 dydz、dzdx 并确定符号，属多元函数积分学中曲面积分的计算。"
+    },
+    {
+      "number": 3,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "由幂级数的和函数反求系数并求级数值，需要逐项求导/积分及在收敛区间内代入特殊点，属幂级数运算范畴。"
+    },
+    {
+      "number": 4,
+      "nodes": ["math1.hs.ch01.content"],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "辨析极限存在、函数在一点连续、函数值之间的逻辑蕴含关系，是函数极限与连续性基本概念的辨析题。"
+    },
+    {
+      "number": 5,
+      "nodes": ["math1.la.ch12.content"],
+      "primary_node": "math1.la.ch12.content",
+      "confidence": "high",
+      "reason": "由三个平面对应线性方程组的系数矩阵与增广矩阵的秩来判断方程组解的结构，直接对应线性方程组解的判定定理。"
+    },
+    {
+      "number": 6,
+      "nodes": ["math1.la.ch11.content"],
+      "primary_node": "math1.la.ch11.content",
+      "confidence": "high",
+      "reason": "已知向量组线性相关但其中任意两个向量线性无关，需借助向量组的秩与线性相关性判别法求参数取值。"
+    },
+    {
+      "number": 7,
+      "nodes": ["math1.la.ch13.content"],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "由矩阵的秩及向量关系确定零特征值和另一特征值的重数，进而求矩阵方幂的迹，核心是特征值与特征向量理论。"
+    },
+    {
+      "number": 8,
+      "nodes": ["math1.pr.ch17.content"],
+      "primary_node": "math1.pr.ch17.content",
+      "confidence": "high",
+      "reason": "两个独立正态随机变量的线性组合仍为正态分布，需要利用两个随机变量函数的分布并标准化求解概率等式中的参数。"
+    },
+    {
+      "number": 9,
+      "nodes": ["math1.pr.ch18.content", "math1.pr.ch17.content"],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "medium",
+      "reason": "先由条件分布求出联合密度（多维随机变量部分），再据此计算协方差，最终落点是协方差这一数字特征的计算。"
+    },
+    {
+      "number": 10,
+      "nodes": ["math1.pr.ch17.content"],
+      "primary_node": "math1.pr.ch17.content",
+      "confidence": "high",
+      "reason": "求两个独立同分布随机变量之差绝对值的分布并与已知分布比较，属两个随机变量函数分布的求法。"
+    },
+    {
+      "number": 11,
+      "nodes": ["math1.hs.ch01.content"],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "含待定参数的 0/0 型极限求值，需用等价无穷小替换或泰勒展开确定使极限成立的参数值。"
+    },
+    {
+      "number": 12,
+      "nodes": ["math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "已知二元函数在一点的全微分，求由其复合而成的一元函数在该点的二阶导数，需用多元复合函数求导（链式法则）。"
+    },
+    {
+      "number": 13,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "将函数展开为余弦级数（傅里叶级数）后求系数通项表达式并取极限，属无穷级数中傅里叶级数的内容。"
+    },
+    {
+      "number": 14,
+      "nodes": ["math1.hs.ch08.content"],
+      "primary_node": "math1.hs.ch08.content",
+      "confidence": "high",
+      "reason": "求解一阶微分方程（可通过变量代换化为可分离变量型）满足初值条件的特解，属常微分方程求解方法。"
+    },
+    {
+      "number": 15,
+      "nodes": ["math1.la.ch14.content"],
+      "primary_node": "math1.la.ch14.content",
+      "confidence": "medium",
+      "reason": "由类似柯西不等式的二次型不等式对任意向量恒成立来确定参数取值范围，涉及对称矩阵（二次型）半正定性的判别。"
+    },
+    {
+      "number": 16,
+      "nodes": ["math1.pr.ch15.content"],
+      "primary_node": "math1.pr.ch15.content",
+      "confidence": "high",
+      "reason": "利用条件概率公式结合 n 重伯努利试验概型（独立重复试验）求单次成功概率参数。"
+    },
+    {
+      "number": 17,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "在给定平面区域上计算二重积分，需利用积分区域及被积函数的对称性并结合极坐标或换元法化简计算，属二重积分计算。"
+    },
+    {
+      "number": 18,
+      "nodes": ["math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "先由偏导数求出曲面在一点的切平面方程，再在切平面与坐标面围成的有界闭区域上求函数的最大最小值，涉及驻点与边界比较。"
+    },
+    {
+      "number": 19,
+      "nodes": ["math1.hs.ch02.content", "math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "medium",
+      "reason": "第一问需在 0 和 1 两点分别用泰勒公式展开并消去一阶导数项证明不等式，核心工具是泰勒中值定理；第二问对不等式两边积分，涉及定积分性质。"
+    },
+    {
+      "number": 20,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "计算空间有向曲线上的第二类曲线积分，需借助斯托克斯公式将其转化为曲面积分再计算，属多元函数积分学内容。"
+    },
+    {
+      "number": 21,
+      "nodes": ["math1.la.ch13.content"],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "将递推数列组写成矩阵递推形式后，通过求矩阵特征值、特征向量实现相似对角化并计算矩阵的 n 次幂，从而得到数列通项。"
+    },
+    {
+      "number": 22,
+      "nodes": ["math1.pr.ch21.content"],
+      "primary_node": "math1.pr.ch21.content",
+      "confidence": "high",
+      "reason": "求使估计量无偏的常数以及使均方误差最小的常数，属参数估计中无偏性与估计量优良性评价准则的内容。"
+    }
+  ]
+}

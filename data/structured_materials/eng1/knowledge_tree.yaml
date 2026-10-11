@@ -1,0 +1,611 @@
+# 英语一结构树（阶段 2 · 待人工复核）
+#
+# 定位：这是**结构树，不是细粒度知识树**。交接文档 §8.1-2 明确「不建议像 408 那样建细粒度知识树」，
+#       因此本树只到大纲自身的节、试卷自身的部分、以及大纲点名的能力项，不往下拆词/语法点。
+#
+# 来源（两份，均已登记进 data/materials.yaml）：
+#   1) 2022 版英语（一）大纲全文转录（中国教育在线）  source_tier=trusted_reprint
+#      data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+#      sha256 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+#   2) 2026 版英语（一）大纲官方目录（澳大利亚新华书店书目页，人教社体系发行渠道）source_tier=trusted_reprint
+#      data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+#      sha256 be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+#      （更正 2026-09-13：此条原先误写为「台湾大书城转录人教社目录页」。实测
+#        search.megbook.com.tw 的英语（一）商品页**不含目录**，台账为此把它与
+#        `eng1-outline-toc-aus-zxhsd-2026` 拆成两条登记；含目录的是本条 URL。）
+#
+# ⚠️ 证据等级：两份来源的 source_tier 均为 trusted_reprint，**may_define_syllabus() 为 false**。
+#   所有节点 status=extracted，**须以纸质官方大纲复核后方可 approved**，
+#   未 approved 前不得进频率统计、覆盖率或能力画像。
+#
+# 📌 2026-09-13 复核状态（如实记录，不要美化）：
+#   用户已查阅本树，但**明确表示只是过了一眼，没有逐条对照源文件**。
+#   因此**不满足 extracted → reviewed 的 evidence 要求**，节点状态**保持 extracted，未推进**。
+#   后果：本树目前不得进频率统计、覆盖率与能力画像。
+#   推进条件见交接文档 §8.2-7；现状选择：先用 2026 版大纲推进，2027 版出版后再对照替换。
+#
+# ⚠️ quote_ref 的精确性备注（2026-09-13 独立复核通过）：
+#   27 条 source-quote 对**全部逐字节命中**源文件，拼写、标点、空白均与源一致
+#   （含 2022 版转录里的半角括号「A节(20小题)」与 2026 版目录里的罗马数字「Ⅰ/Ⅱ/Ⅲ/Ⅳ」）。
+#
+# 一处**有意的版本差异**（不要当成错误）：
+#   节点 `eng1.paper.form` 的标题用的是 **2026 版目录的措辞**「考试形式、考试内容与试卷结构」，
+#   而 2022 版转录写作「III.考试形式与试卷结构」。2026 版把「考试内容」并入了该节标题。
+#   两种措辞各自锚定在自己的来源上，均逐字可定位。
+#
+# 词汇表：大纲要求「掌握 5500 左右的词汇以及相关附表中的内容（详见附录 1、2）」，
+#   附录一为词汇表、附录二为常用前缀和后缀与常见缩写词。**本树不导入词表正文**——
+#   词表正文属出版物内容，需要单独的、有权利依据的来源（交接文档 §8.2 待办）。
+#
+# 生成：tools/build_eng1_tree.py（确定性）
+
+- schema_version: 1
+  knowledge_point_id: eng1.exam.nature
+  title: '考试性质'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id001
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: 'I.考试性质'
+      quote_ref: 'I.考试性质'
+  - &id002
+    path: data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+    sha256: be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+    locator:
+      section: 'Ⅰ 考试性质'
+      quote_ref: 'Ⅰ 考试性质'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id001
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.exam.objectives
+  title: '考查目标'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id003
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: 'II.考查目标'
+      quote_ref: 'II.考查目标'
+  - &id004
+    path: data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+    sha256: be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+    locator:
+      section: 'Ⅱ 考查目标'
+      quote_ref: 'Ⅱ 考查目标'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id003
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.exam.objectives.language-knowledge
+  title: '语言知识'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id005
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '1.语法知识'
+      quote_ref: '1.语法知识'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id005
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.exam.objectives.knowledge.grammar
+  title: '语法知识'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id006
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '考生应能熟练地运用基本的语法知识'
+      quote_ref: '考生应能熟练地运用基本的语法知识'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id006
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.exam.objectives.knowledge.vocabulary
+  title: '词汇'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id007
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '考生应能掌握5500左右的词汇'
+      quote_ref: '考生应能掌握5500左右的词汇'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id007
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.exam.objectives.language-skills
+  title: '语言技能'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id008
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '2.写作'
+      quote_ref: '2.写作'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id008
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.exam.objectives.skills.reading
+  title: '阅读'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id009
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '考生应能读懂选自各类书籍和报刊'
+      quote_ref: '考生应能读懂选自各类书籍和报刊'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id009
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.exam.objectives.skills.writing
+  title: '写作'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id010
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '考生应能写不同类型的应用文'
+      quote_ref: '考生应能写不同类型的应用文'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id010
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.form
+  title: '考试形式与试卷结构'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id011
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: 'III.考试形式与试卷结构'
+      quote_ref: 'III.考试形式与试卷结构'
+  - &id012
+    path: data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+    sha256: be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+    locator:
+      section: 'Ⅲ 考试形式、考试内容与试卷结构'
+      quote_ref: 'Ⅲ 考试形式、考试内容与试卷结构'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id011
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.format
+  title: '考试形式'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id013
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '考试形式为笔试。考试时间为180分钟。满分为100分'
+      quote_ref: '考试形式为笔试。考试时间为180分钟。满分为100分'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id013
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part1
+  title: '第一部分 英语知识运用'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id014
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '第一部分 英语知识运用'
+      quote_ref: '第一部分 英语知识运用'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id014
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part2
+  title: '第二部分 阅读理解'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id015
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '第二部分 阅读理解'
+      quote_ref: '第二部分 阅读理解'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id015
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part2.a
+  title: 'A 节（多项选择）'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id016
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: 'A节(20小题)'
+      quote_ref: 'A节(20小题)'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id016
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part2.b
+  title: 'B 节（新题型）'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id017
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: 'B节(5小题)'
+      quote_ref: 'B节(5小题)'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id017
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part2.c
+  title: 'C 节（英译汉）'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id018
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: 'C节(5小题)'
+      quote_ref: 'C节(5小题)'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id018
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part3
+  title: '第三部分 翻译'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id019
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '试题分四部分，共48题，包括英语知识运用、阅读理解、翻译和写作'
+      quote_ref: '试题分四部分，共48题，包括英语知识运用、阅读理解、翻译和写作'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id019
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part3.note
+  title: '英译汉作为阅读理解的一部分'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id020
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '硕士研究生入学考试将英译汉试题作为阅读理解的一部分'
+      quote_ref: '硕士研究生入学考试将英译汉试题作为阅读理解的一部分'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id020
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part4
+  title: '第四部分 写作'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id021
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: '第四部分 写作'
+      quote_ref: '第四部分 写作'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id021
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part4.a
+  title: 'A 节（应用文写作）'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id022
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: 'A节：考生根据所给情景写出约100词'
+      quote_ref: 'A节：考生根据所给情景写出约100词'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id022
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.paper.part4.b
+  title: 'B 节（短文写作）'
+  scope: item
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id023
+    path: data/raw_materials/transcripts/eol_cn/eng1_outline_2022_fulltext.html
+    sha256: 343c5fad43db46dde2b9fa3a7072897c535fef117aff984003f873148fc7d8b9
+    locator:
+      section: 'B节：考生根据提示信息写出一篇160~200词的短文'
+      quote_ref: 'B节：考生根据提示信息写出一篇160~200词的短文'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id023
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.example
+  title: '题型示例及参考答案'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id024
+    path: data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+    sha256: be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+    locator:
+      section: 'Ⅳ 题型示例及参考答案'
+      quote_ref: 'Ⅳ 题型示例及参考答案'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id024
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.appendix.vocabulary
+  title: '附录一 词汇表'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id025
+    path: data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+    sha256: be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+    locator:
+      section: '词汇表'
+      quote_ref: '词汇表'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id025
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.appendix.affixes
+  title: '附录二 常用前缀和后缀'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id026
+    path: data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+    sha256: be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+    locator:
+      section: '常用前缀和后缀'
+      quote_ref: '常用前缀和后缀'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id026
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1
+- schema_version: 1
+  knowledge_point_id: eng1.appendix.past-papers
+  title: '附录三 真题及参考答案'
+  scope: section
+  status: extracted
+  source_kind: official_outline
+  sources:
+  - &id027
+    path: data/raw_materials/eng1/syllabus/aus_zxhsd_eng1_outline_toc_2026.html
+    sha256: be316275e7514b46a228fa11646a9fd5ed45fea9b867235b90eb7530e596921b
+    locator:
+      section: '附录三'
+      quote_ref: '附录三'
+  frequency: null
+  evidence: []
+  transition_history:
+  - from: raw
+    to: extracted
+    actor: ai
+    source: *id027
+    at: '2026-09-13T00:00:00+08:00'
+  supersedes: null
+  revision: 1

@@ -1,0 +1,13 @@
+# Round 122 Codex 定向复审：`6826280`
+
+范围仅为 `git show 6826280`。在系统临时目录用 `git -c core.autocrlf=false clone --no-hardlinks .` 建立干净克隆，检出 `6826280` 并设置克隆的 `core.autocrlf=false`。没有改动主工作区实现；所有探针仅在临时克隆运行，结束时跟踪文件恢复、临时原始资料移除，`git status --short` 为空。
+
+| 项 | 意见 | 证据、复现与判断 |
+| --- | --- | --- |
+| C1-1：缺资料时保留格式契约断言 | **不改** | `tests/contract/test_exam_index_port.py:24-34,37-65,105-112`：`require_raw=False` 时缺失的 `data/raw_materials/` 文件不复制、不跳过；只有明确传 `True` 才由 `require_path` 跳过。干净克隆单跑 `py -3.12 -m unittest tests.contract.test_exam_index_port` 为 `Ran 15 tests`、`OK (skipped=8)`，原先该类有 18 个 skip 记录。用单测进程包装模块的 `verify` 逐例计数：9 个未跳过的方法全部调用到 `verify`，合计 10 次（`null_calibration_or_kind` 两个子例各一次），均 0 failure / 0 error。`test_missing_kind_is_reported`、空值、题型、无卷形等原被过早跳过的断言现确实执行。 |
+| 六个 `require_raw=True` 用例的必要性 | **建议改** | `tests/contract/test_exam_index_port.py:197-230,271-286,321-367`：这些用例在当前夹具中需要**有效来源字节**：两个答案读取测试直接修改来源 DOM；其余四个要求 `verify(...) == []` 或要先有有效索引再测题号/投影，验证器会读答案并核对来源哈希（`tools/verify_408_index.py:295-335,638-661`）。但它们不必依赖仓库外的**原始** 1.7 MB HTML。可复现探针：在临时克隆生成仅含 40 个 `<div class="explanation" id="explanation-choice-deadbeef-N"><span class="correct-answer-text">字母</span></div>` 的 4,391 字节 HTML，字母取登记索引；把临时索引的 `provenance`、`locator`、`answer_sources` 和临时台账的 SHA-256 / 大小同步到该文件（SHA-256 `9a24e8f920256cb8f31eb9aa1ba2a58d2f9ee0f34b63478785871a3828e8015e`）。仅单跑题书列出的六个方法：`Ran 6 tests`、`OK`，0 skip；文件随后恢复。因此建议将这六个**端口契约**用例改用最小合成来源，把真实网页字节的集成核验留在缺资源可跳过的独立测试中。本轮按用户指定归为建议，不阻断修复。 |
+| C3-2：`review/attach-audit/` 的 LF 守护 | **不改** | `tests/test_data_manifest.py:25-45` 现在用 `git ls-files -z -- data review/attach-audit`，仍按原六种文本扩展名筛选、检查 CRLF。撤回探针：在临时克隆只给受跟踪的 `review/attach-audit/context.md` 注入一个 CRLF，单跑 `tests.test_data_manifest.DataManifestTest.test_tracked_data_text_files_use_lf` 得 `FAILED (failures=1)`；保持注入而仅从测试命令撤掉 `review/attach-audit` 参数，同一测试变为 `OK`。恢复后该测试通过、克隆内受跟踪数据和审计文本均无 CRLF。 |
+| 产品目录缺失提示 | **不改** | `tests/contract/test_workspace.py:222-233` 分别给 `materials.raw_root` 与 `products.*` 提示。在缺资料的干净克隆单跑 `tests.contract.test_workspace.WorkspaceContractTests.test_1_repository_registry -v`，两个子例各自跳过；前者提示按 `data/materials.yaml` 重取，后者提示“本机产品工作区，由对应生产线工具生成或从备份恢复”。其余登记路径仍走 `workspace.require`。 |
+| 干净克隆全量 | **不改** | 本轮例外只执行一次 `py -3.12 -m unittest discover -s tests -t . -v`：**`Ran 706 tests in 154.637s`，`OK (skipped=37)`，0 failure / 0 error，测试进程退出码 0**。37 个 skip 记录中 36 个为缺资源（原始资料 32、旧 `%TEMP%` 探针 3、产品目录 1），另 1 个是本账户不能创建 symlink；卷面契约类占其中 8 个。与第 121 轮相同干净克隆条件的 47 个 skip 相比减少 10。提交信息中的“714 项、5 跳过”是带原始资料的主仓库结果，不能当作干净克隆结果。 |
+
+**整体 PASS。** 第 121 轮的阻断项已关闭：缺资料时独立的格式契约断言实际运行；新增 LF 路径守护的撤回探针变红。建议后续以合成来源让六个端口用例在干净克隆也运行，同时保留真实资料的独立核验。

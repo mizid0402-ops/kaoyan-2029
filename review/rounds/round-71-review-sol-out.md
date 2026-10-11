@@ -1,0 +1,19 @@
+# Round 71 Codex 复审：`33b30e8`
+
+范围为 `git show 33b30e8`、第 69 轮 B1–B4 原输入及本轮采纳的建议。运行对象是系统临时目录中的 `git archive 33b30e8`，未改仓库实现、未跑全量测试。以下“通过/拒绝”均为 Windows、`py -3.12` 的实测结果。
+
+| 项目 | 判断 | 证据、可复现输入与意见 |
+|---|---|---|
+| B1：共同 ID 的去向与新树覆盖 | **不改** | 用 `tests/contract/test_syllabus_mapping_port.py:20-76` 的双树夹具，在有效映射追加 `{from: old_ids[0], to: []}`，或追加 `{from: old_ids[0], to: [new_ids[1]]}`：均在 `added` 路径以“new ID has no source”拒绝，且报出该共同 ID。把另一旧 ID 的 `to` 指向未列入 `changes.from` 的共同 ID，则在 `changes` 路径以“multiple sources”拒绝（`ky/knowledge/syllabus_mapping.py:224-241`）。补 `{from: old_ids[0], to: [old_ids[0]]}` 后，合并通过。旧树独有 ID 未列变化、目标新 ID 无来源、`added` 与显式目标重复也分别被拒绝。三种覆盖方式按集合成员计数；跨不同变化指向同一目标仍可合并，符合 `contracts/syllabus_mapping.md:35-46`。“合并到共同 B 必须显式写 B→B”增加书写量，但能让 B 的旧状态是否参与合并成为明示决定；本轮不反对该取舍。 |
+| B2：单条 `to` 重复 | **不改** | 把夹具首条拆分改为 `to: [new_ids[1], new_ids[2], new_ids[1]]`，现在报 `ContractError.path == "changes[0].to[2]"`；`ky/knowledge/syllabus_mapping.py:190-198` 的逐条 `seen_targets` 检查不会误拒跨变化合并。 |
+| B3：登记成员与树越界 | **不改** | 把合法映射逐字节复制为同工作区未登记的 `data/unregistered.yaml`，加载报 `path: mapping file is not registered`；把版本 `2027` 登记为工作区内 junction `data/outtree/new.yaml`、实际目标放在工作区外，加载报 `reference.syllabus_versions.alpha.versions.2027: resolves outside the workspace`。对应入口为 `ky/knowledge/syllabus_mapping.py:128-168,244-252`，经 `Workspace.require_all/require` 校验。原 B3 的两个读入绕过均已关闭。 |
+| B4：同路径多版本标签 | **不改** | 登记 `versions: {"2026": data/old.yaml, "2028": data/old.yaml}`，加载注册表在后一个标签路径报“already registered”；`ky/workspace.py:373-385`。不同登记路径的标签调换 YAML 顺序后，`effective_version("alpha")` 仍指向生效路径对应标签；`tests/contract/test_workspace.py:113-156` 覆盖两点。原 B4 的顺序歧义已关闭。 |
+| 新覆盖规则的边界 | **不改** | `changes.from` 中的共同 ID 不再获得隐式自环；目标 ID 必须有显式入边，或者由 `added` 声明（且 `added` 只能是新 ID），见 `ky/knowledge/syllabus_mapping.py:202-241`。例如共同 A→`[]` 但新树仍有 A，只有另一个旧 ID 显式指向 A 才能通过；这表达了“旧 A 被删除、新 A 由别处接替”，没有发现可通过的无来源目标或被误拒的、符合本轮规格的映射。显式目标可以有多个旧来源，这是允许的合并，`declared_targets` 用集合计一次是正确的。 |
+| B3 路径别名边界 | **建议改** | 实测绝对路径、从工作区根的相对路径、不同大小写路径及带 `..` 的调用路径均能加载同一已登记文件。工作区**外**建 junction `outside/indata → <工作区>/data`，传 `outside/indata/map.yaml` 也会通过，因为 `Path.resolve(strict=True)` 与登记路径解析结果相等（`ky/knowledge/syllabus_mapping.py:158-168`）。静态情况下读到的仍是已登记的同一文件，故不把它算作原 B3 复发；但随后 `_read_mapping_document(path)` 仍读取调用者给的别名，若链接在校验后被改指，存在检查与读取分离。建议匹配成功后读取 `require_all()` 返回的登记路径，或在规格中明确“同一真实文件的别名”可用。此外同一文件的 `\\?\` 扩展路径前缀实测被误判“not registered”（`Path.resolve` 保留该前缀）；若要支持这种 Windows 路径，应统一归一化并加测试。当前规格未承诺该前缀，故不是阻断项。 |
+| B4 物理别名边界 | **建议改** | 在版本 `2028` 下登记 `data/aliasold/old.yaml`，其中 `aliasold` 是指向 `data` 的 junction；`2026` 仍为 `data/old.yaml`，注册表接受且 `effective_version("alpha") == "2026"`。两标签实际读取同一棵树，但登记的 `Path` 不同。`contracts/workspace.md:91,298` 按登记路径比较且加载阶段不查存在，所以这不违反现行字面规则，也不重现“顺序决定标签”；若决策者要禁止**同一物理文件**的双标签，需另定使用时检查，不能仅靠目前的加载期路径值比较。 |
+| `targets()`、`require()`、未知键排序 | **不改** | 对不在旧树中的 `alpha.ds.chapter-99.section-99` 调 `targets()`，在 `old_id` 路径报错（`ky/knowledge/syllabus_mapping.py:35-39`）；`require("reference.syllabus_versions.ghost.mappings")` 报 `not registered`，已登记列表才提示 `use require_all`（`ky/workspace.py:167-202`）；映射根或变化项同时加整数键 `7` 与字符串键 `zzz`，均报带路径 `7` / `changes[0].7` 的 `ContractError`，没有原生 `TypeError`（`ky/knowledge/syllabus_mapping.py:93-97,180-185`）。 |
+| 回归断言强度 | **不改** | 归档中 `py -3.12 -m unittest tests.contract.test_syllabus_mapping_port`：20 项通过。进程内临时撤去覆盖检查、单条 `to` 去重、映射成员检查、版本树 `require` 越界检查、版本路径唯一性检查，各自对应的精确负例均变红；撤去 `targets()` 源树成员检查、混合键排序、`require()` 的登记判断，相应测试也变红。`tests/contract/test_syllabus_mapping_port.py:134-169,202-272` 与 `tests/contract/test_workspace.py:113-181` 对核心拒绝点有实效。别名两例尚无测试，其期望语义需先由规格定清。 |
+
+`tests.contract.test_workspace` 单模块运行 17 项，其中 1 项失败、1 项跳过：失败的是 `test_1_repository_registry` 所需的 `products.cs408_lecture_workspace` 目录未随 Git 归档进入临时目录；它与本提交的版本解析检查无关。其余 15 项通过。未跑全量。
+
+**结论：PASS。** B1–B4 原复现均关闭，采纳的三项建议已落实。路径别名与物理同一性是后续若要收紧规格时应处理的边界，本轮不阻断。

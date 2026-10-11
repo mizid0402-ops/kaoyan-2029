@@ -1,0 +1,84 @@
+coders:
+  - sol
+  - luna
+  - claude
+confidence_weights:
+  high: 1.0
+  medium: 0.6
+  low: 0.3
+topic_rollup:
+  cs408: chapter
+  math1: none
+  eng1: none
+meta:
+  policy: confidence-weighted multi-coder attribution; each question normalised to 1.0
+  caveat: >-
+    eng1/math1 trees are coarse (no item tier for eng1 sections), so they carry less
+    discrimination than cs408; agreement there is cheaper to obtain
+batches:
+  - subject_id: cs408
+    exam_year: 2023
+    coders:
+      sol: data/review_weights/coder_outputs/map-cs408-2023-sol.json
+      luna: data/review_weights/coder_outputs/map-cs408-2023-luna.json
+      claude: data/review_weights/coder_outputs/map-cs408-2023-claude.json
+  - subject_id: cs408
+    exam_year: 2024
+    coders:
+      sol: data/review_weights/coder_outputs/map-sol.json
+      luna: data/review_weights/coder_outputs/map-luna.json
+      claude: data/review_weights/coder_outputs/map-claude.json
+  - subject_id: cs408
+    exam_year: 2025
+    coders:
+      sol: data/review_weights/coder_outputs/map-cs408-2025-sol.json
+      luna: data/review_weights/coder_outputs/map-cs408-2025-luna.json
+      claude: data/review_weights/coder_outputs/map-cs408-2025-claude.json
+  - subject_id: cs408
+    exam_year: 2026
+    coders:
+      sol: data/review_weights/coder_outputs/map-cs408-2026-sol.json
+      luna: data/review_weights/coder_outputs/map-cs408-2026-luna.json
+      claude: data/review_weights/coder_outputs/map-cs408-2026-claude.json
+  - subject_id: math1
+    exam_year: 2023
+    coders:
+      sol: data/review_weights/coder_outputs/map-math1-2023-sol.json
+      luna: data/review_weights/coder_outputs/map-math1-2023-luna.json
+      claude: data/review_weights/coder_outputs/map-math1-2023-claude.json
+  - subject_id: math1
+    exam_year: 2024
+    coders:
+      sol: data/review_weights/coder_outputs/map-math1-2024-sol.json
+      luna: data/review_weights/coder_outputs/map-math1-2024-luna.json
+      claude: data/review_weights/coder_outputs/map-math1-2024-claude.json
+  - subject_id: math1
+    exam_year: 2025
+    coders:
+      sol: data/review_weights/coder_outputs/map-math1-2025-sol.json
+      luna: data/review_weights/coder_outputs/map-math1-2025-luna.json
+      claude: data/review_weights/coder_outputs/map-math1-2025-claude.json
+  - subject_id: math1
+    exam_year: 2026
+    coders:
+      sol: data/review_weights/coder_outputs/map-math1-2026-sol.json
+      luna: data/review_weights/coder_outputs/map-math1-2026-luna.json
+      claude: data/review_weights/coder_outputs/map-math1-2026-claude.json
+  - subject_id: eng1
+    exam_year: 2024
+    coders:
+      sol: data/review_weights/coder_outputs/map-eng1-2024-sol.json
+      luna: data/review_weights/coder_outputs/map-eng1-2024-luna.json
+      claude: data/review_weights/coder_outputs/map-eng1-2024-claude.json
+  - subject_id: eng1
+    exam_year: 2025
+    coders:
+      sol: data/review_weights/coder_outputs/map-eng1-2025-sol.json
+      luna: data/review_weights/coder_outputs/map-eng1-2025-luna.json
+      claude: data/review_weights/coder_outputs/map-eng1-2025-claude.json
+  - subject_id: eng1
+    exam_year: 2026
+    coders:
+      sol: data/review_weights/coder_outputs/map-eng1-2026-sol.json
+      luna: data/review_weights/coder_outputs/map-eng1-2026-luna.json
+      claude: data/review_weights/coder_outputs/map-eng1-2026-claude.json

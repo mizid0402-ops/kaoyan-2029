@@ -1,0 +1,3532 @@
+schema_version: 1
+generated_at: '2026-09-15T00:20:53.458158+00:00'
+generator: tools/round29_build_tree_split.py
+concept_name: source_support
+concept_note: 重命名自 round-24 的 weight 字段，避免与 ky/schedule/review_clip.py 的学科级时间预算权重、tools/apply_knowledge_weights.py
+  的题目->知识点分布置信度混淆；数值与含义均未改变，仅为“来源支持度”起一个不冲突的名字。
+source_registry:
+  A:
+    path: data/raw_materials/cs408/syllabus/archive408_408_outline_2026.html
+    sha256: 45121f451b3b0cf9880456ad2513f40e3f56f1c1b677c0205da14485f7814cbb
+    role: 2026 官方大纲 HTML（权威基线，knowledge_tree.yaml 与本树主表的唯一 A 来源）
+  B_raw:
+    path: data/raw_materials/cs408/syllabus/408_syllabus_2022.pdf
+    sha256: 60c54de8fbc5642543d3324580f83f5f95ff435609fcad8f4baf58d125aabcaf
+    role: 2022 大纲 PDF 原件（独立第二源，20 页；归档用，不直接作为节点 sources 引用）
+  B_text:
+    path: data/raw_materials/cs408/syllabus/408_syllabus_2022.extracted.txt
+    sha256: b6f2d739ec72df272dda2c7a1d93e70c4a051b70e9e4fd38d365fd1e341f022f
+    role: 对 B_raw 用 round22_extract.extract_2022() 确定性抽取的纯文本副本；主表节点的 B 源 sources[].path 均指向此文件，因为 verify_tree.py
+      按 UTF-8 文本读取并做 quote_ref 定位，无法直接处理 PDF 二进制内容
+  C:
+    path: data/raw_materials/cs408/exam_banks/408q_full.json
+    sha256: 451197409bd3471168ccb1754a86e766bf528c8f354ec1866ace82701d03f275
+    role: kaichan-kc/408-questions 题库元数据（第三方独立视角，用于印证，非考纲来源，不计入节点 sources）
+baseline_relation_counts:
+  kept: 403
+  new_vs_baseline: 7
+items:
+- knowledge_point_id: cs408.ds.subject
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases:
+  - text: 数据结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.exam-objectives
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.exam-objectives.objective.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases:
+  - text: 掌握数据结构的基本概念、基本原理和基本方法。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.exam-objectives.objective.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases:
+  - text: 掌握数据的逻辑结构、存储结构及基本操作的实现,能够对算法进行基本的时间复杂度与空间复杂度的分析。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.exam-objectives.objective.item-03
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: structural_equivalent
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-01
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: candidate_recent_new
+  match_kind: only_26
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-01.section-01
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: candidate_recent_new
+  match_kind: only_26
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-01.section-02
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: candidate_recent_new
+  match_kind: only_26
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 线性表
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-02.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 线性表的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-02.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 线性表的实现
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-02.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-02.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-02.section-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: scope_promotion_from_item
+  baseline_relation: kept
+  aliases:
+  - text: 线性表的应用
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 栈、队列和数组
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-03.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 栈和队列的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-03.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 栈和队列的顺序存储结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-03.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 栈和队列的链式存储结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-03.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: reorder_exact
+  baseline_relation: kept
+  aliases:
+  - text: 多维数组的存储
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-03.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: reorder_exact
+  baseline_relation: kept
+  aliases:
+  - text: 特殊矩阵的压缩存储
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-03.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 栈、队列和数组的应用
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 树与二叉树
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-04.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 树的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-04.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 二叉树
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-04.section-02.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 二叉树的定义及其主要特征
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-04.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-04.section-02.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-04.section-02.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-04.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 树、森林
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-04.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-04.section-03.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-04.section-03.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-04.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 树与二叉树的应用
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-04.section-04.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 哈夫曼(Huffman)树和哈夫曼编码
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-04.section-04.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-04.section-04.item-03
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: candidate_recent_new
+  match_kind: only_b
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 图
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-05.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 图的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-05.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 图的存储及基本操作
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-05.section-02.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 邻接矩阵法
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-05.section-02.item-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 邻接表法
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-05.section-02.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-05.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 图的遍历
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-05.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-05.section-03.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-05.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 图的基本应用
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-05.section-04.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 最小(代价)生成树
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-05.section-04.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-05.section-04.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-05.section-04.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 查找
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-06.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 查找的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-06.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 顺序查找法
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-06.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 分块查找法
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-06.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 折半查找法
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-06.section-05
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 树形查找结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-06.section-05.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-06.section-05.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-06.section-05.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-06.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: B 树及其基本操作、B+树的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-06.section-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 散列(Hash)表
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-06.section-08
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: candidate_recent_new
+  match_kind: only_26
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-06.section-09
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: candidate_recent_new
+  match_kind: only_26
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.ds.chapter-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 排序
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 排序的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 直接插入排序
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 折半插入排序
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 起泡排序(BubbleSort)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 简单选择排序
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 希尔排序(ShellSort)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 快速排序
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-08
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 堆排序
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-09
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 二路归并排序(MergeSort)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-10
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 基数排序
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-11
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 外部排序
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.ds.chapter-07.section-12
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 排序算法的分析与应用
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.subject
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases:
+  - text: 计算机组成原理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.exam-objectives
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.exam-objectives.objective.item-01
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: structural_equivalent
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.exam-objectives.objective.item-02
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: structural_equivalent
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.exam-objectives.objective.item-03
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: structural_equivalent
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 计算机系统概述
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-01.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 计算机系统层次结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-01.section-01.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-01.section-01.item-02
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: single_source_unverified
+  match_kind: only_b
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-01.section-01.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-01.section-01.item-04
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 计算机系统的工作原理:存储程序、工作方式,高级语言程序与机器语言程序之间的转换,程序和指令 的执行过程
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-01.section-01.detail-04.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-01.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 计算机性能指标
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-01.section-02.detail-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 数据的表示和运算
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 数制与编码
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-01.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 进位计数制及其相互转换
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-01.item-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: cross_section_move
+  baseline_relation: kept
+  aliases:
+  - text: 定点数的编码表示:无符号数的表示,带符号整数的表示。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: reorder_exact
+  baseline_relation: kept
+  aliases:
+  - text: 运算方法和运算电路
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-02.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 基本运算部件:加法器、算术逻辑部件(ALu)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-02.detail-01.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-02.section-02.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 加减运算:补码加减运算器,标志位的生成
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-02.detail-03.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-02.section-02.item-05
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 乘除运算:乘除运算的基本原理,乘法除法电路的基本结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-02.detail-05.note-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: single_source_unverified
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-02.section-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 定点数的表示和运算
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-03.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: split_from_2022
+  baseline_relation: kept
+  aliases:
+  - text: 无符号整数的表示与运算;带符号整数的表示与运算
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-03.item-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: split_from_2022
+  baseline_relation: kept
+  aliases:
+  - text: 无符号整数的表示与运算;带符号整数的表示与运算
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 浮点数的表示和运算
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-04.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 浮点数的表示:IEEE754 标准
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-02.section-04.detail-01.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-02.section-04.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 存储器层次结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 存储器的分类
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 存储器的层次化结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 半导体随机存取存储器
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-03.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-03.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 主存储器
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-04.item-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: single_source_unverified
+  match_kind: only_b
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-04.item-02
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: single_source_unverified
+  match_kind: only_b
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-04.item-03
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: single_source_unverified
+  match_kind: only_b
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 外部存储器
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-05.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-05.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 固态硬盘(SSD)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 高速缓冲存储器(Cache)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-06.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: Cache 的基本工作原理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-06.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: text_layer_ocr_risk
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: Cach 和主存之间的映射方式
+    source: B
+    note: text_layer_ocr_risk_raw
+- knowledge_point_id: cs408.co.chapter-03.section-06.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-06.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 虚拟存储器
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-07.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-07.item-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 页式虚拟存储器基本原理、页表、地质转换、TLB(快表)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-07.detail-02.note-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: single_source_unverified
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-03.section-07.item-04
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 段式虚拟存储器
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-03.section-07.item-05
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 段页式虚拟存储器
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 指令系统
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-04.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 指令系统的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-04.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 指令格式
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-04.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 寻址方式
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-04.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 数据的对齐和大/小端存放方式
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-04.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: CISC 和 RISC 的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-04.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 高级语言程序与机器级代码之间的对应
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-04.section-06.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-04.section-06.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-04.section-06.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-04.section-06.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 过程(函数)调用对应的机器级表示
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 中央处理器(CPU)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: CPU 的功能和基本结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 指令执行过程
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 数据通路的功能和基本结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 控制器的功能和工作原理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 异常和中断机制
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-05.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-05.section-05.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-05.section-05.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-05.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 指令流水线
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-06.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-05.section-06.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-05.section-06.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-05.section-06.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-05.section-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 多处理器基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-07.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: SISD,SIMD,MIMD、向量处理器的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-07.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-05.section-07.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 多核处理器(multi-core)的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-05.section-07.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 共享内存多处理器(SMP)的基本概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 总线和输入输出系统
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-06.section-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 总线概述
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-06.section-01.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-06.section-01.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-06.section-01.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 总线的事务和定时
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-06.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: text_layer_ocr_risk
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 1/O 接口(IO 控制器)
+    source: B
+    note: text_layer_ocr_risk_raw
+- knowledge_point_id: cs408.co.chapter-06.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-06.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-06.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: I/O 方式
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-06.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-06.section-03.item-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 程序中断方式 中断的基本概念,中断响应过程,中断处理过程,多重中断和中断屏蔽的概念。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-06.section-03.detail-02.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-06.section-03.item-04
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: DMA 方式 DMA 控制器的组成,DMA 传送过程。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.co.chapter-06.section-03.detail-04.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.subject
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases:
+  - text: 操作系统
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.exam-objectives
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.exam-objectives.objective.item-01
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: structural_equivalent
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.exam-objectives.objective.item-02
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: structural_equivalent
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.exam-objectives.objective.item-03
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: structural_equivalent
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 操作系统概述
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-01.section-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 操作系统的概念、特征、功能和提供的服务
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-01.section-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 操作系统的发展与分类
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-01.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 程序运行环境
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-01.section-03.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: CPU 运行模式内核模式,用户模式。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-01.section-03.detail-01.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-01.section-03.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-01.section-03.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-01.section-03.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-01.section-03.item-06
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 程序运行时内存映像与地址空间
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-01.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 操作系统结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-01.section-04.detail-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-01.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 操作系统引导
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-01.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 虚拟机
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 进程管理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 进程与线程
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-01.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 进程概念
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-01.item-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 进程的状态与转换
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-01.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 线程的实现 内核支持的线程,线程库支持的线程。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-01.detail-03.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-01.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-01.item-06
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 进程间通信 共享内存,消息传递,管道。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-01.detail-06.note-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: single_source_unverified
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: CPU 调度与上下文切换
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-02.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 调度的实现 调度器/调度程序(scheduler),调度的时机与调度方式(抢占式/非抢占式),闲逛进程,内核级线程与用户 级线程调度。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-02.detail-03.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-02.item-05
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 典型调度算法 先来先服务调度算法。短作业(短进程、短线程)优先调度算法,时间片轮转调度算法,优先级调度 算法,高响应比优先调度算法,多级队列调度算法,多级反馈队列调度算法。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-02.item-06
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: candidate_recent_new
+  match_kind: only_b
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-02.item-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 同步与互斥
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-03.item-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 基本的实现方法 软件方法,硬件方法。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-03.detail-02.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-03.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-03.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-03.item-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-03.item-07
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 经典同步问题 生产者-消费者问题,读者-写者问题,哲学家进餐问题等。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-03.detail-07.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 死锁
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-02.section-04.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-04.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-04.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-02.section-04.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 内存管理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-03.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 内存管理基础
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-03.section-01.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 内存管理的基本概念 逻辑地址空间与物理地址空间,地址变换,内存共享,内存保护,内存分配与回收。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-03.section-01.detail-01.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03.section-01.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03.section-01.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03.section-01.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03.section-01.item-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 虚拟内存管理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-03.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03.section-02.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: text_layer_ocr_risk
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 页椎分配
+    source: B
+    note: text_layer_ocr_risk_raw
+- knowledge_point_id: cs408.os.chapter-03.section-02.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-03.section-02.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 内存映射文件(Memory-Mapped Files)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-03.section-02.item-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 文件管理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-04.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 文件
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-04.section-01.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-01.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 文件元数据和索引节点(inode)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-04.section-01.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 文件的操作 建立,删除,打开,关闭,读,写。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-04.section-01.detail-03.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-01.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-01.item-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-01.item-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 目录
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-04.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-02.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-02.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 文件系统
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-04.section-03.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 文件系统的全局结构(Layout) 文件系统在外存中的结构,文件系统在内存中的结构。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-04.section-03.detail-01.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-03.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-03.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-04.section-03.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 文件系统挂载(mounting)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 输入输出(I/O)管理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-05.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: I/O 管理基础
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-05.section-01.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: text_layer_ocr_risk
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 设备 设备的基本概念,设备的分类,l/o 接口,I/O 端口。
+    source: B
+    note: text_layer_ocr_risk_raw
+- knowledge_point_id: cs408.os.chapter-05.section-01.detail-01.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-05.section-01.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: text_layer_ocr_risk
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 1/O 控制方式 轮询方式,中断方式,DMA 方式。
+    source: B
+    note: text_layer_ocr_risk_raw
+- knowledge_point_id: cs408.os.chapter-05.section-01.detail-03.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-05.section-01.item-05
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: text_layer_ocr_risk
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: I/O 软件 次结构中断处理程序,驱动程序,设备独立软件,用户层 I/O 软件。
+    source: B
+    note: text_layer_ocr_risk_raw
+- knowledge_point_id: cs408.os.chapter-05.section-01.detail-05.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-05.section-01.item-07
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 输入输出应用程序接口 字符设备接口,块设备接口,网络设备接口,阻塞/非阻塞 I/O
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-05.section-01.detail-07.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-05.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 设备独立软件
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-05.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-05.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-05.section-02.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 假脱机技术(SPOOLing)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-05.section-02.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-05.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 外存管理
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-05.section-03.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: text_layer_ocr_risk
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 磁盘磁盘结构,格式化,分区,磁盘调度方法。
+    source: B
+    note: text_layer_ocr_risk_raw
+- knowledge_point_id: cs408.os.chapter-05.section-03.detail-01.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.os.chapter-05.section-03.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 固态硬盘读写性能特性,磨损均衡。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.os.chapter-05.section-03.detail-03.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.subject
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases:
+  - text: 计算机网络
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.exam-objectives
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.exam-objectives.objective.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases:
+  - text: 掌握计算机网络的基本概念、基本原理和基本方法。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.exam-objectives.objective.item-02
+  source_support: 0.75
+  source_count: 1
+  evidence_tag: structural_equivalent
+  match_kind: full_text_no_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.exam-objectives.objective.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases:
+  - text: 能够运用计算机网络的基本概念、基本原理和基本方法进行网络系统的分析、设计和应用。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 计算机网络体系结构
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-01.section-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 计算机网络概述
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-01.section-01.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 计算机网络的概念、组成与功能
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-01.section-01.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-01.section-01.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 计算机网络主要性能指标
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-01.section-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 计算机网络体系结构与参考模型
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-01.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-01.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-01.section-02.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: ISO/OSI 参考模型和 TCP/IP 模型
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 物理层
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-02.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 通信基础
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-02.section-01.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: text_layer_ocr_risk
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 信道、信号、宽带、码元、波特、速率、信源与信宿等基本概念
+    source: B
+    note: text_layer_ocr_risk_raw
+- knowledge_point_id: cs408.cn.chapter-02.section-01.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-02.section-01.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-02.section-01.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-02.section-01.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-02.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 传输介质
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-02.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-02.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-02.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 物理层设备
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-02.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-02.section-03.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 数据链路层
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 数据链路层的功能
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 组帧
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 差错控制
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-03.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 流量控制与可靠传输机制
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-04.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-04.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-04.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 后退 N 帧协议(GBN)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-04.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 选择重传协议(SR)
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 介质访问控制
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-05.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 信道划分 频分多路复用、时分多路复用、波分多路复用、码分多路复用的概念和基本原理。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-05.detail-01.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-05.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 随机访问 ALOHA 协议,CSMA 协议,CSMA/CD 协议,CSMA/CA 协议。
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-05.detail-03.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-05.item-05
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: 轮询访问令牌传递协议
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-05.detail-05.note-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 局域网
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-06.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-06.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 以太网与 IEEE802.3
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-06.item-03
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: IEEE802.11
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-06.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 广域网
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-07.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-07.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-03.section-08
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 数据链路层设备
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-03.section-08.detail-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: full_text_match
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 网络层
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 网络层的功能
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-01.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-01.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-01.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-01.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 路由算法
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-02.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-02.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: IPv4
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-03.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-03.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-03.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: IPv6
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-04.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-04.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 路由协议
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-05.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-05.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-05.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-05.item-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-05.item-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: IP 组播
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-06.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-06.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-07
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 移动 IP
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-07.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-07.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-08
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 网络层设备
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-04.section-08.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-04.section-08.item-02
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: single_source_unverified
+  match_kind: only_b
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 传输层
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-05.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 传输层提供的服务
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-05.section-01.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05.section-01.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05.section-01.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: UDP 协议
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-05.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: TCP 协议
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-05.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05.section-03.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05.section-03.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-05.section-03.item-04
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: TCP 流量控制与拥塞控制
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-05.section-03.item-05
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: split_from_2022
+  baseline_relation: kept
+  aliases:
+  - text: TCP 流量控制与拥塞控制
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 应用层
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06.section-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 网络应用模型
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06.section-01.item-01
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: manual_override
+  baseline_relation: kept
+  aliases:
+  - text: 客户/服务器模型
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06.section-01.item-02
+  source_support: 0.75
+  source_count: 2
+  evidence_tag: structural_equivalent
+  match_kind: fuzzy
+  baseline_relation: kept
+  aliases:
+  - text: P2P 模型
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06.section-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: DNS 系统
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06.section-02.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-02.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-02.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: FTP
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06.section-03.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-03.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-04
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: 电子邮件
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06.section-04.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-04.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-04.item-03
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-05
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases:
+  - text: WWW
+    source: B
+    note: 2022_wording
+- knowledge_point_id: cs408.cn.chapter-06.section-05.item-01
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.cn.chapter-06.section-05.item-02
+  source_support: 1.0
+  source_count: 2
+  evidence_tag: dual_source_exact
+  match_kind: exact
+  baseline_relation: kept
+  aliases: []
+- knowledge_point_id: cs408.co.chapter-01.section-01.legacy-item-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: legacy_only_pending
+  match_kind: only_a
+  baseline_relation: new_vs_baseline
+  aliases: []
+  review_note: 组成 vs 结构：不确定是否同一考点范围，未强行合并
+- knowledge_point_id: cs408.co.chapter-02.section-01.legacy-item-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: legacy_only_pending
+  match_kind: only_a
+  baseline_relation: new_vs_baseline
+  aliases: []
+  review_note: 仅 2022 显式出现；所属节『数制与编码』在 2026 仍存在，2026 未见对应编号条目
+- knowledge_point_id: cs408.co.chapter-02.section-01.legacy-item-02
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: legacy_only_pending
+  match_kind: only_a
+  baseline_relation: new_vs_baseline
+  aliases: []
+  review_note: 仅 2022 显式出现；所属节『数制与编码』在 2026 仍存在，2026 未见对应编号条目
+- knowledge_point_id: cs408.co.chapter-02.section-03.legacy-item-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: legacy_only_pending
+  match_kind: only_a
+  baseline_relation: new_vs_baseline
+  aliases: []
+  review_note: 仅 2022 显式出现；所属节『定点数的表示和运算』在 2026 仍存在，2026 未见对应编号条目
+- knowledge_point_id: cs408.co.chapter-03.section-07.legacy-item-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: legacy_only_pending
+  match_kind: only_a
+  baseline_relation: new_vs_baseline
+  aliases: []
+  review_note: 仅 2022 显式出现；所属节『虚拟存储器』在 2026 仍存在，2026 未见对应编号条目
+- knowledge_point_id: cs408.cn.chapter-03.section-08.legacy-item-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: legacy_only_pending
+  match_kind: only_a
+  baseline_relation: new_vs_baseline
+  aliases: []
+  review_note: 仅 2022 显式出现；所属节『数据链路层设备』在 2026 仍存在，2026 未见对应编号条目
+- knowledge_point_id: cs408.cn.chapter-04.section-08.legacy-item-01
+  source_support: 0.5
+  source_count: 1
+  evidence_tag: legacy_only_pending
+  match_kind: only_a
+  baseline_relation: new_vs_baseline
+  aliases: []
+  review_note: round-22 报告已判定为术语差异，保持低权重待核，不自动合并

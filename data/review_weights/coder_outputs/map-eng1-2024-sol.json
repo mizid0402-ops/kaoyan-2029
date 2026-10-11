@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "coder": "sol",
+    "year": 2024,
+    "subject": "英语一",
+    "node_table_sha256": "86b908b2d0bc5331bf0771de29790e69e31fa7efed361e9f09d8da28889f472d",
+    "started_at": "2026-09-13T20:32:57+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需判断介词结构与否定条件关系，属于英语知识运用中的语法衔接。"
+    },
+    {
+      "number": 2,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查动词与无障碍通行语境的搭配及语义适配。"
+    },
+    {
+      "number": 3,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需从名词选项中确定与商业建筑功能相符的抽象名词。"
+    },
+    {
+      "number": 4,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查时间副词对发明与商业化先后关系的表达。"
+    },
+    {
+      "number": 5,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需识别表示事物最初定位的动词短语及其固定搭配。"
+    },
+    {
+      "number": 6,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "依据使用范围扩大后的积极作用选择名词，判断主要依赖篇章语义。"
+    },
+    {
+      "number": 7,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查形容词在繁忙场所和紧急情境中的语义恰当性。"
+    },
+    {
+      "number": 8,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "需结合句法位置和功能语义辨认表示充当作用的短语。"
+    },
+    {
+      "number": 9,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查附加关系连接语与动名词结构的组合。"
+    },
+    {
+      "number": 10,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需用过去分词形成后置修饰，表达空间被门体占用。"
+    },
+    {
+      "number": 11,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查使役许可类动词接宾语和不定式补足语的结构。"
+    },
+    {
+      "number": 12,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查表示腾出通道的固定词组。"
+    },
+    {
+      "number": 13,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需识别 with 复合结构中现在分词表示主动依赖关系。"
+    },
+    {
+      "number": 14,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查让步从句与主句结论之间的逻辑连接。"
+    },
+    {
+      "number": 15,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "根据不同感应方式共享基本原理的语境选择抽象名词。"
+    },
+    {
+      "number": 16,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "考查传感系统处理环境信号时所用动词的语义搭配。"
+    },
+    {
+      "number": 17,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需选择表示适合不同使用环境的动词。"
+    },
+    {
+      "number": 18,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查引出具体场景以支撑前述原则的篇章标记语。"
+    },
+    {
+      "number": 19,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "需判断街道环境与运动感应门之间是否匹配，核心是动词语义。"
+    },
+    {
+      "number": 20,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查形容词与限定探测范围这一用途的语义匹配。"
+    },
+    {
+      "number": 21,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "通过撤离背景定位掩埋铁器的直接动机，属于阅读多项选择的细节题。"
+    },
+    {
+      "number": 22,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "辨认殖民者焚屋取钉案例的论证作用，需联系当时钉制技术的价值。"
+    },
+    {
+      "number": 23,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "比较价格下降的多个成因并确定制造效率这一主因。"
+    },
+    {
+      "number": 24,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "依据跨时代对比推断钉子的基本形态长期稳定。"
+    },
+    {
+      "number": 25,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "综合印刷、纸张和太阳能案例概括低成本技术的变革作用。"
+    },
+    {
+      "number": 26,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从群体共同照料儿童的描述归纳术语含义。"
+    },
+    {
+      "number": 27,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "识别德国养老机构与托儿所合作案例所说明的西方实践路径。"
+    },
+    {
+      "number": 28,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "根据家庭照护模式的历史变化判断该育儿观念与演化历程的关系。"
+    },
+    {
+      "number": 29,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "利用照护者比例对比推断英国托育配置可改进之处。"
+    },
+    {
+      "number": 30,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "综合全文主旨选定能覆盖借鉴采猎社会育儿经验的标题。"
+    },
+    {
+      "number": 31,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从提示词使用频率判断艺术家在图像生成用户中的热度。"
+    },
+    {
+      "number": 32,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "定位训练数据来源，辨认未经许可使用网络作品这一核心问题。"
+    },
+    {
+      "number": 33,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "依据检索结果确认出现了署其姓名但并非本人创作的生成内容。"
+    },
+    {
+      "number": 34,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从公共领域素材与合作方案归纳对模型训练策略的建议。"
+    },
+    {
+      "number": 35,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "综合艺术家遭遇、担忧和联合行动概括全文中心。"
+    },
+    {
+      "number": 36,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "根据生态功能的集中描述判断海湾的自然环境价值。"
+    },
+    {
+      "number": 37,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "定位判决对湿地管辖范围的收窄，判断其削弱监管权限。"
+    },
+    {
+      "number": 38,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "结合跨州污染风险和保护缺口推断作者的忧虑态度。"
+    },
+    {
+      "number": 39,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从联邦机构跨越州界与利益阻力的作用推断其协调价值。"
+    },
+    {
+      "number": 40,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "依据结尾呼吁判断州立法者应重视湿地保护。"
+    },
+    {
+      "number": 41,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "需把文化遗产应服务原属国民众的评论与概括句匹配。"
+    },
+    {
+      "number": 42,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "评论强调复制品可保留展陈教育功能，属于观点与摘要配对。"
+    },
+    {
+      "number": 43,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "评论以借展、购买或条约为合法来源标准，需匹配取得方式的概括。"
+    },
+    {
+      "number": 44,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "评论用既有博物馆失窃反驳安全理由，需提炼其论证结论。"
+    },
+    {
+      "number": 45,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "评论质疑西方更有资格保存文物的预设，考查观点概括匹配。"
+    },
+    {
+      "number": 46,
+      "nodes": ["eng1.paper.part2.c", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题源明确标为阅读理解 C 节，翻译单位包含并列动作和让步性插入信息。"
+    },
+    {
+      "number": 47,
+      "nodes": ["eng1.paper.part2.c", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题源明确标为阅读理解 C 节，需处理位置关系、因果结果和并列路径。"
+    },
+    {
+      "number": 48,
+      "nodes": ["eng1.paper.part2.c", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题源明确标为阅读理解 C 节，翻译重点是虚拟结果及补充原因层次。"
+    },
+    {
+      "number": 49,
+      "nodes": ["eng1.paper.part2.c", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题源明确标为阅读理解 C 节，需准确转换被动结构和冒号后的解释关系。"
+    },
+    {
+      "number": 50,
+      "nodes": ["eng1.paper.part2.c", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题源明确标为阅读理解 C 节，翻译任务包含两个递进的研究发现。"
+    },
+    {
+      "number": 51,
+      "nodes": ["eng1.paper.part4.a", "eng1.exam.objectives.skills.writing"],
+      "primary_node": "eng1.paper.part4.a",
+      "confidence": "medium",
+      "reason": "要求回复邮件并提出准备建议，内容吻合应用文写作；节点表的总部分编号与题源不同。"
+    },
+    {
+      "number": 52,
+      "nodes": ["eng1.paper.part4.b", "eng1.exam.objectives.skills.writing"],
+      "primary_node": "eng1.paper.part4.b",
+      "confidence": "medium",
+      "reason": "要求依据图画和统计图完成描述、阐释与评论，吻合短文写作；节点表的总部分编号与题源不同。"
+    }
+  ]
+}

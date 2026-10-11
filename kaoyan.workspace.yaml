@@ -1,0 +1,67 @@
+schema_version: 2
+
+subjects:
+  math1: {name: 数学一, tree_grammar: named_chapters}
+  eng1: {name: 英语一, tree_grammar: flat, features: [vocabulary]}
+  cs408: {name: 计算机学科专业基础, tree_grammar: numbered_chapters, domain_segment: true, features: [weighted_mastery]}
+  politics: {name: 思想政治理论}
+
+reference:
+  knowledge_trees:
+    math1: data/structured_materials/math1/knowledge_tree.yaml
+    eng1: data/structured_materials/eng1/knowledge_tree.yaml
+    cs408: data/structured_materials/cs408/knowledge_tree.yaml
+  syllabus_versions:
+    cs408:
+      versions:
+        "2026": data/structured_materials/cs408/knowledge_tree.yaml
+      mappings: []
+    math1:
+      versions:
+        "2026": data/structured_materials/math1/knowledge_tree.yaml
+      mappings: []
+    eng1:
+      versions:
+        "2026": data/structured_materials/eng1/knowledge_tree.yaml
+      mappings: []
+  exam_indexes:
+    cs408: [data/exam_questions/408_index_2023.json, data/exam_questions/408_index_2024.json,
+            data/exam_questions/408_index_2025.json, data/exam_questions/408_index_2026.json]
+    math1: [data/exam_questions/math1_index_2023.json, data/exam_questions/math1_index_2024.json,
+            data/exam_questions/math1_index_2025.json, data/exam_questions/math1_index_2026.json]
+    eng1:  [data/exam_questions/eng1_index_2024.json, data/exam_questions/eng1_index_2025.json,
+            data/exam_questions/eng1_index_2026.json]
+  paper_shapes:
+    cs408: data/paper_shapes/cs408.yaml
+    math1: data/paper_shapes/math1.yaml
+    eng1: data/paper_shapes/eng1.yaml
+  topic_weights: data/review_weights/topic_weights.json
+  weight_batches: data/review_weights/batches.yaml
+  vocabulary_db: data/english_vocabulary/eng1_vocabulary.sqlite
+  ledger: data/materials.yaml
+
+supplementary:
+  cs408_multisource:
+    kind: cross_year_tree
+    subject: cs408
+    description: 403 生效节点的 2022 大纲补充来源 + 7 个 legacy_only_pending 旧节点；附表为跨年来源支持
+    files:
+      tree: data/structured_materials/cs408/knowledge_tree_multisource.yaml
+      agreement: data/structured_materials/cs408/knowledge_tree_agreement.yaml
+
+materials:
+  raw_root: data/raw_materials
+
+products:
+  cs408_lecture_workspace: review/408知识点树与真题
+  charts: outputs/charts
+
+settings: {}
+
+state:
+  review_queue: data/review_queue
+  plans: data/plans
+  routes: data/routes
+
+staging: staging
+projection: data/projections/kaoyan_projection.sqlite

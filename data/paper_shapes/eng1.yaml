@@ -1,0 +1,49 @@
+schema_version: 1
+kind: paper_shapes
+subject_id: eng1
+papers:
+  - exam_year: 2024
+    paper_source: national
+    question_count: 52
+    sections:
+      - numbers: [1, 40]
+        question_type: single_choice
+      - numbers: [41, 45]
+        question_type: fill_blank
+      - numbers: [46, 50]
+        question_type: translation
+      - numbers: [51, 52]
+        question_type: writing
+    basis: >-
+      Copied from the hard-coded rules in tools/verify_408_index.py at 924fb0e:
+      52 = 40 choice + 5 fill-blank + 5 translation + 2 writing questions.
+  - exam_year: 2025
+    paper_source: national
+    question_count: 52
+    sections:
+      - numbers: [1, 40]
+        question_type: single_choice
+      - numbers: [41, 45]
+        question_type: fill_blank
+      - numbers: [46, 50]
+        question_type: translation
+      - numbers: [51, 52]
+        question_type: writing
+    basis: >-
+      Copied from the hard-coded rules in tools/verify_408_index.py at 924fb0e:
+      52 = 40 choice + 5 fill-blank + 5 translation + 2 writing questions.
+  - exam_year: 2026
+    paper_source: national
+    question_count: 52
+    sections:
+      - numbers: [1, 40]
+        question_type: single_choice
+      - numbers: [41, 45]
+        question_type: fill_blank
+      - numbers: [46, 50]
+        question_type: translation
+      - numbers: [51, 52]
+        question_type: writing
+    basis: >-
+      Copied from the hard-coded rules in tools/verify_408_index.py at 924fb0e:
+      52 = 40 choice + 5 fill-blank + 5 translation + 2 writing questions.

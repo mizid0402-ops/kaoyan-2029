@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "coder": "luna",
+    "year": 2024,
+    "subject": "math1",
+    "node_table_sha256": "2c7d7dbbe194f5b1be701821a613b2dfb1cb4b7f265cd7de30d87ae02c942598",
+    "started_at": "2026-09-13T19:54:56+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "math1.hs.ch03.chapter"
+      ],
+      "primary_node": "math1.hs.ch03.chapter",
+      "confidence": "high",
+      "reason": "变上限积分的奇偶性由被积函数的对称性决定，核心属于一元函数积分学。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "math1.hs.ch06.chapter"
+      ],
+      "primary_node": "math1.hs.ch06.chapter",
+      "confidence": "high",
+      "reason": "第二类曲面积分通过曲面投影和法向方向换元，属于多元函数积分学。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "math1.hs.ch07.chapter"
+      ],
+      "primary_node": "math1.hs.ch07.chapter",
+      "confidence": "high",
+      "reason": "由幂级数和函数反求带权系数和，使用逐项求导等幂级数方法。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "math1.hs.ch02.chapter"
+      ],
+      "primary_node": "math1.hs.ch02.chapter",
+      "confidence": "high",
+      "reason": "判断函数值极限与一点导数之间的蕴含关系，依据是导数定义和连续性。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "math1.hs.ch04.chapter"
+      ],
+      "primary_node": "math1.hs.ch04.chapter",
+      "confidence": "medium",
+      "reason": "平面的位置关系转化为法向量组及增广向量组的秩关系，属于空间解析几何。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "math1.la.ch11.chapter"
+      ],
+      "primary_node": "math1.la.ch11.chapter",
+      "confidence": "high",
+      "reason": "参数由三向量的秩为二且任意两向量独立确定，直接考查向量组的线性相关性。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "math1.la.ch13.chapter"
+      ],
+      "primary_node": "math1.la.ch13.chapter",
+      "confidence": "high",
+      "reason": "秩条件和特征向量条件先确定特征值及其重数，再计算矩阵幂的迹。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "math1.pr.ch16.chapter"
+      ],
+      "primary_node": "math1.pr.ch16.chapter",
+      "confidence": "high",
+      "reason": "独立正态变量的线性组合仍为正态分布，比较标准化后的分布函数即可确定参数。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "math1.pr.ch17.chapter",
+        "math1.pr.ch18.chapter"
+      ],
+      "primary_node": "math1.pr.ch18.chapter",
+      "confidence": "high",
+      "reason": "先由条件均匀分布构造联合密度，再用联合矩求协方差；分布建模与数字特征均被使用。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "math1.pr.ch16.chapter"
+      ],
+      "primary_node": "math1.pr.ch16.chapter",
+      "confidence": "high",
+      "reason": "独立指数变量差的绝对值通过分布函数可化为同参数指数分布，核心是随机变量分布变换。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "math1.hs.ch01.chapter"
+      ],
+      "primary_node": "math1.hs.ch01.chapter",
+      "confidence": "high",
+      "reason": "利用对数化和等价无穷小处理含参数的极限，属于函数极限。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "math1.hs.ch05.chapter"
+      ],
+      "primary_node": "math1.hs.ch05.chapter",
+      "confidence": "high",
+      "reason": "复合函数的二阶导数由多元链式法则展开，并代入给定的一阶偏导信息。"
+    },
+    {
+      "number": 13,
+      "nodes": null,
+      "primary_node": null,
+      "confidence": "low",
+      "reason": "需要傅里叶余弦级数展开及其系数渐近关系；节点表没有对应的傅里叶级数节点，疑似考纲外。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "math1.hs.ch08.chapter"
+      ],
+      "primary_node": "math1.hs.ch08.chapter",
+      "confidence": "high",
+      "reason": "令因变量与自变量之和为新变量后可分离变量积分，属于一阶常微分方程。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "math1.la.ch14.chapter"
+      ],
+      "primary_node": "math1.la.ch14.chapter",
+      "confidence": "high",
+      "reason": "对任意两组向量的双线性表达式施加平方不等式，等价于二次型的半负定条件。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "math1.pr.ch15.chapter"
+      ],
+      "primary_node": "math1.pr.ch15.chapter",
+      "confidence": "high",
+      "reason": "三次独立重复试验的条件概率由互斥事件概率计算，属于随机事件和概率。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "math1.hs.ch06.chapter"
+      ],
+      "primary_node": "math1.hs.ch06.chapter",
+      "confidence": "high",
+      "reason": "按平面对称性化简二重积分并完成区域上的积分计算，属于多元函数积分学。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "math1.hs.ch05.chapter"
+      ],
+      "primary_node": "math1.hs.ch05.chapter",
+      "confidence": "high",
+      "reason": "先求曲面切平面，再在三角形投影区域内比较内部驻点、边界驻点和顶点值。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "math1.hs.ch02.chapter",
+        "math1.hs.ch03.chapter"
+      ],
+      "primary_node": "math1.hs.ch02.chapter",
+      "confidence": "high",
+      "reason": "前半用二阶泰勒公式消去一阶项得到点态不等式，后半对不等式积分；微分学为主并连接积分学。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "math1.hs.ch06.chapter"
+      ],
+      "primary_node": "math1.hs.ch06.chapter",
+      "confidence": "high",
+      "reason": "用斯托克斯公式把闭曲线积分化为平面上的曲面积分，再处理投影圆域。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "math1.la.ch13.chapter",
+        "math1.la.ch10.chapter"
+      ],
+      "primary_node": "math1.la.ch13.chapter",
+      "confidence": "high",
+      "reason": "递推关系写成矩阵幂后用特征值分解求显式表达式，同时涉及矩阵运算。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "math1.pr.ch21.chapter",
+        "math1.pr.ch20.chapter"
+      ],
+      "primary_node": "math1.pr.ch21.chapter",
+      "confidence": "high",
+      "reason": "样本最大值的分布用于构造无偏估计，并以均方误差最小化确定估计系数；兼涉次序统计量。"
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "coder": "luna",
+    "year": 2026,
+    "subject": "英语一",
+    "node_table_sha256": "ba119084615d2f04288a4a2e45efedaa9954247e63fb104189851cfa054b025a",
+    "started_at": "2026-09-13T21:19:39+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "依据句间转折和承接关系判断连接成分，属于第一部分的语篇衔接考查。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需要结合上下文辨析动词的语义及其与宾语的搭配，属于词汇运用。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "通过名词语义和上下文指代关系确定最合适的表达，属于词汇运用。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "选择项同时涉及分词结构和语义配合，主要依据上下文判断动词意义，细分归类存在交叉。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "依据名词与后续语义的搭配选择表达，核心是词义辨析。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "通过段落推进关系选择衔接副词短语，体现语篇层面的语法运用。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "根据虚拟体验场景辨析动词意义和搭配，属于词汇知识在语境中的应用。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查介词与动名词结构的连接方式，属于句法和介词用法。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需要按语境辨析动作动词的意义，属于词汇选择。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "根据个性化建议的语义场选择合适动词，属于词义和搭配考查。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "通过形容词与中心名词的语义搭配确定表达，属于词汇知识。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "依据前后句的解释关系选择连接短语，考查语篇逻辑衔接。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "固定搭配和语义场共同限定名词选择，属于词汇运用。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "根据社会语境中名词的惯用搭配判断词义，属于词汇辨析。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "通过例证与前文的逻辑关系选择连接副词，属于篇章衔接。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "主要考查动词短语与结果名词的搭配，语义和搭配边界有一定交叉。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "依据介词后的行为与科技依赖语义选择动词形式，属于词汇和搭配。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.grammar"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "需要辨析介词短语的举例功能和句内关系，兼有固定短语与句法属性。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "根据审美语境中的抽象名词搭配确定词义，属于词汇知识。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "eng1.paper.part1",
+        "eng1.exam.objectives.knowledge.vocabulary"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "依据动词与宾语的语义关系判断表达，属于词汇搭配考查。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "依据首段的时间比较和驯化事实完成细节定位，属于阅读理解 A 节。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "需要把引语转化为遗传证据揭示历史的概括，属于信息理解与推断。"
+    },
+    {
+      "number": 23,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "结合研究方法和传播过程判断研究所关注的变化，属于事实理解。"
+    },
+    {
+      "number": 24,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "根据研究者对环境变化与驯化时点的解释判断因果推断，属于阅读理解。"
+    },
+    {
+      "number": 25,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从结尾关于后续研究和动物管理的说明归纳研究价值，属于主旨细节判断。"
+    },
+    {
+      "number": 26,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "依据工会反应与行业现状概括文本所揭示的总体态势，属于中心信息理解。"
+    },
+    {
+      "number": 27,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "识别税收优惠案例在论证中的作用，属于论据功能判断。"
+    },
+    {
+      "number": 28,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "结合流媒体经营目标的变化判断数量变化原因，属于因果关系理解。"
+    },
+    {
+      "number": 29,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "根据人才和相关企业外流的连锁后果判断行业风险，属于段落信息推断。"
+    },
+    {
+      "number": 30,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从结尾的政策倡议归纳当地维持行业地位的行动方向，属于作者意图理解。"
+    },
+    {
+      "number": 31,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "依据早期广播理念概括其面向人群的普及性，属于细节理解。"
+    },
+    {
+      "number": 32,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "根据展览材料、时间范围和研究对象归纳其主题，属于主旨概括。"
+    },
+    {
+      "number": 33,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从广播带来的偶然收获归纳听众可能获得的额外益处，属于信息推断。"
+    },
+    {
+      "number": 34,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "结合上下文把比喻性表达还原为邻里间的日常交谈，属于语境释义。"
+    },
+    {
+      "number": 35,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "综合末段对技术习惯变化的讨论，判断作者对创新应持的态度，属于观点理解。"
+    },
+    {
+      "number": 36,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "依据树轮记录与早期火灾频率的反差判断惊讶所在，属于细节定位。"
+    },
+    {
+      "number": 37,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "概括低强度火灾对生态系统的多项作用，属于段落主旨理解。"
+    },
+    {
+      "number": 38,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "根据历史频率与近几十年记录的比较判断火灾频率变化，属于事实理解。"
+    },
+    {
+      "number": 39,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "结合灭火压制与气候变化的叠加影响推断现代消防面临的难点，属于推断题。"
+    },
+    {
+      "number": 40,
+      "nodes": [
+        "eng1.paper.part2.a",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "比较两位专家对计划性燃烧的共同立场，属于观点整合与信息推断。"
+    },
+    {
+      "number": 41,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "要求依据段落之间的指代、承接和论证顺序重组文章，属于阅读理解 B 节。"
+    },
+    {
+      "number": 42,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "通过识别相邻段落的主题推进和语义过渡确定位置，属于篇章组织判断。"
+    },
+    {
+      "number": 43,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "综合固定段落与候选段落的逻辑连接完成整体排序，属于篇章理解。"
+    },
+    {
+      "number": 44,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "根据例证、观点和结论的展开层次判断段落衔接，属于阅读理解 B 节。"
+    },
+    {
+      "number": 45,
+      "nodes": [
+        "eng1.paper.part2.b",
+        "eng1.exam.objectives.skills.reading"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "需要从全文论旨和段落功能校验最终顺序，属于篇章结构推断。"
+    },
+    {
+      "number": 46,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "考查长句中概念定义和时间演变关系的英译汉理解，属于 C 节翻译。"
+    },
+    {
+      "number": 47,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "考查抽象名词、定语从句及观点关系的汉译表达，属于 C 节翻译。"
+    },
+    {
+      "number": 48,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "考查复杂主语结构和回指关系的句法解析，属于 C 节翻译。"
+    },
+    {
+      "number": 49,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "考查被动结构、目的关系及学术语域的准确转换，属于 C 节翻译。"
+    },
+    {
+      "number": 50,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "考查历史背景、因果链和插入信息的综合翻译理解，属于 C 节翻译。"
+    },
+    {
+      "number": 51,
+      "nodes": [
+        "eng1.paper.part4.a",
+        "eng1.exam.objectives.skills.writing"
+      ],
+      "primary_node": "eng1.paper.part4.a",
+      "confidence": "high",
+      "reason": "任务要求以邮件体完成信息回复，属于第四部分应用文写作。"
+    },
+    {
+      "number": 52,
+      "nodes": [
+        "eng1.paper.part4.b",
+        "eng1.exam.objectives.skills.writing"
+      ],
+      "primary_node": "eng1.paper.part4.b",
+      "confidence": "high",
+      "reason": "任务要求解读图表并形成评论性文章，属于第四部分短文写作。"
+    }
+  ]
+}

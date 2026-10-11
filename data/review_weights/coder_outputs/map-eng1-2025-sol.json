@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "coder": "sol",
+    "year": 2025,
+    "subject": "英语一",
+    "node_table_sha256": "86b908b2d0bc5331bf0771de29790e69e31fa7efed361e9f09d8da28889f472d",
+    "started_at": "2026-09-13T20:51:03+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查形容词与介词形成的固定搭配及语境适配，属于英语知识运用中的词汇辨析。"
+    },
+    {
+      "number": 2,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需要依据变化过程选择恰当的方式副词，核心是完形语境中的词义辨析。"
+    },
+    {
+      "number": 3,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "根据海平面变化造成的结果选择动词，考查动词语义及搭配。"
+    },
+    {
+      "number": 4,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需用名词概括水下遗存，属于名词词义与上下文指代判断。"
+    },
+    {
+      "number": 5,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "空格承担方位介词功能，同时涉及习惯搭配，语法与词汇边界均有关联。"
+    },
+    {
+      "number": 6,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "结合海洋环境和屏障侵蚀选择自然现象名词，考查语境词义。"
+    },
+    {
+      "number": 7,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需判断天然屏障对遗址的作用，考查动词含义和宾语搭配。"
+    },
+    {
+      "number": 8,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "根据科学调查的目的选择表示收集信息的动词，属于动词辨析。"
+    },
+    {
+      "number": 9,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "空格连接持续背景事件与突发发现，主要考查时间状语从句连接词。"
+    },
+    {
+      "number": 10,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "依据后文列出的建筑与街道判断所指对象，考查名词概括能力。"
+    },
+    {
+      "number": 11,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "结合重返现场并绘制遗址图的目的选择动作动词，属于词义辨析。"
+    },
+    {
+      "number": 12,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "前后信息形成让步关系，考查让步介词与句间逻辑。"
+    },
+    {
+      "number": 13,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需描述遗址长期未受进一步发掘的状态，考查形容词语义。"
+    },
+    {
+      "number": 14,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "依据数十年后重新开展工作的时间线选择动词，属于语境词义判断。"
+    },
+    {
+      "number": 15,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "与工具并列且受技术进步语境限制，考查专业方法类名词辨析。"
+    },
+    {
+      "number": 16,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "需选择表示使用多种技术手段的动词，考查动宾搭配。"
+    },
+    {
+      "number": 17,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "考查表示使沉没城镇重新呈现的固定表达，属于短语搭配。"
+    },
+    {
+      "number": 18,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "根据道路与建筑之间的空间关系选择谓语，考查动词语义。"
+    },
+    {
+      "number": 19,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.grammar", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "medium",
+      "reason": "空格以非谓语形式引出证据所支持的推论，同时需要辨析推断类动词。"
+    },
+    {
+      "number": 20,
+      "nodes": ["eng1.paper.part1", "eng1.exam.objectives.knowledge.vocabulary"],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "依据贸易中心与纺织活动的关系选择产业状态形容词，属于语境词汇题。"
+    },
+    {
+      "number": 21,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "要求定位教学方法的实际操作方式，是阅读A节的事实细节理解。"
+    },
+    {
+      "number": 22,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "需概括对照实验的设计目的并判断教学效果，属于阅读推断。"
+    },
+    {
+      "number": 23,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "通过两组写作表现的差异判断表达局限，属于局部信息推断。"
+    },
+    {
+      "number": 24,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从角色代入过程归纳情感理解的来源，考查因果关系理解。"
+    },
+    {
+      "number": 25,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "依据末段对语言资源和身体参与的说明作有限推断，属于阅读推理。"
+    },
+    {
+      "number": 26,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "需定位作者开篇惊讶所针对的具体做法，属于事实信息检索。"
+    },
+    {
+      "number": 27,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "根据作者对科研成本和长期收益的权衡判断立场，属于观点理解。"
+    },
+    {
+      "number": 28,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "要求判断人物案例在论证中的作用，考查例证功能理解。"
+    },
+    {
+      "number": 29,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "需综合设备能源来源和余热利用信息评价其示范意义，属于细节归纳。"
+    },
+    {
+      "number": 30,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "通过全文论证选择与作者总体态度一致的判断，属于主旨立场题。"
+    },
+    {
+      "number": 31,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从合法平台亏损与盗版获利的对照判断其处境，考查段落细节。"
+    },
+    {
+      "number": 32,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "需识别正规流媒体早期对文件型盗版的影响，属于事实信息理解。"
+    },
+    {
+      "number": 33,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "根据立法协商失败的背景推断行业组织面临的合作障碍，属于隐含信息推理。"
+    },
+    {
+      "number": 34,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "需准确理解预测中的时间范围与不确定性，属于观点细节判断。"
+    },
+    {
+      "number": 35,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "要求概括贯穿全文的数据、损失和就业影响，属于中心信息归纳。"
+    },
+    {
+      "number": 36,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "判断开篇实体史料例子的引题功能，考查篇章写作目的。"
+    },
+    {
+      "number": 37,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "需比较实体载体与数字对象的保存特性，属于对比细节理解。"
+    },
+    {
+      "number": 38,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "从普遍访问造成的认知偏差推断图书馆工作的意外后果，属于因果推理。"
+    },
+    {
+      "number": 39,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "判断旧式存储介质案例说明的格式淘汰风险，属于例证含义理解。"
+    },
+    {
+      "number": 40,
+      "nodes": ["eng1.paper.part2.a", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "需要统摄数字保存困难与专业维护责任，属于全文主旨概括。"
+    },
+    {
+      "number": 41,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "通过人物经历的起点建立全文话题，考查排序题的篇章开端识别。"
+    },
+    {
+      "number": 42,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "依据康复经历与摄影兴趣的承接关系确定段落位置，考查叙事衔接。"
+    },
+    {
+      "number": 43,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "利用拍摄技术的提问与后续操作说明形成照应，考查段间逻辑。"
+    },
+    {
+      "number": 44,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "根据转折评价承接技术说明并引出实拍难度，考查指代与过渡。"
+    },
+    {
+      "number": 45,
+      "nodes": ["eng1.paper.part2.b", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "以追拍体验和精神收获收束全文，考查结尾功能及篇章连贯。"
+    },
+    {
+      "number": 46,
+      "nodes": ["eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.knowledge.grammar", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "medium",
+      "reason": "要求处理时间拟人化表达及地点关系从句的英译汉，兼具句法分析与阅读理解属性。"
+    },
+    {
+      "number": 47,
+      "nodes": ["eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.knowledge.grammar", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "medium",
+      "reason": "翻译时需理清方式状语、形式主语和重复介词结构，属于阅读中的英译汉。"
+    },
+    {
+      "number": 48,
+      "nodes": ["eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.knowledge.grammar", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "medium",
+      "reason": "需把总述与两个并列举例的结构准确转换为中文，考查长句关系理解。"
+    },
+    {
+      "number": 49,
+      "nodes": ["eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.knowledge.grammar", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "medium",
+      "reason": "句中包含复杂名词短语、现在分词修饰和并列目的成分，核心任务是结构化翻译。"
+    },
+    {
+      "number": 50,
+      "nodes": ["eng1.paper.part2.c", "eng1.paper.part3.note", "eng1.exam.objectives.knowledge.grammar", "eng1.exam.objectives.skills.reading"],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "medium",
+      "reason": "需解析代词指向、多项并列谓语及抽象边界表达，属于英译汉句法理解。"
+    },
+    {
+      "number": 51,
+      "nodes": ["eng1.paper.part4.a", "eng1.exam.objectives.skills.writing"],
+      "primary_node": "eng1.paper.part4.a",
+      "confidence": "high",
+      "reason": "任务要求按邮件语境回应询问并安排协助事项，明确属于应用文写作。"
+    },
+    {
+      "number": 52,
+      "nodes": ["eng1.paper.part4.b", "eng1.exam.objectives.skills.writing"],
+      "primary_node": "eng1.paper.part4.b",
+      "confidence": "high",
+      "reason": "任务要求描述表格趋势、解释含义并发表评论，明确属于图表型短文写作。"
+    }
+  ]
+}

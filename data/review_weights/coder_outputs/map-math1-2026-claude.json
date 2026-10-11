@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2026,
+    "subject": "math1",
+    "node_table_sha256": "8d9543368faf6fc8ebf45d8b548deffd59f15081253b94676788b95c0de56d82",
+    "node_table_sha256_note": "任务书声明值 2c7d7dbbe194f5b1be701821a613b2dfb1cb4b7f265cd7de30d87ae02c942598 与本地文件实测 sha256 不一致（行数/节点数均核对为 66，内容看起来一致），此处记录的是对 math1_2026_nodes.tsv 实测得到的哈希，详见报告。",
+    "started_at": "2026-09-13T00:00:00+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "由方程确定的二元隐函数 z=z(x,y)，求偏导数，属于隐函数求偏导的标准计算，无其他章节交叉。"
+    },
+    {
+      "number": 2,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "求幂级数的收敛域，需先换元再用比值/根值判别法确定收敛半径并讨论端点，是无穷级数章节的典型考点。"
+    },
+    {
+      "number": 3,
+      "nodes": ["math1.hs.ch02.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "考察极值的充分条件、单调性与凹凸性之间的逻辑关系（举反例排除），核心是一元函数微分学中函数性态的判断。"
+    },
+    {
+      "number": 4,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "两曲面围成有界闭区域上的三重积分，需转换为球坐标/柱坐标下的累次积分，属于多元函数积分学中三重积分的计算。"
+    },
+    {
+      "number": 5,
+      "nodes": ["math1.la.ch10.content"],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "high",
+      "reason": "考察置换矩阵、逆矩阵与伴随矩阵之间的关系（A* = |A|A^-1），属于矩阵章节的伴随矩阵/逆矩阵性质。"
+    },
+    {
+      "number": 6,
+      "nodes": ["math1.la.ch12.content", "math1.la.ch11.content"],
+      "primary_node": "math1.la.ch12.content",
+      "confidence": "medium",
+      "reason": "由列向量组可线性表示推出方程组 Ax=β 有解与 Bx=β 有解的蕴含关系，核心结论属于线性方程组解的判定，但推理依据（β可由列向量组线性表示）也涉及向量章节，故列两节点。"
+    },
+    {
+      "number": 7,
+      "nodes": ["math1.la.ch14.content"],
+      "primary_node": "math1.la.ch14.content",
+      "confidence": "high",
+      "reason": "二次型表示柱面（对应特征值符号个数确定 a），并求规范形/正交变换下的标准形，是二次型章节的典型综合题。"
+    },
+    {
+      "number": 8,
+      "nodes": ["math1.pr.ch18.content", "math1.pr.ch16.content"],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "medium",
+      "reason": "f(t)=E[(X-t)^2] 的最小值点与最小值本质是 E(X-c)^2 = D(X)+(EX-c)^2 这一数字特征公式的应用，但需要正态分布参数(EX,DX)作为已知条件，兼涉两节，取数字特征为主。"
+    },
+    {
+      "number": 9,
+      "nodes": ["math1.pr.ch18.content"],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "high",
+      "reason": "由 Y=aX+b 型变换后期望方差归零/归一反解 a、b，核心是期望和方差在线性变换下的性质，属数字特征章节。"
+    },
+    {
+      "number": 10,
+      "nodes": ["math1.pr.ch16.content", "math1.pr.ch15.content"],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "medium",
+      "reason": "题目给出一个离散分布并考察 P(X>m+n|X>m) 与 P(X>n) 的关系（无记忆性），核心是该分布的性质，但计算过程要用到条件概率定义，故两节点并列。"
+    },
+    {
+      "number": 11,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "求向量场的散度 div F，属于多元函数积分学中场论初步（散度、旋度）的内容。"
+    },
+    {
+      "number": 12,
+      "nodes": ["math1.hs.ch01.content"],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "0/0 型极限，需用泰勒展开/等价无穷小处理，是函数极限计算的典型题。"
+    },
+    {
+      "number": 13,
+      "nodes": ["math1.hs.ch02.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "由参数方程确定的函数求二阶导数在指定点的值，属一元函数微分学中参数方程求导的标准考点。"
+    },
+    {
+      "number": 14,
+      "nodes": ["math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch03.content",
+      "confidence": "high",
+      "reason": "含 ln(1+x)/x^2 的定积分计算，需用分部积分法，属一元函数积分学的定积分计算。"
+    },
+    {
+      "number": 15,
+      "nodes": ["math1.la.ch13.content"],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "求含参数矩阵 A、B 的特征值，并比较其最大实特征值 m(A)、m(B) 确定参数范围，属特征值与特征向量章节。"
+    },
+    {
+      "number": 16,
+      "nodes": ["math1.pr.ch18.content", "math1.pr.ch16.content"],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "medium",
+      "reason": "由 X 与 Y-X 独立推出协方差为零进而求 E(XY)，核心技巧属数字特征（协方差、期望性质），但需要泊松分布方差公式作为已知条件，涉及两节。"
+    },
+    {
+      "number": 17,
+      "nodes": ["math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "求二元函数的极值，用一阶偏导为零求驻点、二阶偏导判别法（A,B,C）判定，是多元函数微分学的经典题型。"
+    },
+    {
+      "number": 18,
+      "nodes": ["math1.hs.ch08.content", "math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch08.content",
+      "confidence": "medium",
+      "reason": "第(1)问由全微分（混合偏导数相等）条件推出 f 满足的微分关系，属多元函数微分学；第(2)问需解一个二阶常系数线性微分方程求 f(u)，是主要计算量所在，故以常微分方程为主节点。"
+    },
+    {
+      "number": 19,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "计算沿椭圆一段弧的第二类曲线积分，通过补线段构造闭曲线用格林公式，是多元函数积分学的典型题。"
+    },
+    {
+      "number": 20,
+      "nodes": ["math1.hs.ch02.content", "math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "medium",
+      "reason": "第(1)问用定积分的几何意义/单调性做积分不等式估计（定积分性质）；第(2)问对变限积分构造的 F(x) 两次用罗尔定理证明存在零点，核心方法为中值定理，故以一元函数微分学为主，兼列积分学节点。"
+    },
+    {
+      "number": 21,
+      "nodes": ["math1.la.ch11.content", "math1.la.ch10.content"],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "medium",
+      "reason": "第(1)问证明极大无关组属向量章节；第(2)问求解矩阵方程 A=GH 并计算 A^10（利用 HG 可交换、分块幂运算）是主要分值所在，属矩阵运算，故以矩阵章节为主。"
+    },
+    {
+      "number": 22,
+      "nodes": ["math1.pr.ch21.content"],
+      "primary_node": "math1.pr.ch21.content",
+      "confidence": "high",
+      "reason": "求顺序统计量(最小值)的密度、构造无偏估计量并求方差，以及基于截尾寿命试验数据求最大似然估计，整体围绕点估计方法与评选标准展开，属参数估计章节。"
+    }
+  ]
+}

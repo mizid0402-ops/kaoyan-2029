@@ -1,0 +1,355 @@
+{
+  "audited_document": "2024-2026考研数学一英语一真题答案及考试大纲.md",
+  "audited_sha256": "c99635318bb22179351edc6bb07d1f0883aa8403b73c9d14f3e9896ca6d072a0",
+  "verdict_counts": {
+    "SUPPORTED": 18,
+    "NOT_FOUND": 1,
+    "UNREACHABLE": 1
+  },
+  "claims": [
+    {
+      "claim_id": "A1",
+      "subject": "official",
+      "claim": "2026 研考初试时间 2025-12-20—21；数学一/英语一为全国统一命题科目",
+      "url": "https://www.moe.gov.cn/srcsite/A15/moe_778/s3261/202509/t20250918_1413836.html",
+      "http_status": 200,
+      "final_url": "http://www.moe.gov.cn/srcsite/A15/moe_778/s3261/202509/t20250918_1413836.html",
+      "byte_size": 76773,
+      "sha256": "276d67be6ac5bbdc36cd900d9c6314c1dbac7f39e0a829083e8672c15c0331f9",
+      "probes": [
+        "12月20日",
+        "12月21日",
+        "统一命题"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "A2",
+      "subject": "publisher",
+      "claim": "数学大纲 ISBN 9787107404689 / 157 页 / 29.00 元 / 人教社 / 2026 版目录",
+      "url": "https://www.zxhsd.com/kgsm/ts/2025/10/17/6704598.shtml",
+      "http_status": 200,
+      "final_url": "https://www.zxhsd.com/kgsm/ts/2025/10/17/6704598.shtml",
+      "byte_size": 48508,
+      "sha256": "e64c108a5ba9aa01407e34b5705b4dceccc2159d3c5252cd0b81ff2655a44c05",
+      "probes": [
+        "9787107404689",
+        "157",
+        "29",
+        "考试内容和考试要求",
+        "数学(一)"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "A3",
+      "subject": "publisher",
+      "claim": "数学大纲目录（境外核验页，台湾大书城）",
+      "url": "https://www.megbook.com.tw/mall/detail.jsp?proID=4159518",
+      "http_status": 200,
+      "final_url": "https://www.megbook.com.tw/mall/detail.jsp?proID=4159518",
+      "byte_size": 102,
+      "sha256": "c94f0fcc209d647a8e185af472b399083143816673c9bed39bb5602ed2f37406",
+      "probes": [
+        "9787",
+        "数学"
+      ],
+      "probes_missing": [
+        "9787",
+        "数学"
+      ],
+      "verdict": "NOT_FOUND"
+    },
+    {
+      "claim_id": "A4",
+      "subject": "publisher",
+      "claim": "英语一大纲 ISBN 9787107404603 / 236 页 / 含附录三 2024-2025 真题及参考答案",
+      "url": "https://aus.zxhsd.com/kgsm/ts/2025/10/17/6694606.shtml",
+      "http_status": 200,
+      "final_url": "https://aus.zxhsd.com/kgsm/ts/2025/10/17/6694606.shtml",
+      "byte_size": 25173,
+      "sha256": "23125bac723b679e9e29f0198da8cff62c6259573f8ae40bbcdb0daf273b2fb3",
+      "probes": [
+        "9787107404603",
+        "236",
+        "附录三",
+        "试题参考答案",
+        "词汇表"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "A5",
+      "subject": "publisher",
+      "claim": "英语一大纲目录（台湾大书城）",
+      "url": "https://search.megbook.com.tw/mall/detail.jsp?proID=4159208",
+      "http_status": 200,
+      "final_url": "https://search.megbook.com.tw/mall/detail.jsp?proID=4159208",
+      "byte_size": 8045,
+      "sha256": "39e167cba7f8e0c5cd23e10122433c8c6bfb25ef4a4391175b8a002d02c6285e",
+      "probes": [
+        "9787",
+        "英语"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "B1",
+      "subject": "math-reprint",
+      "claim": "2024 数学一真题及答案（网络整理 PDF）",
+      "url": "https://www.chinakaoyan.com/info/article/id/527517.shtml",
+      "http_status": 200,
+      "final_url": "https://www.chinakaoyan.com/info/article/id/527517.shtml",
+      "byte_size": 29747,
+      "sha256": "20c2ea3eecef20aed74f94226d3e1857a5c4622e2e7e1dc1be40c33fb90bc1b0",
+      "probes": [
+        "2024",
+        "数学一",
+        "真题",
+        "答案"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "B2",
+      "subject": "math-reprint",
+      "claim": "同站下载中心提供该 PDF",
+      "url": "https://download.chinakaoyan.com/list-show-218527.html",
+      "http_status": 200,
+      "final_url": "https://download.chinakaoyan.com/list-show-218527.html",
+      "byte_size": 17702,
+      "sha256": "93b335a8c3a78ab77fd91176beb3d010a3dd43eac2988b20379174a92b50e95f",
+      "probes": [
+        "2024",
+        "数学"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "B3",
+      "subject": "math-university",
+      "claim": "天津仁爱学院数学教学部提供 2025 数学一真题及答案解析 PDF 附件",
+      "url": "https://www.tjrac.edu.cn/sxjxb/info/1340/3002.htm",
+      "http_status": 200,
+      "final_url": "https://www.tjrac.edu.cn/sxjxb/info/1340/3002.htm",
+      "byte_size": 16738,
+      "sha256": "5f508d8a5a75fb8bb484cf921fec80d2142ecddc206251e3320eaa0c91eb07d9",
+      "probes": [
+        "2025",
+        "数学（一）",
+        "真题",
+        "pdf"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "B4",
+      "subject": "math-reprint",
+      "claim": "聚创考研 2025 数学一解析",
+      "url": "https://m.juyingonline.com/news/356469.html",
+      "http_status": 200,
+      "final_url": "https://m.juyingonline.com/news/356469.html",
+      "byte_size": 21108,
+      "sha256": "07ccc84435ffa8fcec4206475346ef35d2082f3e85a16a345b07621abd4e5bba",
+      "probes": [
+        "2025",
+        "数学一"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "B5",
+      "subject": "math-reprint",
+      "claim": "启航数学真题索引",
+      "url": "https://m-jixun.iqihang.com/kyzt/shuxue/",
+      "http_status": 200,
+      "final_url": "https://m-jixun.iqihang.com/kyzt/shuxue/",
+      "byte_size": 121054,
+      "sha256": "f6b0da6925cc565b2a7bc8b10f8401f749d52d0ad6196863de6a025f4a814d67",
+      "probes": [
+        "数学"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "B6",
+      "subject": "math-reprint",
+      "claim": "启航 2026 数学一完整卷 + 解析",
+      "url": "https://m-jixun.iqihang.com/kyzt/shuxue/shuxue1/2025703715.html",
+      "http_status": 200,
+      "final_url": "https://m-jixun.iqihang.com/kyzt/shuxue/shuxue1/2025703715.html",
+      "byte_size": 106638,
+      "sha256": "759f721ccd469c75147eeebd026675d7d0f784e3c03ae4930062d84816789800",
+      "probes": [
+        "2026",
+        "数学一",
+        "答案"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "B7",
+      "subject": "math-reprint",
+      "claim": "聚创考研 2026 数学一手写版 PDF",
+      "url": "https://m.juyingonline.com/news/357790.html",
+      "http_status": 200,
+      "final_url": "https://m.juyingonline.com/news/357790.html",
+      "byte_size": 24472,
+      "sha256": "835ed3bc3a850abf10e63267240dff85a609c9103a64a7516e5ad7704efa900a",
+      "probes": [
+        "2026",
+        "数学一"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "C1",
+      "subject": "eng-reprint",
+      "claim": "懒笔记 2024 英语一整卷 + PDF + Word + 解析",
+      "url": "https://english-exam.lazynote.cn/kaoyan/paper/2024-english-one/",
+      "http_status": 200,
+      "final_url": "https://english-exam.lazynote.cn/kaoyan/paper/2024-english-one/",
+      "byte_size": 229272,
+      "sha256": "6b7be9b615f99cae6bddf5ab94e1032ddd25be1877a4dd7598bd66f7208b6815",
+      "probes": [
+        "2024",
+        "PDF",
+        "Word",
+        "解析"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "C2",
+      "subject": "eng-reprint",
+      "claim": "中国考研网 2024 英语一各题型答案索引",
+      "url": "https://www.chinakaoyan.com/info/article/id/526859.shtml",
+      "http_status": 200,
+      "final_url": "https://www.chinakaoyan.com/info/article/id/526859.shtml",
+      "byte_size": 33869,
+      "sha256": "e2f45c7cc3590d2aa5e5aa865a79081c2bbe06fe8833b663bc9294d10492eb08",
+      "probes": [
+        "2024",
+        "英语"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "C3",
+      "subject": "eng-reprint",
+      "claim": "懒笔记 2025 英语一整卷",
+      "url": "https://english-exam.lazynote.cn/kaoyan/paper/2025-english-one/",
+      "http_status": 200,
+      "final_url": "https://english-exam.lazynote.cn/kaoyan/paper/2025-english-one/",
+      "byte_size": 225659,
+      "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+      "probes": [
+        "2025",
+        "PDF",
+        "Word"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "C4",
+      "subject": "eng-reprint",
+      "claim": "新东方 2025 英语一试题及答案",
+      "url": "https://kaoyan.xdf.cn/202501/14059107.html",
+      "http_status": 200,
+      "final_url": "https://kaoyan.xdf.cn/202501/14059107.html",
+      "byte_size": 64814,
+      "sha256": "4b94689c98c0124791f03676099031e8ed5a90320f3ff37937cea075942dba19",
+      "probes": [
+        "2025",
+        "英语（一）",
+        "答案"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "C5",
+      "subject": "eng-reprint",
+      "claim": "考研之家标注的「2025 英语一试题参考答案.pdf」",
+      "url": "https://www.yanbbs.com/nd.jsp?id=47",
+      "http_status": "SSLError: HTTPSConnectionPool(host='www.yanbbs.com', port=443): Max retries exceeded with url: /nd.jsp?id=47 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')))",
+      "final_url": null,
+      "byte_size": null,
+      "sha256": null,
+      "probes": [
+        "参考答案"
+      ],
+      "probes_missing": [
+        "参考答案"
+      ],
+      "verdict": "UNREACHABLE"
+    },
+    {
+      "claim_id": "C6",
+      "subject": "eng-reprint",
+      "claim": "懒笔记 2026 英语一整卷 + 分模块解析",
+      "url": "https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/",
+      "http_status": 200,
+      "final_url": "https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/",
+      "byte_size": 228441,
+      "sha256": "3c64ff4d94d610708fa63df3ca1462476b3eae627cb43e35f4334c96b555a4eb",
+      "probes": [
+        "2026",
+        "完形",
+        "阅读",
+        "新题型",
+        "翻译",
+        "写作"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "C7",
+      "subject": "eng-reprint",
+      "claim": "kaoyan.cn 静态 PDF 含 2026 英语一试题及答案",
+      "url": "https://static.kaoyan.cn/file/question/2025/12/27/4644ae5c80a12b9a2135e54dc56c0724.pdf",
+      "http_status": 200,
+      "final_url": "https://static.kaoyan.cn/file/question/2025/12/27/4644ae5c80a12b9a2135e54dc56c0724.pdf",
+      "byte_size": 903877,
+      "sha256": "d33c331413174826c333437b46e6819ab8b6da2435da1300d670d701fbac84c4",
+      "probes": [],
+      "probes_missing": [],
+      "verdict": "SUPPORTED",
+      "pdf_magic": "%PDF-1.3",
+      "rights_note": "已实际下载到完整 PDF 字节；按项目 §4.3/侦察 §2.4 第 8-10 条，真题与答案原文不得入库，此文件仅作「该链接确实提供真题」的存在性证据，不得进入 data/raw_materials。"
+    },
+    {
+      "claim_id": "C8",
+      "subject": "eng-reprint",
+      "claim": "懒笔记 2010—2026 英语一真题总库",
+      "url": "https://english-exam.lazynote.cn/kaoyan/english-one/",
+      "http_status": 200,
+      "final_url": "https://english-exam.lazynote.cn/kaoyan/english-one/",
+      "byte_size": 157020,
+      "sha256": "806f02f3ff0dc6a9f4bf2d94319c9c0eb79b7831b4c3946759f18d5352010ca7",
+      "probes": [
+        "2010",
+        "2026",
+        "PDF",
+        "Word"
+      ],
+      "probes_missing": [],
+      "verdict": "SUPPORTED"
+    }
+  ]
+}

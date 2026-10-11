@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "coder": "sol",
+    "year": 2025,
+    "subject": "math1",
+    "node_table_sha256": "2c7d7dbbe194f5b1be701821a613b2dfb1cb4b7f265cd7de30d87ae02c942598",
+    "started_at": "2026-09-13T20:03:12+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "通过积分定义函数后考查驻点、极值与拐点判定，核心是导数及高阶导数的符号和局部性质。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "math1.hs.ch07.content"
+      ],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "要求区分两个数项级数的条件收敛与绝对收敛，直接对应级数收敛性判别。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "math1.hs.ch01.content",
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "medium",
+      "reason": "比较函数、导函数和积分平均量在无穷远处的极限存在性；核心落在极限性质，但判别过程会调用微分工具。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "math1.hs.ch06.content"
+      ],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "需要识别平面积分区域并交换二重积分的积分次序，属于多元积分计算。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "math1.la.ch14.content"
+      ],
+      "primary_node": "math1.la.ch14.content",
+      "confidence": "high",
+      "reason": "由二次型的对称矩阵确定正惯性指数，直接对应二次型的规范化与惯性性质。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "math1.la.ch12.content",
+        "math1.la.ch11.content"
+      ],
+      "primary_node": "math1.la.ch12.content",
+      "confidence": "medium",
+      "reason": "依据列向量的相关性和系数矩阵秩判断非齐次方程组的解集维数，再解释其空间几何形态；方程组是主线，向量关系是前提。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "math1.la.ch10.content"
+      ],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "high",
+      "reason": "全部结论围绕矩阵和、积的秩及其不等式展开，属于矩阵秩的性质。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "math1.pr.ch18.content",
+        "math1.pr.ch17.content"
+      ],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "medium",
+      "reason": "用协方差结构计算线性组合的方差并求最值，数字特征是求解核心，二维正态分布提供联合结构。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "math1.pr.ch16.content"
+      ],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "high",
+      "reason": "将伯努利样本和视为二项变量，并用泊松分布作近似计算，属于常见离散分布及其近似。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "math1.pr.ch22.content"
+      ],
+      "primary_node": "math1.pr.ch22.content",
+      "confidence": "high",
+      "reason": "根据正态总体均值的单侧检验构造统计量和拒绝域，直接对应假设检验。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "math1.hs.ch01.content"
+      ],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "处理含幂函数与对数函数的未定式极限，核心是等价无穷小及极限运算。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "math1.hs.ch07.content"
+      ],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "利用傅里叶级数和函数的周期性及间断点取值规则确定函数值，属于傅里叶级数。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "math1.hs.ch05.content"
+      ],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "由梯度与单位方向向量的内积求空间函数的方向导数，属于多元微分。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "math1.hs.ch06.content"
+      ],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "计算第二类曲线积分，并可通过补线后使用格林公式转化为二重积分。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "math1.la.ch12.content",
+        "math1.la.ch10.content",
+        "math1.la.ch09.content"
+      ],
+      "primary_node": "math1.la.ch12.content",
+      "confidence": "medium",
+      "reason": "从两个齐次方程组解空间不同推出矩阵不可逆，再结合矩阵秩与行列式约束参数；解集比较是主线。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "math1.pr.ch15.content"
+      ],
+      "primary_node": "math1.pr.ch15.content",
+      "confidence": "high",
+      "reason": "综合使用事件独立性、并事件概率与条件概率计算限定事件下的概率。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "math1.hs.ch03.content"
+      ],
+      "primary_node": "math1.hs.ch03.content",
+      "confidence": "high",
+      "reason": "对有理函数作部分分式分解后计算定积分，属于一元积分方法。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "math1.hs.ch05.content",
+        "math1.hs.ch08.content"
+      ],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "medium",
+      "reason": "先对二元复合函数作二阶偏导并代入偏微分关系，再把所得关系化为关于单变量函数的常微分方程；多元链式求导是主要入口。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "证明导函数严格单调与割线斜率不等式等价，关键使用导数定义和拉格朗日中值定理。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "math1.hs.ch06.content"
+      ],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "识别旋转曲面及其定向，通过补面和高斯公式计算第二类曲面积分。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "math1.la.ch13.content"
+      ],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "由特征多项式的重根条件确定参数，并利用特征空间关系刻画所求向量。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "math1.pr.ch16.content",
+        "math1.pr.ch18.content"
+      ],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "medium",
+      "reason": "先由连续变量变换求赔付概率和期望，再对泊松次数进行二项稀疏化得到年度次数分布；分布构造是主线，数字特征为辅助。"
+    }
+  ]
+}

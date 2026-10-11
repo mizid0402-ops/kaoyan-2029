@@ -1,0 +1,45 @@
+# Local scratch state; nothing here is authoritative.
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 本机 IDE / 会话配置（Claude Code 的 launch 配置与 worktrees）：个人本机状态，不上传
+.claude/
+
+# Logs and caches produced by preflight runs and review rounds.
+logs/
+cache/
+
+# 图里有个人课表与学习记录
+outputs/
+
+# Reviewer scratch probes must never be committed.
+tmp/
+*.tmp
+
+# 408 PPT 工作目录：本地素材，不上传（含真题原文摘录与讲解稿）
+review/408知识点树与真题/
+
+# 原始下载材料：可按 data/materials.yaml 登记表重取，不进仓库
+# （含真题扫描件、quiz 页 HTML、机构转录页）
+data/raw_materials/
+
+# 用户本地资料：生成的讲义 PPT 与教材扫描，不上传（技术债清单 P0-1）
+Claude outputs/
+review/*教材(操作系统)/
+
+# 可重建的只读投影：用 `py -3.12 -m ky.projection` 重建，不入库（技术债清单 P0-3）
+data/projections/*.sqlite
+
+# AI 对话转录：过程记录，本地保留、不入库；审计痕迹是同目录的 .md 报告与任务书（技术债清单 P0-4）
+review/rounds/*.log
+
+# 个人数据只在本机（用户 2026-09-30："现有的 git 仓库只上传整个项目的骨架"；备份另开仓库）：
+# 课表与学校档案、本地注册表补充文件、学习状态（复习队列 / 日计划 / 完成事件 / 路线 / 手填分钟）、AI 暂存区。
+data/personal/
+kaoyan.workspace.local.yaml
+data/review_queue/
+data/plans/
+data/routes/
+data/availability.yaml
+staging/

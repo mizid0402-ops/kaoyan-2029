@@ -1,0 +1,484 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2026,
+    "subject": "eng1",
+    "node_table_sha256": "86b908b2d0bc5331bf0771de29790e69e31fa7efed361e9f09d8da28889f472d",
+    "started_at": "2026-09-13T21:22:48.560693+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "eng1.paper.part1"
+      ],
+      "primary_node": "eng1.paper.part1",
+      "confidence": "high",
+      "reason": "题号1-20位于试卷 Section I Use of English，为单篇20空的完形填空（主题涉及AI与审美/自我认知），试卷小标题直接标注为该部分，且节点表中该部分无更细子节点可选。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号21位于 Section II Reading Comprehension Part A 第1篇短文（驴的驯化史（Text 1））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号22位于 Section II Reading Comprehension Part A 第1篇短文（驴的驯化史（Text 1））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 23,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号23位于 Section II Reading Comprehension Part A 第1篇短文（驴的驯化史（Text 1））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 24,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号24位于 Section II Reading Comprehension Part A 第1篇短文（驴的驯化史（Text 1））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 25,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号25位于 Section II Reading Comprehension Part A 第1篇短文（驴的驯化史（Text 1））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 26,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号26位于 Section II Reading Comprehension Part A 第2篇短文（好莱坞影视制作衰退（Text 2））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 27,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号27位于 Section II Reading Comprehension Part A 第2篇短文（好莱坞影视制作衰退（Text 2））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 28,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号28位于 Section II Reading Comprehension Part A 第2篇短文（好莱坞影视制作衰退（Text 2））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 29,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号29位于 Section II Reading Comprehension Part A 第2篇短文（好莱坞影视制作衰退（Text 2））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 30,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号30位于 Section II Reading Comprehension Part A 第2篇短文（好莱坞影视制作衰退（Text 2））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 31,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号31位于 Section II Reading Comprehension Part A 第3篇短文（无线电广播的历史与聆听方式变迁（Text 3））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 32,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号32位于 Section II Reading Comprehension Part A 第3篇短文（无线电广播的历史与聆听方式变迁（Text 3））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 33,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号33位于 Section II Reading Comprehension Part A 第3篇短文（无线电广播的历史与聆听方式变迁（Text 3））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 34,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号34位于 Section II Reading Comprehension Part A 第3篇短文（无线电广播的历史与聆听方式变迁（Text 3））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 35,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号35位于 Section II Reading Comprehension Part A 第3篇短文（无线电广播的历史与聆听方式变迁（Text 3））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 36,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号36位于 Section II Reading Comprehension Part A 第4篇短文（美国森林火灾管理与计划烧除（Text 4））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 37,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号37位于 Section II Reading Comprehension Part A 第4篇短文（美国森林火灾管理与计划烧除（Text 4））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 38,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号38位于 Section II Reading Comprehension Part A 第4篇短文（美国森林火灾管理与计划烧除（Text 4））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 39,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号39位于 Section II Reading Comprehension Part A 第4篇短文（美国森林火灾管理与计划烧除（Text 4））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 40,
+      "nodes": [
+        "eng1.paper.part2.a"
+      ],
+      "primary_node": "eng1.paper.part2.a",
+      "confidence": "high",
+      "reason": "题号40位于 Section II Reading Comprehension Part A 第4篇短文（美国森林火灾管理与计划烧除（Text 4））下的单项选择题，页面小标题明确标注 Part A。"
+    },
+    {
+      "number": 41,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号41位于 Section II Reading Comprehension Part B，本年题型为8段文字重新排序（已给出F、H、C三段位置），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 42,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号42位于 Section II Reading Comprehension Part B，本年题型为8段文字重新排序（已给出F、H、C三段位置），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 43,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号43位于 Section II Reading Comprehension Part B，本年题型为8段文字重新排序（已给出F、H、C三段位置），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 44,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号44位于 Section II Reading Comprehension Part B，本年题型为8段文字重新排序（已给出F、H、C三段位置），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 45,
+      "nodes": [
+        "eng1.paper.part2.b"
+      ],
+      "primary_node": "eng1.paper.part2.b",
+      "confidence": "high",
+      "reason": "题号45位于 Section II Reading Comprehension Part B，本年题型为8段文字重新排序（已给出F、H、C三段位置），页面小标题明确标注 Part B。"
+    },
+    {
+      "number": 46,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号46位于 Section II Reading Comprehension Part C（划线句子英译汉，主题为科学素养教育史），页面小标题明确标注 Part C；节点表中『第三部分 翻译』下设的 note 节点说明英语（一）的英译汉本质上归属阅读理解而非独立翻译部分，故一并列出以覆盖两种表述口径。"
+    },
+    {
+      "number": 47,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号47位于 Section II Reading Comprehension Part C（划线句子英译汉，主题为科学素养教育史），页面小标题明确标注 Part C；节点表中『第三部分 翻译』下设的 note 节点说明英语（一）的英译汉本质上归属阅读理解而非独立翻译部分，故一并列出以覆盖两种表述口径。"
+    },
+    {
+      "number": 48,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号48位于 Section II Reading Comprehension Part C（划线句子英译汉，主题为科学素养教育史），页面小标题明确标注 Part C；节点表中『第三部分 翻译』下设的 note 节点说明英语（一）的英译汉本质上归属阅读理解而非独立翻译部分，故一并列出以覆盖两种表述口径。"
+    },
+    {
+      "number": 49,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号49位于 Section II Reading Comprehension Part C（划线句子英译汉，主题为科学素养教育史），页面小标题明确标注 Part C；节点表中『第三部分 翻译』下设的 note 节点说明英语（一）的英译汉本质上归属阅读理解而非独立翻译部分，故一并列出以覆盖两种表述口径。"
+    },
+    {
+      "number": 50,
+      "nodes": [
+        "eng1.paper.part2.c",
+        "eng1.paper.part3.note"
+      ],
+      "primary_node": "eng1.paper.part2.c",
+      "confidence": "high",
+      "reason": "题号50位于 Section II Reading Comprehension Part C（划线句子英译汉，主题为科学素养教育史），页面小标题明确标注 Part C；节点表中『第三部分 翻译』下设的 note 节点说明英语（一）的英译汉本质上归属阅读理解而非独立翻译部分，故一并列出以覆盖两种表述口径。"
+    },
+    {
+      "number": 51,
+      "nodes": [
+        "eng1.paper.part4.a"
+      ],
+      "primary_node": "eng1.paper.part4.a",
+      "confidence": "high",
+      "reason": "题号51为 Section III Writing Part A，要求以Li Ming身份回复Paul的邮件、约100词，页面标注 Part A 且题型/字数符合应用文写作规格。"
+    },
+    {
+      "number": 52,
+      "nodes": [
+        "eng1.paper.part4.b"
+      ],
+      "primary_node": "eng1.paper.part4.b",
+      "confidence": "high",
+      "reason": "题号52为 Section III Writing Part B，要求依据养老机器人接受度图表写160-200词的图表作文，页面标注 Part B 且题型/字数符合短文写作规格。"
+    }
+  ]
+}

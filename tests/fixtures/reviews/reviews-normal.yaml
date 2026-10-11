@@ -1,0 +1,71 @@
+# Small, comfortably-fits-today review queue. Reference date for these
+# fixtures is 2026-09-12. Total due cost is 8+10+4 = 22 min, well inside the
+# 54-minute soft review quota of the 120-minute config.
+schema_version: 1
+items:
+  - review_id: rv_math1_limit_0001
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.limit.equivalent-infinitesimal
+    title: 等价无穷小替换条件
+    granularity: concept
+    state: queued
+    estimated_minutes: 8
+    introduced_on: 2026-09-05
+    due_date: 2026-09-12
+    last_reviewed_on: 2026-09-08
+    schedule:
+      mode: fixed_bootstrap
+      phase: 1
+      interval_days: 3
+      ease_factor: 2.50
+      repetitions: 1
+      lapses: 0
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_cs408_tree_0002
+    revision: 1
+    subject_id: cs408
+    knowledge_point_id: cs408.tree.threaded-binary-tree
+    title: 线索二叉树的构造与遍历
+    granularity: question_pattern
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-04
+    due_date: 2026-09-12
+    last_reviewed_on: 2026-09-09
+    schedule:
+      mode: fixed_bootstrap
+      phase: 2
+      interval_days: 4
+      ease_factor: 2.50
+      repetitions: 2
+      lapses: 0
+    defer_count: 0
+    last_quality: 5
+    self_rating: fluent
+
+  # Not due yet: must be ignored entirely by the selector.
+  - review_id: rv_eng1_vocab_0003
+    revision: 1
+    subject_id: eng1
+    knowledge_point_id: eng1.vocab.unit-03
+    title: 词汇 Unit 3 批量抽认
+    granularity: vocabulary_batch
+    state: queued
+    estimated_minutes: 4
+    introduced_on: 2026-09-10
+    due_date: 2026-09-14
+    last_reviewed_on: null
+    schedule:
+      mode: fixed_bootstrap
+      phase: 0
+      interval_days: 1
+      ease_factor: 2.50
+      repetitions: 0
+      lapses: 0
+    defer_count: 0
+    last_quality: null
+    self_rating: null

@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "coder": "luna",
+    "year": 2026,
+    "subject": "math1",
+    "node_table_sha256": "2c7d7dbbe194f5b1be701821a613b2dfb1cb4b7f265cd7de30d87ae02c942598",
+    "started_at": "2026-09-13T12:25:08.334280+00:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "math1.hs.ch05.content"
+      ],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "考查由方程确定的二元函数的偏导关系，属于多元函数微分中的隐函数求导。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "math1.hs.ch07.content"
+      ],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "核心是拆分幂级数并判断收敛半径及端点，直接对应无穷级数的收敛性。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "利用凸性与差商单调性判断函数性质，属于一元函数微分学中的导数应用。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "math1.hs.ch06.content"
+      ],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "区域由两个曲面围成，需用球坐标设置三重积分范围，属于多元函数积分学。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "math1.la.ch10.content"
+      ],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "high",
+      "reason": "判断置换矩阵的逆及伴随矩阵性质，主线是矩阵的可逆性与矩阵运算。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "math1.la.ch12.content"
+      ],
+      "primary_node": "math1.la.ch12.content",
+      "confidence": "high",
+      "reason": "由列空间包含关系推出非齐次矩阵方程的可解性，直接对应线性方程组的解与秩。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "math1.la.ch14.content",
+        "math1.la.ch13.content"
+      ],
+      "primary_node": "math1.la.ch14.content",
+      "confidence": "high",
+      "reason": "通过二次型矩阵的特征值判断退化圆柱面，并区分规范形与正交变换标准形；主考点是二次型化简。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "math1.pr.ch18.content"
+      ],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "high",
+      "reason": "将期望平方展开为均值和方差相关的二次函数，再求其最小值，核心是随机变量的数字特征。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "math1.pr.ch16.content",
+        "math1.pr.ch18.content"
+      ],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "high",
+      "reason": "先识别分布函数变换对应的线性变换，再由均值与方差标准化确定参数，主考点是数字特征。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "math1.pr.ch16.content"
+      ],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "high",
+      "reason": "利用离散分布的尾概率表达式验证平移后的条件概率关系，属于随机变量分布及其概率计算。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "math1.hs.ch06.content"
+      ],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "medium",
+      "reason": "由向量叉积写出三维向量场后计算散度，属于多元积分章节涉及的向量场微积分运算。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "math1.hs.ch01.content"
+      ],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "比较对数与正弦的局部展开并取极限，核心是函数极限的等价无穷小或展开方法。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "用参数方程的一阶、二阶导数公式计算曲线的二阶导数，属于一元函数微分运算。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "math1.hs.ch03.content"
+      ],
+      "primary_node": "math1.hs.ch03.content",
+      "confidence": "high",
+      "reason": "计算带对数因子的无穷区间积分，涉及反常积分的收敛与积分技巧。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "math1.la.ch13.content"
+      ],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "分别求两矩阵的特征值并比较最大实特征值，直接对应特征值问题。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "math1.pr.ch18.content",
+        "math1.pr.ch16.content"
+      ],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "high",
+      "reason": "把独立性转化为协方差为零，再结合泊松分布的均值和方差求乘积期望；主考点是数字特征。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "math1.hs.ch05.content"
+      ],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "通过两个偏导为零寻找驻点，并用二阶偏导判别极值，属于二元函数极值。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "math1.hs.ch08.content",
+        "math1.hs.ch05.content"
+      ],
+      "primary_node": "math1.hs.ch08.content",
+      "confidence": "high",
+      "reason": "全微分条件先导出关于单变量函数的二阶常系数微分方程，再结合初值求解；主考点是常微分方程。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "math1.hs.ch06.content"
+      ],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "用辅助线段闭合椭圆弧并应用格林公式计算平面曲线积分，属于多元函数积分学。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "利用严格单调性建立积分不等式，并对构造函数两次应用罗尔定理得到二阶导数零点。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "math1.la.ch11.content",
+        "math1.la.ch12.content",
+        "math1.la.ch10.content"
+      ],
+      "primary_node": "math1.la.ch12.content",
+      "confidence": "medium",
+      "reason": "前半部分是向量组的秩与极大线性无关组，后半部分把矩阵表示为低维因子并计算矩阵幂，横跨向量、线性方程组和矩阵运算。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "math1.pr.ch21.content",
+        "math1.pr.ch16.content",
+        "math1.pr.ch18.content"
+      ],
+      "primary_node": "math1.pr.ch21.content",
+      "confidence": "high",
+      "reason": "先处理指数寿命样本最小次序统计量，再构造无偏估计并由似然函数求参数估计；主考点是参数估计。"
+    }
+  ]
+}

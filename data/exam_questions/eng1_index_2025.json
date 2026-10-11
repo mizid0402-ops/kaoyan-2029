@@ -1,0 +1,1766 @@
+{
+  "schema_version": 1,
+  "kind": "exam_question_index",
+  "exam_year": 2025,
+  "subject_id": "eng1",
+  "question_count": 52,
+  "marks_total": 100,
+  "answer_source_coverage": {
+    "choice_answered": 45,
+    "choice_total": 45,
+    "cross_checked": 45,
+    "cross_checked_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  "calibration": "awaiting_official_book",
+  "provenance": {
+    "paper": {
+      "resource_id": "eng1-paper-2025-bv",
+      "sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+      "source_tier": "community_archive",
+      "rights_status": "unknown",
+      "note": "试卷来源；索引只记录元信息"
+    },
+    "answer": {
+      "resource_id": "eng1-answer-2025-lazynote",
+      "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+      "source_tier": "community_archive",
+      "rights_status": "unknown",
+      "note": "参考答案来源；答案字母可追溯，未存原文"
+    }
+  },
+  "content_policy": "仅保存年份、题号、题型、分值、答案字母、定位和哈希，不保存题干、选项、译文、作文或解析原文",
+  "verified_facts": [
+    "英语一元信息索引保留1..52：1..40选择、41..45段落匹配、46..50翻译、51..52写作；总分100"
+  ],
+  "unverified_facts": [
+    "答案来源为公开参考资料，未声称官方评分答案"
+  ],
+  "entries": [
+    {
+      "question_id": "eng1-2025-01",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 1,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 2
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-02",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 2,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 4
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-03",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 3,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 5
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-04",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 4,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 6
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-05",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 5,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 7
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.397,
+        "eng1.exam.objectives.knowledge.grammar": 0.397,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.205
+      }
+    },
+    {
+      "question_id": "eng1-2025-06",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 6,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 8
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-07",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 7,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 9
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-08",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 8,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 10
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-09",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 9,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 11
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-10",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 10,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 12
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-11",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 11,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 13
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-12",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 12,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 14
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-13",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 13,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 15
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-14",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 14,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 16
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-15",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 15,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 17
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-16",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 16,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 18
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-17",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 17,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 19
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-18",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 18,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 20
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-19",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 19,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 21
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.397,
+        "eng1.exam.objectives.knowledge.grammar": 0.205,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.397
+      }
+    },
+    {
+      "question_id": "eng1-2025-20",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 20,
+      "question_type": "single_choice",
+      "marks": 0.5,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 2,
+        "line": 22
+      },
+      "knowledge_point_id": "eng1.paper.part1",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part1": 0.444,
+        "eng1.exam.objectives.knowledge.vocabulary": 0.444,
+        "eng1.exam.objectives.knowledge.grammar": 0.111
+      }
+    },
+    {
+      "question_id": "eng1-2025-21",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 21,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 4,
+        "line": 2
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-22",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 22,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 4,
+        "line": 8
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-23",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 23,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 4,
+        "line": 13
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-24",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 24,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 4,
+        "line": 18
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-25",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 25,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 4,
+        "line": 23
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-26",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 26,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 6,
+        "line": 2
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-27",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 27,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 6,
+        "line": 8
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-28",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 28,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 6,
+        "line": 13
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-29",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 29,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 6,
+        "line": 18
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-30",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 30,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 6,
+        "line": 23
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-31",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 31,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 8,
+        "line": 2
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-32",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 32,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 8,
+        "line": 8
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-33",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 33,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 8,
+        "line": 13
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-34",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 34,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 8,
+        "line": 18
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-35",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 35,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 8,
+        "line": 23
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-36",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 36,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 10,
+        "line": 2
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-37",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 37,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 10,
+        "line": 8
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-38",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 38,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 10,
+        "line": 13
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-39",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 39,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 10,
+        "line": 18
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-40",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 40,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 10,
+        "line": 23
+      },
+      "knowledge_point_id": "eng1.paper.part2.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.a": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-41",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 41,
+      "question_type": "fill_blank",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 12,
+        "line": 22
+      },
+      "knowledge_point_id": "eng1.paper.part2.b",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-42",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 42,
+      "question_type": "fill_blank",
+      "marks": 2,
+      "answer": "G",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.b",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-43",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 43,
+      "question_type": "fill_blank",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.b",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-44",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 44,
+      "question_type": "fill_blank",
+      "marks": 2,
+      "answer": "E",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.b",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-45",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 45,
+      "question_type": "fill_blank",
+      "marks": 2,
+      "answer": "F",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": [
+            "eng1-answer-2025-static"
+          ]
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.b",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.b": 0.5,
+        "eng1.exam.objectives.skills.reading": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-46",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 46,
+      "question_type": "translation",
+      "marks": 2,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.c",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    {
+      "question_id": "eng1-2025-47",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 47,
+      "question_type": "translation",
+      "marks": 2,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.c",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    {
+      "question_id": "eng1-2025-48",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 48,
+      "question_type": "translation",
+      "marks": 2,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.c",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    {
+      "question_id": "eng1-2025-49",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 49,
+      "question_type": "translation",
+      "marks": 2,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.c",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    {
+      "question_id": "eng1-2025-50",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 50,
+      "question_type": "translation",
+      "marks": 2,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "eng1.paper.part2.c",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part2.c": 0.378,
+        "eng1.paper.part3.note": 0.378,
+        "eng1.exam.objectives.knowledge.grammar": 0.058,
+        "eng1.exam.objectives.skills.reading": 0.186
+      }
+    },
+    {
+      "question_id": "eng1-2025-51",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 51,
+      "question_type": "writing",
+      "marks": 10,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 14,
+        "line": 5
+      },
+      "knowledge_point_id": "eng1.paper.part4.a",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part4.a": 0.5,
+        "eng1.exam.objectives.skills.writing": 0.5
+      }
+    },
+    {
+      "question_id": "eng1-2025-52",
+      "exam_year": 2025,
+      "subject_id": "eng1",
+      "number": 52,
+      "question_type": "writing",
+      "marks": 20,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "eng1-answer-2025-lazynote",
+          "sha256": "25b207451db2af61723e4d99ab428a090a292f081b34a26018845bb254cb43a4",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "088a555c8e216be07b47ccb70324d5e9c2d8fe1efb4058fef60c08c119380473",
+        "page": 14,
+        "line": 12
+      },
+      "knowledge_point_id": "eng1.paper.part4.b",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "eng1.paper.part4.b": 0.5,
+        "eng1.exam.objectives.skills.writing": 0.5
+      }
+    }
+  ]
+}

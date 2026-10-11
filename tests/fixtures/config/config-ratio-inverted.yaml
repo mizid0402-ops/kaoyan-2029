@@ -1,0 +1,17 @@
+# Invalid on purpose: hard_max_ratio < review_reserve_ratio, so the soft quota
+# can never be reached. Used by tests/test_contracts.py.
+schema_version: 1
+project_id: kaoyan-2029
+default_daily_minutes: 120
+review_reserve_ratio: 0.60
+hard_max_ratio: 0.45
+
+subjects:
+  - subject_id: math1
+    display_name: 数学一
+    weight: 0.50
+    active: true
+  - subject_id: cs408
+    display_name: "408"
+    weight: 0.50
+    active: true

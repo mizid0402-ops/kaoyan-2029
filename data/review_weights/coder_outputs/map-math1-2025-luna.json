@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "coder": "luna",
+    "year": 2025,
+    "subject": "math1",
+    "node_table_sha256": "8d9543368faf6fc8ebf45d8b548deffd59f15081253b94676788b95c0de56d82",
+    "started_at": "2026-09-13T20:09:28+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["math1.hs.ch02.content", "math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "用高阶导数判定驻点的极值与拐点，并结合变上限积分求导；核心落在一元函数微分学。"
+    },
+    {
+      "number": 2,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "分别运用渐近比较、交错级数和绝对收敛判别来判断两个无穷级数。"
+    },
+    {
+      "number": 3,
+      "nodes": ["math1.hs.ch01.content", "math1.hs.ch02.content", "math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "medium",
+      "reason": "考察无穷远处极限与导数、变上限积分之间的蕴含关系，主线是函数极限理论。"
+    },
+    {
+      "number": 4,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "需要识别二重积分区域并分割区域后交换积分次序。"
+    },
+    {
+      "number": 5,
+      "nodes": ["math1.la.ch14.content"],
+      "primary_node": "math1.la.ch14.content",
+      "confidence": "high",
+      "reason": "通过二次型的合同变换或规范形确定正惯性指数。"
+    },
+    {
+      "number": 6,
+      "nodes": ["math1.la.ch11.content", "math1.la.ch12.content"],
+      "primary_node": "math1.la.ch11.content",
+      "confidence": "medium",
+      "reason": "由向量组的线性相关性推出秩与解集维数，再据此判断两平面交集的几何形态。"
+    },
+    {
+      "number": 7,
+      "nodes": ["math1.la.ch10.content"],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "high",
+      "reason": "核心是矩阵乘积的秩不等式以及用单位矩阵构造反例检验秩结论。"
+    },
+    {
+      "number": 8,
+      "nodes": ["math1.pr.ch18.content", "math1.pr.ch17.content"],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "high",
+      "reason": "利用协方差和方差公式处理正态向量的线性组合，并在系数约束下求最大方差。"
+    },
+    {
+      "number": 9,
+      "nodes": ["math1.pr.ch16.content"],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "high",
+      "reason": "使用小概率二项分布向泊松分布的近似来计算计数事件概率。"
+    },
+    {
+      "number": 10,
+      "nodes": ["math1.pr.ch22.content", "math1.pr.ch16.content"],
+      "primary_node": "math1.pr.ch22.content",
+      "confidence": "high",
+      "reason": "属于已知方差正态总体均值的单侧假设检验，拒绝域由标准正态分位数给出。"
+    },
+    {
+      "number": 11,
+      "nodes": ["math1.hs.ch01.content"],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "处理对数与指数复合表达式的无穷小极限，依赖基本极限和等价无穷小。"
+    },
+    {
+      "number": 12,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "考察周期函数的傅里叶级数收敛后在指定点的和函数取值。"
+    },
+    {
+      "number": 13,
+      "nodes": ["math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "由梯度与单位方向向量的内积计算方向导数。"
+    },
+    {
+      "number": 14,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "将平面曲线积分闭合后应用格林公式转化为二重积分。"
+    },
+    {
+      "number": 15,
+      "nodes": ["math1.la.ch09.content", "math1.la.ch12.content"],
+      "primary_node": "math1.la.ch09.content",
+      "confidence": "high",
+      "reason": "由两个齐次方程组解集不同推出矩阵奇异，再用行列式计算参数。"
+    },
+    {
+      "number": 16,
+      "nodes": ["math1.pr.ch15.content"],
+      "primary_node": "math1.pr.ch15.content",
+      "confidence": "high",
+      "reason": "使用独立事件的交并关系，求在至少一个发生条件下恰有一个发生的条件概率。"
+    },
+    {
+      "number": 17,
+      "nodes": ["math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch03.content",
+      "confidence": "high",
+      "reason": "对有理函数作部分分式分解并完成一元函数不定积分。"
+    },
+    {
+      "number": 18,
+      "nodes": ["math1.hs.ch02.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "利用反函数关系和二阶链式法则求逆函数的二阶导数。"
+    },
+    {
+      "number": 19,
+      "nodes": ["math1.hs.ch02.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "通过拉格朗日中值定理把差商条件与导函数严格单调性联系起来并证明等价。"
+    },
+    {
+      "number": 20,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "对旋转曲面上的第二类曲面积分使用高斯公式，并结合投影区域计算补面通量。"
+    },
+    {
+      "number": 21,
+      "nodes": ["math1.la.ch13.content"],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "先由特征多项式的重根确定特征值，再用特征子空间和广义特征向量关系求参数向量。"
+    },
+    {
+      "number": 22,
+      "nodes": ["math1.pr.ch16.content", "math1.pr.ch15.content"],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "high",
+      "reason": "先求赔付为正的概率，再对泊松次数条件化并用二项分布的抽稀性质得到复合计数分布。"
+    }
+  ]
+}

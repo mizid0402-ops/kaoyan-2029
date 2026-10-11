@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "coder": "luna",
+    "year": 2023,
+    "subject": "math1",
+    "node_table_sha256": "8d9543368faf6fc8ebf45d8b548deffd59f15081253b94676788b95c0de56d82",
+    "started_at": "2026-09-13T09:47:11.841857+00:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "math1.hs.ch01.content"
+      ],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "斜渐近线的斜率和截距由无穷远处的函数极限确定，核心是函数极限与渐近性质。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "math1.hs.ch08.content"
+      ],
+      "primary_node": "math1.hs.ch08.content",
+      "confidence": "high",
+      "reason": "通过二阶常系数线性微分方程的特征根讨论全轴有界解，属于常微分方程通解与性质。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "medium",
+      "reason": "参数方程确定的函数需要比较一阶、二阶导数在连接点的存在性和连续性，归入一元函数微分学。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "math1.hs.ch07.content"
+      ],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "利用两个收敛级数的差以及绝对收敛的定义判断等价关系，核心是无穷级数的收敛性。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "math1.la.ch10.content"
+      ],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "high",
+      "reason": "对分块矩阵实施初等变换并比较秩，所考概念是矩阵的秩及其运算性质。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "math1.la.ch13.content"
+      ],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "通过特征值重数与线性无关特征向量个数判断能否相似对角化，属于特征值与特征向量。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "math1.la.ch11.content"
+      ],
+      "primary_node": "math1.la.ch11.content",
+      "confidence": "high",
+      "reason": "将同一向量分别置于两组向量的线性表示中并比较系数，核心是向量的线性表示与线性关系。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "math1.pr.ch16.content"
+      ],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "high",
+      "reason": "对泊松型离散随机变量按取值分解绝对偏差的数学期望，属于一维随机变量及其分布。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "math1.pr.ch20.content"
+      ],
+      "primary_node": "math1.pr.ch20.content",
+      "confidence": "high",
+      "reason": "由正态总体样本方差的卡方分布构造方差比的 F 分布，属于数理统计基本概念与抽样分布。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "math1.pr.ch21.content"
+      ],
+      "primary_node": "math1.pr.ch21.content",
+      "confidence": "high",
+      "reason": "先求样本差的绝对值期望，再选常数使估计量无偏，直接考查参数的无偏估计。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "math1.hs.ch01.content"
+      ],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "比较两个函数在零点附近的最低阶展开系数来确定等价无穷小，属于极限与无穷小。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "math1.hs.ch05.content"
+      ],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "用曲面在指定点的两个偏导数写切平面，核心是多元函数的偏导与全微分几何应用。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "math1.hs.ch07.content"
+      ],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "利用周期函数的余弦级数系数公式并求系数平方和，属于傅里叶级数及其收敛相关内容。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "math1.hs.ch03.content"
+      ],
+      "primary_node": "math1.hs.ch03.content",
+      "confidence": "high",
+      "reason": "利用区间平移关系和定积分可加性化简积分，核心是一元函数定积分的性质与计算。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "math1.la.ch11.content"
+      ],
+      "primary_node": "math1.la.ch11.content",
+      "confidence": "high",
+      "reason": "把向量的内积条件转写为线性方程组并求系数平方和，属于向量内积与线性表示。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "math1.pr.ch17.content"
+      ],
+      "primary_node": "math1.pr.ch17.content",
+      "confidence": "high",
+      "reason": "结合独立性枚举两个离散随机变量取相同值的联合概率，属于二维随机变量及其联合分布。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "math1.hs.ch08.content",
+        "math1.hs.ch03.content",
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch08.content",
+      "confidence": "high",
+      "reason": "第一问由几何条件建立并求解一阶微分方程；第二问结合原函数、导数判极值和定积分求最大值，涉及常微分方程、一元积分与微分。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "math1.hs.ch05.content"
+      ],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "求二元函数驻点并用二阶偏导判别极值，属于多元函数的极值与二阶微分。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "math1.hs.ch06.content"
+      ],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "将闭曲面积分转为区域上的三重积分，再用柱坐标计算，核心是多元函数积分及高斯公式。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "math1.hs.ch02.content"
+      ],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "用二阶泰勒公式的拉格朗日型余项构造中值点并给出不等式估计，属于一元函数微分学中的中值与泰勒定理。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "math1.la.ch14.content"
+      ],
+      "primary_node": "math1.la.ch14.content",
+      "confidence": "high",
+      "reason": "通过配方和特征值比较讨论二次型的可逆变换标准形及正交变换可能性，直接对应二次型。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "math1.pr.ch17.content",
+        "math1.pr.ch18.content"
+      ],
+      "primary_node": "math1.pr.ch17.content",
+      "confidence": "high",
+      "reason": "前两问使用二维密度的对称性、协方差和独立性，第三问用极坐标求平方和的分布，涉及二维分布与数字特征。"
+    }
+  ]
+}

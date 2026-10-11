@@ -1,0 +1,1489 @@
+{
+  "schema_version": 1,
+  "kind": "exam_question_index",
+  "exam_year": 2026,
+  "subject_id": "cs408",
+  "question_count": 47,
+  "marks_total": null,
+  "answer_source_coverage": {
+    "choice_answered": 40,
+    "choice_total": 40,
+    "cross_checked": 40,
+    "cross_checked_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ]
+  },
+  "calibration": "awaiting_official_book",
+  "provenance": {
+    "paper": {
+      "resource_id": "cs408-quiz-pages-2023-2026",
+      "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+      "source_tier": "community_archive",
+      "note": "本年无可用文本版试卷；题号来自答题页的卡片结构，无法给出行号"
+    },
+    "answer": {
+      "resource_id": "cs408-quiz-pages-2023-2026",
+      "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+      "source_tier": "community_archive",
+      "rights_status": "officially_published",
+      "note": "教学站答题页；答案由 DOM 结构锚点机械提取，非官方发布"
+    }
+  },
+  "content_policy": "本文件只含年份/题号/题型/分值/答案字母/页码行号；题干、选项、解析原文一律未采集、未存储。",
+  "verified_facts": [
+    "题号连续 1..47，无缺号无重号",
+    "综合题分值未确认，索引保留 null；依据：Marks DISPUTED, therefore deliberately left None. Question c…",
+    "40 个选择题答案由同一页面的两个独立锚点读出且完全一致（2026）"
+  ],
+  "unverified_facts": [
+    "答题页给出的答案与官方答案是否逐题一致，未核实（官方答案在纸质大纲附录内）",
+    "非 2024 年份没有文本版试卷，locator 的 page/line 为 0，无法定位到卷面位置"
+  ],
+  "entries": [
+    {
+      "question_id": "cs408-2026-01",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 1,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-02.section-02.item-01",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-02.section-02.item-01": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-02",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 2,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-02.section-02.item-02",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-02.section-02.item-02": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-03",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 3,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-04.section-02.item-03",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-04.section-02.item-03": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-04",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 4,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-04.section-03.item-02",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-04.section-03.item-02": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-05",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 5,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-04.section-04.item-01",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-04.section-04.item-01": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-06",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 6,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-05.section-02.item-02",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-05.section-02.item-02": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-07",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 7,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-05.section-01",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-05.section-01": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-08",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 8,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-06.section-05.item-02",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-06.section-05.item-02": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-09",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 9,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-07.section-02",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-07.section-02": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-10",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 10,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-07.section-10",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-07.section-10": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-11",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 11,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-07.section-11",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-07.section-11": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-12",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 12,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-01.section-01",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-01.section-01": 0.885,
+        "cs408.co.chapter-04.section-01": 0.115
+      }
+    },
+    {
+      "question_id": "cs408-2026-13",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 13,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-02.section-03.item-02",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-02.section-03.item-02": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-14",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 14,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-02.section-04.detail-01.note-01",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-02.section-04.detail-01.note-01": 0.667,
+        "cs408.co.chapter-02.section-04.item-01": 0.333
+      }
+    },
+    {
+      "question_id": "cs408-2026-15",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 15,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-03.section-04.item-02",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-03.section-04.item-02": 0.333,
+        "cs408.co.chapter-03.section-04.item-01": 0.333,
+        "cs408.co.chapter-02.section-04.detail-01.note-01": 0.333
+      }
+    },
+    {
+      "question_id": "cs408-2026-16",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 16,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-04.section-01",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-04.section-01": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-17",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 17,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-04.section-01",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-04.section-01": 0.533,
+        "cs408.co.chapter-04.section-06.item-04": 0.133,
+        "cs408.co.chapter-05.section-05.item-01": 0.333
+      }
+    },
+    {
+      "question_id": "cs408-2026-18",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 18,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-03.section-06.item-02",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-03.section-06.item-02": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-19",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 19,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-03.section-07.detail-02.note-01",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-20",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 20,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-05.section-03",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-05.section-03": 0.513,
+        "cs408.co.chapter-01.section-02.detail-01": 0.128,
+        "cs408.co.chapter-05.section-06.item-01": 0.359
+      }
+    },
+    {
+      "question_id": "cs408-2026-21",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 21,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-01.section-03.detail-01.note-01",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-01.section-03.detail-01.note-01": 0.5,
+        "cs408.os.chapter-01.section-03.item-04": 0.227,
+        "cs408.os.chapter-01.section-03.item-01": 0.136,
+        "cs408.co.chapter-04.section-01": 0.136
+      }
+    },
+    {
+      "question_id": "cs408-2026-22",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 22,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-05.section-05.item-03",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-05.section-05.item-03": 0.808,
+        "cs408.co.chapter-06.section-03.item-02": 0.192
+      }
+    },
+    {
+      "question_id": "cs408-2026-23",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 23,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-01.section-03.item-05",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-01.section-03.item-05": 0.833,
+        "cs408.os.chapter-01.section-03.detail-01.note-01": 0.167
+      }
+    },
+    {
+      "question_id": "cs408-2026-24",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 24,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-03.section-02.item-02",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-03.section-02.item-02": 0.318,
+        "cs408.os.chapter-01.section-03.item-03": 0.318,
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 0.227,
+        "cs408.os.chapter-03.section-02.item-01": 0.136
+      }
+    },
+    {
+      "question_id": "cs408-2026-25",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 25,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-02.section-01.item-03",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-02.section-01.item-03": 0.5,
+        "cs408.os.chapter-02.section-01.item-01": 0.167,
+        "cs408.os.chapter-02.section-01.detail-03.note-01": 0.333
+      }
+    },
+    {
+      "question_id": "cs408-2026-26",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 26,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-02.section-03.item-05",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-02.section-03.item-05": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-27",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 27,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-02.section-03.item-01",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-02.section-03.item-01": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-28",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 28,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-03.section-01.item-04",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-03.section-01.item-04": 0.385,
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 0.385,
+        "cs408.co.chapter-03.section-07.item-02": 0.231
+      }
+    },
+    {
+      "question_id": "cs408-2026-29",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 29,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-03.section-02.item-06",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-03.section-02.item-06": 0.692,
+        "cs408.co.chapter-03.section-07.detail-02.note-01": 0.308
+      }
+    },
+    {
+      "question_id": "cs408-2026-30",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 30,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-03.section-02.item-05",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-03.section-02.item-05": 0.769,
+        "cs408.os.chapter-03.section-01.item-04": 0.231
+      }
+    },
+    {
+      "question_id": "cs408-2026-31",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 31,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-05.section-02.item-04",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-05.section-02.item-04": 0.5,
+        "cs408.os.chapter-05.section-01.item-05": 0.167,
+        "cs408.os.chapter-05.section-01.detail-07.note-01": 0.333
+      }
+    },
+    {
+      "question_id": "cs408-2026-32",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 32,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-05.section-01.detail-05.note-01",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-05.section-01.item-05": 0.167,
+        "cs408.os.chapter-05.section-02.item-01": 0.333,
+        "cs408.os.chapter-05.section-01.detail-05.note-01": 0.5
+      }
+    },
+    {
+      "question_id": "cs408-2026-33",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 33,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-01.section-02.item-01",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-01.section-02.item-01": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-34",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 34,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-02.section-01.item-02",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-02.section-01.item-02": 0.833,
+        "cs408.cn.chapter-01.section-01.item-03": 0.167
+      }
+    },
+    {
+      "question_id": "cs408-2026-35",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 35,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-03.section-05.detail-03.note-01",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-03.section-05.detail-03.note-01": 0.833,
+        "cs408.cn.chapter-03.section-06.item-03": 0.167
+      }
+    },
+    {
+      "question_id": "cs408-2026-36",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 36,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "B",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-03.section-06.item-04",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-03.section-06.item-04": 0.667,
+        "cs408.cn.chapter-03.section-08.detail-01": 0.333
+      }
+    },
+    {
+      "question_id": "cs408-2026-37",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 37,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-04.section-02.item-03",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-04.section-02.item-03": 0.611,
+        "cs408.cn.chapter-04.section-03.item-03": 0.278,
+        "cs408.cn.chapter-04.section-08.item-02": 0.111
+      }
+    },
+    {
+      "question_id": "cs408-2026-38",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 38,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "A",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-04.section-05.item-04",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-04.section-05.item-04": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-39",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 39,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "C",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-04.section-03.item-03",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-04.section-03.item-03": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-40",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 40,
+      "question_type": "single_choice",
+      "marks": 2,
+      "answer": "D",
+      "answer_kind": "letter",
+      "answer_confidence": "cross_checked",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": "answer read twice from independent anchors in the same page (correct-answer-text span and toggle-btn argument); they agree on all 40"
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-06.section-05.item-02",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-06.section-05.item-02": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-41",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 41,
+      "question_type": "comprehensive_application",
+      "marks": null,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-06.section-05.item-01",
+      "knowledge_point_status": "assigned_multi_model",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-06.section-05.item-01": 1.0
+      }
+    },
+    {
+      "question_id": "cs408-2026-42",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 42,
+      "question_type": "comprehensive_application",
+      "marks": null,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.ds.chapter-03.section-01",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.ds.chapter-03.section-06": 0.308,
+        "cs408.ds.chapter-03.section-01": 0.692
+      }
+    },
+    {
+      "question_id": "cs408-2026-43",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 43,
+      "question_type": "comprehensive_application",
+      "marks": null,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-04.section-02",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-04.section-02": 0.833,
+        "cs408.co.chapter-04.section-06": 0.167
+      }
+    },
+    {
+      "question_id": "cs408-2026-44",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 44,
+      "question_type": "comprehensive_application",
+      "marks": null,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.co.chapter-05.section-03",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.co.chapter-05.section-03": 0.611,
+        "cs408.co.chapter-05.section-04": 0.278,
+        "cs408.co.chapter-05.section-02": 0.111
+      }
+    },
+    {
+      "question_id": "cs408-2026-45",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 45,
+      "question_type": "comprehensive_application",
+      "marks": null,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-02.section-02.item-05",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-02.section-02.item-05": 0.833,
+        "cs408.os.chapter-02.section-02.detail-03.note-01": 0.167
+      }
+    },
+    {
+      "question_id": "cs408-2026-46",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 46,
+      "question_type": "comprehensive_application",
+      "marks": null,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.os.chapter-04.section-01.item-02",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.os.chapter-04.section-01.item-02": 0.528,
+        "cs408.os.chapter-04.section-01.item-07": 0.194,
+        "cs408.os.chapter-04.section-02.item-03": 0.194,
+        "cs408.os.chapter-04.section-03.item-03": 0.083
+      }
+    },
+    {
+      "question_id": "cs408-2026-47",
+      "exam_year": 2026,
+      "subject_id": "cs408",
+      "number": 47,
+      "question_type": "comprehensive_application",
+      "marks": null,
+      "answer": null,
+      "answer_kind": null,
+      "answer_confidence": "unverified",
+      "answer_sources": [
+        {
+          "resource_id": "cs408-quiz-pages-2023-2026",
+          "sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+          "cross_checked_with": null
+        }
+      ],
+      "locator": {
+        "paper_sha256": "880b98bd99afb98f8c5352acfcf273aad0baf044b2f04e86e027e7d119f2de3a",
+        "page": 0,
+        "line": 0
+      },
+      "knowledge_point_id": "cs408.cn.chapter-05.section-03.item-02",
+      "knowledge_point_status": "assigned_unreviewed",
+      "notes": null,
+      "knowledge_point_weights": {
+        "cs408.cn.chapter-05.section-03.item-02": 0.269,
+        "cs408.cn.chapter-05.section-03.item-04": 0.269,
+        "cs408.cn.chapter-05.section-03.item-05": 0.269,
+        "cs408.cn.chapter-05.section-03.item-03": 0.096,
+        "cs408.cn.chapter-05.section-03.item-01": 0.096
+      }
+    }
+  ]
+}

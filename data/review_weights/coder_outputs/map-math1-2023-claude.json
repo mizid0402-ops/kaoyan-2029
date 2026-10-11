@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2023,
+    "subject": "math1",
+    "node_table_sha256": "8d9543368faf6fc8ebf45d8b548deffd59f15081253b94676788b95c0de56d82",
+    "started_at": "2026-09-13T11:42:53Z"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["math1.hs.ch02.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "求曲线的斜渐近线，需用极限求斜率k与截距b，属于一元函数微分学中函数图形描绘（渐近线）考点"
+    },
+    {
+      "number": 2,
+      "nodes": ["math1.hs.ch08.content"],
+      "primary_node": "math1.hs.ch08.content",
+      "confidence": "high",
+      "reason": "由特征方程根的情况（实根/复根）分析二阶常系数齐次线性微分方程解在全直线上有界的条件"
+    },
+    {
+      "number": 3,
+      "nodes": ["math1.hs.ch02.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "由参数方程求分段表达的y=y(x)，讨论其在分段点处的连续性与可导性，属于参数方程求导及导数存在性判定"
+    },
+    {
+      "number": 4,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "利用两收敛级数的和、差关系判断绝对收敛的充分必要性，属于级数绝对收敛与条件收敛的判定"
+    },
+    {
+      "number": 5,
+      "nodes": ["math1.la.ch10.content"],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "high",
+      "reason": "通过分块矩阵的初等行/列变换比较三个分块矩阵的秩，属于矩阵的秩及初等变换、分块矩阵运算"
+    },
+    {
+      "number": 6,
+      "nodes": ["math1.la.ch13.content"],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "根据重特征值对应线性无关特征向量的个数是否等于重数，判断矩阵能否相似对角化"
+    },
+    {
+      "number": 7,
+      "nodes": ["math1.la.ch11.content"],
+      "primary_node": "math1.la.ch11.content",
+      "confidence": "medium",
+      "reason": "β既可由一组向量线性表示又可由另一组线性表示，需联立方程组求出所有可能表示，核心是向量组的线性表示，但求解过程与线性方程组求解交叉，故把握中等"
+    },
+    {
+      "number": 8,
+      "nodes": ["math1.pr.ch18.content"],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "high",
+      "reason": "已知X服从泊松分布，计算E|X-EX|，属于随机变量函数的数学期望计算"
+    },
+    {
+      "number": 9,
+      "nodes": ["math1.pr.ch20.content"],
+      "primary_node": "math1.pr.ch20.content",
+      "confidence": "high",
+      "reason": "利用卡方分布的可加性构造两正态总体样本方差之比的统计量，判断其服从的F分布，属于数理统计基本概念中的抽样分布"
+    },
+    {
+      "number": 10,
+      "nodes": ["math1.pr.ch21.content"],
+      "primary_node": "math1.pr.ch21.content",
+      "confidence": "high",
+      "reason": "根据无偏估计的定义E(估计量)=被估参数，求待定系数a，属于估计量无偏性的应用"
+    },
+    {
+      "number": 11,
+      "nodes": ["math1.hs.ch01.content"],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "利用泰勒展开比较两个等价无穷小的阶数，求待定系数a、b，属于无穷小量的比较"
+    },
+    {
+      "number": 12,
+      "nodes": ["math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "由隐函数F(x,y,z)=0确定的曲面，求指定点处的切平面方程，属于多元函数微分学中曲面的切平面与法线"
+    },
+    {
+      "number": 13,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "对周期函数做偶延拓求傅里叶系数an，并求其平方级数的和，属于傅里叶级数考点"
+    },
+    {
+      "number": 14,
+      "nodes": ["math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch03.content",
+      "confidence": "high",
+      "reason": "利用积分区间可加性与换元法结合已知函数方程条件求定积分值，属于定积分的性质与计算"
+    },
+    {
+      "number": 15,
+      "nodes": ["math1.la.ch11.content"],
+      "primary_node": "math1.la.ch11.content",
+      "confidence": "high",
+      "reason": "利用向量组两两正交的内积关系化简并求参数平方和，属于向量的内积及正交性质"
+    },
+    {
+      "number": 16,
+      "nodes": ["math1.pr.ch17.content"],
+      "primary_node": "math1.pr.ch17.content",
+      "confidence": "high",
+      "reason": "由两个相互独立的二项分布随机变量计算P(X=Y)，需用联合分布（独立性下为边缘分布乘积）求和，属于多维随机变量及其分布"
+    },
+    {
+      "number": 17,
+      "nodes": ["math1.hs.ch08.content", "math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch08.content",
+      "confidence": "medium",
+      "reason": "第一问由几何条件（切线在y轴截距）建立并求解一阶线性微分方程得y(x)；第二问求变上限积分函数在(0,+∞)上的最大值，涉及积分学应用，跨常微分方程与一元函数积分学两章，故信心中等"
+    },
+    {
+      "number": 18,
+      "nodes": ["math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "求二元函数驻点并用二阶偏导判别式（AC-B²）判断极值，属于多元函数微分学中的极值问题"
+    },
+    {
+      "number": 19,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "利用高斯公式将第二类曲面积分转化为三重积分计算，属于多元函数积分学中的高斯公式应用"
+    },
+    {
+      "number": 20,
+      "nodes": ["math1.hs.ch02.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "利用泰勒公式展开结合介值定理证明存在中值点使等式成立，属于微分中值定理及其应用"
+    },
+    {
+      "number": 21,
+      "nodes": ["math1.la.ch14.content"],
+      "primary_node": "math1.la.ch14.content",
+      "confidence": "high",
+      "reason": "分别用配方法（可逆变换）和正交变换将二次型化为标准形，并比较特征值判断正交变换是否存在，属于二次型标准形的求法"
+    },
+    {
+      "number": 22,
+      "nodes": ["math1.pr.ch17.content", "math1.pr.ch18.content"],
+      "primary_node": "math1.pr.ch17.content",
+      "confidence": "medium",
+      "reason": "第一问求协方差属于随机变量数字特征，第二、三问判断独立性及求Z=X+Y的概率密度属于二维随机变量及其函数的分布，跨两章内容故信心中等"
+    }
+  ]
+}

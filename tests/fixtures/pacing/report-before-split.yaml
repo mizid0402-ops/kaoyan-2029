@@ -1,0 +1,44 @@
+schema_version: 1
+cycle:
+  start: '2026-10-01'
+  end: '2026-10-15'
+  days: 15
+generated_on: '2026-10-20'
+base:
+  min: 120
+  max: 120
+  mean: 120
+  source_note: 按生成时来源重算
+reference_minutes: 1800
+reference_source_note: 按生成时来源重算
+declared_minutes:
+  days: 1
+  sum: 170
+recorded_event_days: 2
+study_minutes:
+  days: 1
+  sum: 0
+reviews:
+  math1:
+    completed: 1
+    correct: 0
+    partial: 1
+    incorrect: 0
+    none: 0
+    miss_ratio: 1.0
+reviews_unattributed: 1
+duplicate_completion_ids: 1
+backlog_observed:
+  observed_on: '2026-10-20'
+  total: 12
+  by_subject:
+    math1: 12
+freeze:
+  events: 1
+  latched_at_end: true
+due_next:
+  math1: 24
+previous: null
+sources:
+  state/plans/a.yaml: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+report_hash: 5852ac733dbb2dd755df6d912e71835256f2fdff9ba421f83e88363452e91a4e

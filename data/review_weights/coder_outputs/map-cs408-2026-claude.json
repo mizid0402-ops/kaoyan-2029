@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2026,
+    "subject": "cs408",
+    "node_table_sha256": "447b9f6280be38868ac18a8adec60895cdaca247b13246b1b46cdc6b8b1ad386",
+    "started_at": "2026-09-13T09:38:16.979369+00:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": [
+        "cs408.ds.chapter-02.section-02.item-01"
+      ],
+      "primary_node": "cs408.ds.chapter-02.section-02.item-01",
+      "confidence": "high",
+      "reason": "考查顺序表中特定位置插入/删除是否必然引起元素移动，属于线性表顺序存储实现的核心知识点。"
+    },
+    {
+      "number": 2,
+      "nodes": [
+        "cs408.ds.chapter-02.section-02.item-02"
+      ],
+      "primary_node": "cs408.ds.chapter-02.section-02.item-02",
+      "confidence": "high",
+      "reason": "双向链表结点指针字段的遍历与判空处理，属于线性表链式存储的实现细节。"
+    },
+    {
+      "number": 3,
+      "nodes": [
+        "cs408.ds.chapter-04.section-02.item-03"
+      ],
+      "primary_node": "cs408.ds.chapter-04.section-02.item-03",
+      "confidence": "high",
+      "reason": "由中序序列和层次遍历序列重建二叉树再求后序序列，直接对应二叉树遍历知识点。"
+    },
+    {
+      "number": 4,
+      "nodes": [
+        "cs408.ds.chapter-04.section-03.item-02"
+      ],
+      "primary_node": "cs408.ds.chapter-04.section-03.item-02",
+      "confidence": "medium",
+      "reason": "多棵树按次序组织后求等价二叉树高度，涉及森林与二叉树转换（孩子兄弟表示法）的高度计算，题面表述较特殊故标medium。"
+    },
+    {
+      "number": 5,
+      "nodes": [
+        "cs408.ds.chapter-04.section-04.item-01"
+      ],
+      "primary_node": "cs408.ds.chapter-04.section-04.item-01",
+      "confidence": "high",
+      "reason": "按权值构造带权路径长度最小的树并判断结点层次，是哈夫曼树的典型应用。"
+    },
+    {
+      "number": 6,
+      "nodes": [
+        "cs408.ds.chapter-05.section-02.item-02"
+      ],
+      "primary_node": "cs408.ds.chapter-05.section-02.item-02",
+      "confidence": "high",
+      "reason": "邻接表存储下求某点入度的时间复杂度分析，直接对应邻接表存储结构知识点。"
+    },
+    {
+      "number": 7,
+      "nodes": [
+        "cs408.ds.chapter-05.section-01"
+      ],
+      "primary_node": "cs408.ds.chapter-05.section-01",
+      "confidence": "medium",
+      "reason": "讨论有向图中是否含环对可达路径/字符串集合规模的影响，属于图的基本概念（路径、环）范畴，节点表下无更细分的路径计数子项，故取section级并标medium。"
+    },
+    {
+      "number": 8,
+      "nodes": [
+        "cs408.ds.chapter-06.section-05.item-02"
+      ],
+      "primary_node": "cs408.ds.chapter-06.section-05.item-02",
+      "confidence": "high",
+      "reason": "固定高度平衡二叉树（AVL）左右子树结点数差的极值分析，属于平衡二叉树的性质。"
+    },
+    {
+      "number": 9,
+      "nodes": [
+        "cs408.ds.chapter-07.section-02"
+      ],
+      "primary_node": "cs408.ds.chapter-07.section-02",
+      "confidence": "high",
+      "reason": "比较不同初始序列在直接插入排序中的比较次数，直接对应直接插入排序知识点。"
+    },
+    {
+      "number": 10,
+      "nodes": [
+        "cs408.ds.chapter-07.section-10"
+      ],
+      "primary_node": "cs408.ds.chapter-07.section-10",
+      "confidence": "high",
+      "reason": "按多关键字（先C1再总成绩）且保持同值原始次序的排序方式，是基数排序（多关键字排序）的典型特征。"
+    },
+    {
+      "number": 11,
+      "nodes": [
+        "cs408.ds.chapter-07.section-11"
+      ],
+      "primary_node": "cs408.ds.chapter-07.section-11",
+      "confidence": "high",
+      "reason": "k路归并、归并趟数d、内存限制初始归并段长度，均为外部排序的核心概念。"
+    },
+    {
+      "number": 12,
+      "nodes": [
+        "cs408.co.chapter-01.section-01"
+      ],
+      "primary_node": "cs408.co.chapter-01.section-01",
+      "confidence": "high",
+      "reason": "题目围绕应用软件层、ISA作为软硬件接口、微架构是ISA物理实现等表述展开，与该节标题直接对应。"
+    },
+    {
+      "number": 13,
+      "nodes": [
+        "cs408.co.chapter-02.section-03.item-02"
+      ],
+      "primary_node": "cs408.co.chapter-02.section-03.item-02",
+      "confidence": "high",
+      "reason": "对机器数做算术右移/左移运算，属于带符号整数表示与运算中的移位操作。"
+    },
+    {
+      "number": 14,
+      "nodes": [
+        "cs408.co.chapter-02.section-04.detail-01.note-01"
+      ],
+      "primary_node": "cs408.co.chapter-02.section-04.detail-01.note-01",
+      "confidence": "high",
+      "reason": "题目明确要求按IEEE754单精度格式和就近舍入规则求机器数，与该细目直接对应。"
+    },
+    {
+      "number": 15,
+      "nodes": [
+        "cs408.co.chapter-02.section-04.detail-01.note-01"
+      ],
+      "primary_node": "cs408.co.chapter-02.section-04.detail-01.note-01",
+      "confidence": "high",
+      "reason": "与第14题同为IEEE754单精度浮点数就近舍入编码计算，只是给出的提示信息不同。"
+    },
+    {
+      "number": 16,
+      "nodes": [
+        "cs408.co.chapter-04.section-01"
+      ],
+      "primary_node": "cs408.co.chapter-04.section-01",
+      "confidence": "medium",
+      "reason": "判断哪些属于ISA规定范畴（输入输出指令、中断方式等）而哪些属于微架构实现细节，核心落点是指令系统的基本概念，但与系统层次结构节也有交叠故标medium。"
+    },
+    {
+      "number": 17,
+      "nodes": [
+        "cs408.co.chapter-04.section-01"
+      ],
+      "primary_node": "cs408.co.chapter-04.section-01",
+      "confidence": "low",
+      "reason": "考查条件跳转/过程调用/陷阱/过程返回等指令执行后能否顺序执行下一条指令，节点表中无专门的控制转移指令子项，只能归入指令系统基本概念，把握不大。"
+    },
+    {
+      "number": 18,
+      "nodes": [
+        "cs408.co.chapter-03.section-06.item-02"
+      ],
+      "primary_node": "cs408.co.chapter-03.section-06.item-02",
+      "confidence": "high",
+      "reason": "给定组相联参数和地址求所在主存块的组号，属于Cache与主存映射方式的计算。"
+    },
+    {
+      "number": 19,
+      "nodes": [
+        "cs408.co.chapter-03.section-07.detail-02.note-01"
+      ],
+      "primary_node": "cs408.co.chapter-03.section-07.detail-02.note-01",
+      "confidence": "high",
+      "reason": "题目直接涉及页表、TLB组相联结构及地址转换同步关系，对应该细目关于页表与TLB的说明。"
+    },
+    {
+      "number": 20,
+      "nodes": [
+        "cs408.co.chapter-05.section-06.item-01"
+      ],
+      "primary_node": "cs408.co.chapter-05.section-06.item-01",
+      "confidence": "medium",
+      "reason": "比较单周期、多周期、流水线三种数据通路实现下CPI取值的正确性，核心是指令流水线基本概念中对CPI的讨论，但也与性能指标定义有关，故标medium。"
+    },
+    {
+      "number": 21,
+      "nodes": [
+        "cs408.os.chapter-01.section-03.detail-01.note-01"
+      ],
+      "primary_node": "cs408.os.chapter-01.section-03.detail-01.note-01",
+      "confidence": "medium",
+      "reason": "判断I/O指令、关中断、中断返回、系统调用中哪个不是特权指令，核心概念是内核态/用户态及特权指令划分，节点表中该细目最贴近，但节点本身未直接列出“特权指令”一词，故标medium。"
+    },
+    {
+      "number": 22,
+      "nodes": [
+        "cs408.co.chapter-05.section-05.item-03"
+      ],
+      "primary_node": "cs408.co.chapter-05.section-05.item-03",
+      "confidence": "medium",
+      "reason": "区分中断响应过程中哪些工作必须由硬件完成（如保存断点），属于异常和中断的检测与响应，但也可能归入操作系统中断处理，故标medium。"
+    },
+    {
+      "number": 23,
+      "nodes": [
+        "cs408.os.chapter-01.section-03.item-05"
+      ],
+      "primary_node": "cs408.os.chapter-01.section-03.item-05",
+      "confidence": "high",
+      "reason": "判断编译、链接、装入、命令解释程序中哪个在内核态执行，装入涉及内存映射，直接对应程序的链接与装入知识点。"
+    },
+    {
+      "number": 24,
+      "nodes": [
+        "cs408.co.chapter-03.section-07.detail-02.note-01",
+        "cs408.os.chapter-03.section-02.item-01"
+      ],
+      "primary_node": "cs408.co.chapter-03.section-07.detail-02.note-01",
+      "confidence": "medium",
+      "reason": "涉及虚拟存储器下地址转换由硬件完成、异常由操作系统处理的分工，横跨计算机组成的虚拟存储器原理与操作系统的虚拟内存管理，故列两个节点并标medium。"
+    },
+    {
+      "number": 25,
+      "nodes": [
+        "cs408.os.chapter-02.section-01.item-03"
+      ],
+      "primary_node": "cs408.os.chapter-02.section-01.item-03",
+      "confidence": "high",
+      "reason": "讨论内核级/用户级线程的创建方式及进程栈/堆的共享关系，对应线程的实现知识点。"
+    },
+    {
+      "number": 26,
+      "nodes": [
+        "cs408.os.chapter-02.section-03.item-05"
+      ],
+      "primary_node": "cs408.os.chapter-02.section-03.item-05",
+      "confidence": "high",
+      "reason": "利用信号量wait/signal操作及其初值变化计算访问资源和阻塞的进程数，直接对应信号量知识点。"
+    },
+    {
+      "number": 27,
+      "nodes": [
+        "cs408.os.chapter-02.section-03.item-01"
+      ],
+      "primary_node": "cs408.os.chapter-02.section-03.item-01",
+      "confidence": "high",
+      "reason": "给出读写集合交集为空的充要条件判断并发是否冲突，是Bernstein条件，属于同步与互斥的基本概念。"
+    },
+    {
+      "number": 28,
+      "nodes": [
+        "cs408.co.chapter-03.section-07.item-02"
+      ],
+      "primary_node": "cs408.co.chapter-03.section-07.item-02",
+      "confidence": "medium",
+      "reason": "计算64位系统三级页表结构中第三级页表所占页框数，属于页式虚拟存储器的多级页表计算，也可能归入操作系统虚拟内存管理，故标medium。"
+    },
+    {
+      "number": 29,
+      "nodes": [
+        "cs408.os.chapter-03.section-02.item-06"
+      ],
+      "primary_node": "cs408.os.chapter-03.section-02.item-06",
+      "confidence": "high",
+      "reason": "TLB、多级页表、工作集、页表缓冲队列均为降低平均访存时间的改进手段，与该节点标题完全吻合。"
+    },
+    {
+      "number": 30,
+      "nodes": [
+        "cs408.os.chapter-03.section-01.item-04"
+      ],
+      "primary_node": "cs408.os.chapter-03.section-01.item-04",
+      "confidence": "medium",
+      "reason": "两进程共享同一文件页对应不同虚拟地址却映射相同物理地址，核心是页式管理中地址映射关系，但也涉及内存映射文件概念，故标medium。"
+    },
+    {
+      "number": 31,
+      "nodes": [
+        "cs408.os.chapter-05.section-01.detail-07.note-01"
+      ],
+      "primary_node": "cs408.os.chapter-05.section-01.detail-07.note-01",
+      "confidence": "high",
+      "reason": "辨析字符设备与块设备是否采用相同I/O方式，对应该细目关于字符/块设备接口的描述。"
+    },
+    {
+      "number": 32,
+      "nodes": [
+        "cs408.os.chapter-05.section-01.detail-05.note-01"
+      ],
+      "primary_node": "cs408.os.chapter-05.section-01.detail-05.note-01",
+      "confidence": "high",
+      "reason": "判断鼠标中断处理程序具体完成的数据搬运工作，对应中断处理程序职责的细目说明。"
+    },
+    {
+      "number": 33,
+      "nodes": [
+        "cs408.cn.chapter-01.section-02.item-01"
+      ],
+      "primary_node": "cs408.cn.chapter-01.section-02.item-01",
+      "confidence": "high",
+      "reason": "讨论分层网络体系结构的优缺点（层次数与效率关系），直接对应计算机网络分层结构知识点。"
+    },
+    {
+      "number": 34,
+      "nodes": [
+        "cs408.cn.chapter-02.section-01.item-02"
+      ],
+      "primary_node": "cs408.cn.chapter-02.section-01.item-02",
+      "confidence": "high",
+      "reason": "给定带宽和信噪比求最大数据速率再算传输时延，需用香农定理计算，对应该知识点。"
+    },
+    {
+      "number": 35,
+      "nodes": [
+        "cs408.cn.chapter-03.section-05.detail-03.note-01"
+      ],
+      "primary_node": "cs408.cn.chapter-03.section-05.detail-03.note-01",
+      "confidence": "high",
+      "reason": "给出DIFS、SIFS等参数计算CSMA/CA下帧发送到确认的最短时间，直接对应CSMA/CA协议细目。"
+    },
+    {
+      "number": 36,
+      "nodes": [
+        "cs408.cn.chapter-03.section-06.item-04"
+      ],
+      "primary_node": "cs408.cn.chapter-03.section-06.item-04",
+      "confidence": "high",
+      "reason": "根据VLAN划分和帧的源/目的MAC地址判断某端口是否会收到帧，直接对应VLAN基本原理。"
+    },
+    {
+      "number": 37,
+      "nodes": [
+        "cs408.cn.chapter-04.section-02.item-03"
+      ],
+      "primary_node": "cs408.cn.chapter-04.section-02.item-03",
+      "confidence": "high",
+      "reason": "基于链路状态路由算法在拓扑变化后重新计算路由表并聚合，直接对应链路状态路由算法知识点。"
+    },
+    {
+      "number": 38,
+      "nodes": [
+        "cs408.cn.chapter-04.section-05.item-04"
+      ],
+      "primary_node": "cs408.cn.chapter-04.section-05.item-04",
+      "confidence": "high",
+      "reason": "判断OSPF/RIP/BGP中哪个支持自治系统内区域划分，核心考查OSPF的区域机制。"
+    },
+    {
+      "number": 39,
+      "nodes": [
+        "cs408.cn.chapter-04.section-03.item-03"
+      ],
+      "primary_node": "cs408.cn.chapter-04.section-03.item-03",
+      "confidence": "high",
+      "reason": "将给定网段等分为32个子网并定位某IP所在子网，属于子网划分与CIDR计算。"
+    },
+    {
+      "number": 40,
+      "nodes": [
+        "cs408.cn.chapter-06.section-05.item-02"
+      ],
+      "primary_node": "cs408.cn.chapter-06.section-05.item-02",
+      "confidence": "high",
+      "reason": "辨析Cookie技术的典型用途，Cookie是HTTP协议维持状态的机制，归入HTTP协议知识点。"
+    },
+    {
+      "number": 41,
+      "nodes": [
+        "cs408.ds.chapter-06.section-05.item-01"
+      ],
+      "primary_node": "cs408.ds.chapter-06.section-05.item-01",
+      "confidence": "high",
+      "reason": "在二叉搜索树上设计查找与k之差绝对值最小结点的算法，直接对应二叉搜索树知识点。"
+    },
+    {
+      "number": 42,
+      "nodes": [
+        "cs408.ds.chapter-03.section-01"
+      ],
+      "primary_node": "cs408.ds.chapter-03.section-01",
+      "confidence": "high",
+      "reason": "分析入栈出栈序列的合法性及计数（与Catalan数相关的组合问题），属于栈的基本概念中入栈出栈规则的应用。"
+    },
+    {
+      "number": 43,
+      "nodes": [
+        "cs408.co.chapter-04.section-02"
+      ],
+      "primary_node": "cs408.co.chapter-04.section-02",
+      "confidence": "high",
+      "reason": "给出R/I/M型指令格式定义并要求推算寄存器内容变化及补全指令，核心是指令格式知识点。"
+    },
+    {
+      "number": 44,
+      "nodes": [
+        "cs408.co.chapter-05.section-03"
+      ],
+      "primary_node": "cs408.co.chapter-05.section-03",
+      "confidence": "high",
+      "reason": "针对给定数据通路分析取指/执行周期中各控制信号取值，直接对应数据通路的功能和基本结构。"
+    },
+    {
+      "number": 45,
+      "nodes": [
+        "cs408.os.chapter-02.section-02.item-05"
+      ],
+      "primary_node": "cs408.os.chapter-02.section-02.item-05",
+      "confidence": "high",
+      "reason": "结合抢占式优先权与时间片轮转规则计算调度和中断次数，直接对应CPU调度算法知识点。"
+    },
+    {
+      "number": 46,
+      "nodes": [
+        "cs408.os.chapter-04.section-01.item-02"
+      ],
+      "primary_node": "cs408.os.chapter-04.section-01.item-02",
+      "confidence": "high",
+      "reason": "围绕inode索引节点结构、盘块定位及删除目录时元数据更新展开，对应文件元数据和索引节点知识点。"
+    },
+    {
+      "number": 47,
+      "nodes": [
+        "cs408.cn.chapter-05.section-03.item-05",
+        "cs408.cn.chapter-05.section-03.item-02",
+        "cs408.cn.chapter-05.section-03.item-04"
+      ],
+      "primary_node": "cs408.cn.chapter-05.section-03.item-05",
+      "confidence": "medium",
+      "reason": "题目综合考查TCP三次握手/四次挥手的序号确认号计算与拥塞窗口增长、发送窗口设置，核心计算量集中在拥塞控制，但也覆盖连接管理与流量控制，故标medium并列出相关节点。"
+    }
+  ]
+}

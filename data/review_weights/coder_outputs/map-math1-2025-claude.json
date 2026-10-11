@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "coder": "claude",
+    "year": 2025,
+    "subject": "math1",
+    "node_table_sha256": "8d9543368faf6fc8ebf45d8b548deffd59f15081253b94676788b95c0de56d82",
+    "started_at": "2026-09-13T00:00:00+08:00"
+  },
+  "entries": [
+    {
+      "number": 1,
+      "nodes": ["math1.hs.ch02.content", "math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "medium",
+      "reason": "题目要求对积分上限函数 f(x)、g(x) 求一阶、二阶（甚至三阶）导数以判断极值点和拐点，核心考点是微分学中的极值/拐点判别法；但 f、g 本身由变限积分构造，也涉及积分学的求导法则，故列为次要节点。"
+    },
+    {
+      "number": 2,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "考查两个级数的绝对收敛与条件收敛判定，属于无穷级数章节的敛散性判别标准（比较判别法、莱布尼茨判别法等）。"
+    },
+    {
+      "number": 3,
+      "nodes": ["math1.hs.ch02.content", "math1.hs.ch01.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "medium",
+      "reason": "四个选项均通过反例检验 lim f(x)、lim f'(x)、lim(∫f/x) 之间的存在性关系，正确选项的论证用到洛必达法则，核心落在导数应用；但本质也是函数极限存在性问题，故极限章节也相关。"
+    },
+    {
+      "number": 4,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "考查二重积分交换积分次序，直接对应多元函数积分学中二重积分的计算方法。"
+    },
+    {
+      "number": 5,
+      "nodes": ["math1.la.ch14.content", "math1.la.ch13.content"],
+      "primary_node": "math1.la.ch14.content",
+      "confidence": "high",
+      "reason": "题目直接问二次型的正惯性指数，属于二次型章节；解法通过求对应矩阵特征值的符号得出，故特征值章节为次要节点。"
+    },
+    {
+      "number": 6,
+      "nodes": ["math1.la.ch12.content", "math1.la.ch11.content"],
+      "primary_node": "math1.la.ch12.content",
+      "confidence": "medium",
+      "reason": "最终结论关于方程组 xα1+yα2+zα3=α4 解集的几何图形（是否过原点的直线/平面），需要用系数矩阵与增广矩阵的秩判断解的结构，核心落在线性方程组一章；向量组线性相关性用于求秩，作为次要节点。"
+    },
+    {
+      "number": 7,
+      "nodes": ["math1.la.ch10.content"],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "medium",
+      "reason": "题目围绕矩阵乘积的秩的等式/不等式关系构造反例排除选项，属于矩阵一章中秩的性质，但抽象程度较高，不排除还涉及线性方程组解的判断，故置信度为中。"
+    },
+    {
+      "number": 8,
+      "nodes": ["math1.pr.ch18.content", "math1.pr.ch17.content"],
+      "primary_node": "math1.pr.ch18.content",
+      "confidence": "medium",
+      "reason": "求 D(aX+bY) 的最大值需要用方差、协方差的运算公式（数字特征一章内容），再结合条件 a²+b²=1 求极值；二维正态分布 N(0,0;1,1;ρ) 的参数设定属于多维随机变量分布一章，作为次要节点。"
+    },
+    {
+      "number": 9,
+      "nodes": ["math1.pr.ch16.content"],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "high",
+      "reason": "利用泊松定理（泊松分布近似二项分布）求概率，属于随机变量及其分布一章中二项分布与泊松分布关系的经典考点。"
+    },
+    {
+      "number": 10,
+      "nodes": ["math1.pr.ch22.content"],
+      "primary_node": "math1.pr.ch22.content",
+      "confidence": "high",
+      "reason": "构造正态总体均值单侧检验的拒绝域，直接对应假设检验一章的内容。"
+    },
+    {
+      "number": 11,
+      "nodes": ["math1.hs.ch01.content"],
+      "primary_node": "math1.hs.ch01.content",
+      "confidence": "high",
+      "reason": "求 0+ 型未定式极限，使用等价无穷小替换与洛必达法则，属于极限的计算，对应第一章内容。"
+    },
+    {
+      "number": 12,
+      "nodes": ["math1.hs.ch07.content"],
+      "primary_node": "math1.hs.ch07.content",
+      "confidence": "high",
+      "reason": "涉及分段函数的傅里叶级数及和函数在周期延拓下的取值，傅里叶级数是无穷级数一章的考试内容。"
+    },
+    {
+      "number": 13,
+      "nodes": ["math1.hs.ch05.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "high",
+      "reason": "求三元函数在给定点沿给定方向的方向导数，属于多元函数微分学一章的方向导数计算。"
+    },
+    {
+      "number": 14,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "计算沿抛物线一段的第二类曲线积分，题解借助格林公式补线转化为二重积分，属于多元函数积分学一章的曲线积分与格林公式内容。"
+    },
+    {
+      "number": 15,
+      "nodes": ["math1.la.ch10.content", "math1.la.ch12.content"],
+      "primary_node": "math1.la.ch10.content",
+      "confidence": "medium",
+      "reason": "题目通过矩阵不可逆（行列式为零）来判断 A²x=0 与 Ax=0 是否同解，核心是矩阵可逆性/秩的判断，属于矩阵一章；同解问题也与线性方程组解的关系相关，作为次要节点。"
+    },
+    {
+      "number": 16,
+      "nodes": ["math1.pr.ch15.content"],
+      "primary_node": "math1.pr.ch15.content",
+      "confidence": "high",
+      "reason": "考查独立事件的概率运算与条件概率计算，属于随机事件和概率一章内容。"
+    },
+    {
+      "number": 17,
+      "nodes": ["math1.hs.ch03.content"],
+      "primary_node": "math1.hs.ch03.content",
+      "confidence": "high",
+      "reason": "计算有理函数的定积分，需用部分分式分解，属于一元函数积分学一章中有理函数积分的计算方法。"
+    },
+    {
+      "number": 18,
+      "nodes": ["math1.hs.ch05.content", "math1.hs.ch08.content"],
+      "primary_node": "math1.hs.ch05.content",
+      "confidence": "medium",
+      "reason": "先用复合函数求偏导（含二阶偏导）把偏微分方程化简为关于 f(u) 的常微分方程，前半程属于多元函数微分学；后半程需要求解所得的二阶线性常微分方程得到 f(u)，故常微分方程一章也是重要考点。"
+    },
+    {
+      "number": 19,
+      "nodes": ["math1.hs.ch02.content"],
+      "primary_node": "math1.hs.ch02.content",
+      "confidence": "high",
+      "reason": "证明导函数严格单调增加的充要条件，证明过程反复使用拉格朗日中值定理与单调性定义，属于一元函数微分学一章的中值定理应用。"
+    },
+    {
+      "number": 20,
+      "nodes": ["math1.hs.ch06.content"],
+      "primary_node": "math1.hs.ch06.content",
+      "confidence": "high",
+      "reason": "计算旋转曲面一部分的第二类曲面积分，解法用高斯公式转化为三重积分并补面，属于多元函数积分学一章的曲面积分与高斯公式内容。"
+    },
+    {
+      "number": 21,
+      "nodes": ["math1.la.ch13.content"],
+      "primary_node": "math1.la.ch13.content",
+      "confidence": "high",
+      "reason": "已知特征值为重根求参数，并求满足 Aα=α+β、A²α=α+2β 的向量，核心是特征值、特征多项式与广义特征向量的运算，属于矩阵的特征值和特征向量一章。"
+    },
+    {
+      "number": 22,
+      "nodes": ["math1.pr.ch16.content", "math1.pr.ch18.content"],
+      "primary_node": "math1.pr.ch16.content",
+      "confidence": "medium",
+      "reason": "第（1）问求随机变量函数 Y=g(X) 的分布与期望（数字特征为次要考点），第（2）问在 N 服从泊松分布、M|N 服从二项分布的条件下用全概率公式求 M 的概率分布，核心落在随机变量及其分布一章对离散型分布的确定。"
+    }
+  ]
+}

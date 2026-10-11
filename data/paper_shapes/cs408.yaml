@@ -1,0 +1,117 @@
+schema_version: 1
+kind: paper_shapes
+subject_id: cs408
+papers:
+  - exam_year: 2023
+    paper_source: national
+    question_count: 47
+    sections:
+      - numbers:
+          - 1
+          - 40
+        question_type: single_choice
+        marks_each: 2
+        answer_letters: ABCD
+      - numbers:
+          - 41
+          - 47
+        question_type: comprehensive_application
+        marks:
+          41: 13
+          42: 10
+          43: 14
+          44: 9
+          45: 7
+          46: 8
+          47: 9
+    answer_reader: csgraduates_quiz_dom
+    basis: >-
+      READ from 408_2023_paper.pdf pages 6-8 (rendered): the paper states '二、综合应用题（第
+      41~47 小题，共 70 分）' and prints 本题 N 分 per question. The read values are 13/10/14/9/7/8/9
+      and sum to 70.
+  - exam_year: 2024
+    paper_source: national
+    question_count: 47
+    sections:
+      - numbers:
+          - 1
+          - 40
+        question_type: single_choice
+        marks_each: 2
+        answer_letters: ABCD
+      - numbers:
+          - 41
+          - 47
+        question_type: comprehensive_application
+        marks:
+          41: 13
+          42: 10
+          43: 13
+          44: 10
+          45: 7
+          46: 8
+          47: 9
+    answer_reader: csgraduates_quiz_dom
+    basis: >-
+      READ from 408_2024_paper_rebuild.pdf pages 6-11 (rendered): the paper states
+      '二、综合应用题（第 41~47 小题，共 70 分）' and prints 本题 N 分 per question. All seven read
+      directly and they sum to 70. SUPERSEDES the earlier even split of 150-80 (which
+      claimed 10 each) -- that was wrong, and it was wrong because it was derived
+      rather than read.
+  - exam_year: 2025
+    paper_source: national
+    question_count: 47
+    sections:
+      - numbers:
+          - 1
+          - 40
+        question_type: single_choice
+        marks_each: 2
+        answer_letters: ABCD
+      - numbers:
+          - 41
+          - 47
+        question_type: comprehensive_application
+        marks:
+          41: 13
+          42: 10
+          43: 12
+          44: 9
+          45: 8
+          46: 9
+          47: 9
+    answer_reader: csgraduates_quiz_dom
+    basis: >-
+      READ from 408_2025_paper.pdf pages 8-11 (rendered): the paper states '二、综合应用题：第
+      41~47 小题，共 70 分' and gives 本题 N 分 per question; the seven marks sum to 70, matching
+      the stated 70
+  - exam_year: 2026
+    paper_source: national
+    question_count: 47
+    sections:
+      - numbers:
+          - 1
+          - 40
+        question_type: single_choice
+        marks_each: 2
+        answer_letters: ABCD
+      - numbers:
+          - 41
+          - 47
+        question_type: comprehensive_application
+        marks: unverified
+    answer_reader: csgraduates_quiz_dom
+    basis: >-
+      Marks DISPUTED, therefore deliberately left unverified. Question count is 47, not
+      48: three independent 2026 sources state the essay range is 41-47 -- iqihang_2026_408.pdf
+      prints '综合应用题:41~47 小题，共70 分。', and the kaoyan.cn static PDF's page 17 prints
+      '（第 41~47 小题，共 70 分）'; the quiz page states '本题满分' exactly 7 times. An earlier
+      revision of this record said 48, which produced a source-less index row for
+      a Q48 that does not exist. On the marks themselves: the quiz page headlines
+      (13/10/10/15/7/8/9 = 72) exceed the paper's own 150 total, while the PDFs' read
+      values (12/10/10/15/7/8/9 = 71) miss it by one. The reviewed judgement in
+      review/2026年408综合题分值-最终判定.md is 13/10/10/13/7/8/9 = 70: Q42, Q43, Q45,
+      Q46 and Q47 are measured from available reconstructions (Q47 headline only),
+      while Q41 and Q44 are inferences. Because the judgement mixes measurements
+      with inferences rather than verified original-paper marks, the seven marks
+      remain unverified in the registered paper shape.

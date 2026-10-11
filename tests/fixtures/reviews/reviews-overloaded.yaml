@@ -1,0 +1,241 @@
+# Deliberately overloaded queue for 2026-09-12.
+#
+# With the 120-minute config (review_reserve_ratio 0.45 -> soft 54 min,
+# hard_max_ratio 0.60 -> hard cap 72 min) the 14 due items below cost 122
+# minutes, so most of them cannot fit and must be deferred rather than
+# silently rescheduled.
+#
+# Items with special roles:
+#   rv_math1_hard_0002  -- 12 min, overdue by 10 days: must rank first.
+#   rv_math1_urgent_0013 -- defer_count 2 -> urgent, may borrow to the hard cap.
+#   rv_math1_future_0014 -- not due, must never appear in any list.
+#   rv_cs408_retired_0015 -- retired, must never appear in any list.
+schema_version: 1
+items:
+  - review_id: rv_math1_first_0001
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.limit.equivalent-infinitesimal
+    title: 等价无穷小替换条件
+    granularity: concept
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-01
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_math1_hard_0002
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.integral.by-parts
+    title: 分部积分法
+    granularity: concept
+    state: queued
+    estimated_minutes: 12
+    introduced_on: 2026-08-30
+    due_date: 2026-09-02
+    schedule: {mode: fixed_bootstrap, phase: 0, interval_days: 1, ease_factor: 2.20, repetitions: 0, lapses: 1}
+    defer_count: 0
+    last_quality: 2
+    self_rating: unknown
+
+  - review_id: rv_math1_plain_0003
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.series.ratio-test
+    title: 比值判别法
+    granularity: concept
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-02
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_cs408_plain_0004
+    revision: 1
+    subject_id: cs408
+    knowledge_point_id: cs408.tree.threaded-binary-tree
+    title: 线索二叉树
+    granularity: question_pattern
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-02
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_cs408_plain_0005
+    revision: 1
+    subject_id: cs408
+    knowledge_point_id: cs408.os.page-replacement
+    title: 页面置换算法
+    granularity: question_pattern
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-02
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_cs408_plain_0006
+    revision: 1
+    subject_id: cs408
+    knowledge_point_id: cs408.net.tcp-congestion
+    title: TCP 拥塞控制
+    granularity: concept
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-02
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_math1_more_0007
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.matrix.eigenvalue
+    title: 特征值与特征向量
+    granularity: procedure
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-02
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_math1_more_0008
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.prob.bayes
+    title: 贝叶斯公式
+    granularity: concept
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-02
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_cs408_more_0009
+    revision: 1
+    subject_id: cs408
+    knowledge_point_id: cs408.ds.graph-shortest-path
+    title: 最短路径算法
+    granularity: question_pattern
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-02
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_cs408_more_0010
+    revision: 1
+    subject_id: cs408
+    knowledge_point_id: cs408.arch.cache-mapping
+    title: Cache 映射方式
+    granularity: concept
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-02
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 0
+    last_quality: 4
+    self_rating: basic
+
+  - review_id: rv_eng1_vocab_0011
+    revision: 1
+    subject_id: eng1
+    knowledge_point_id: eng1.vocab.unit-03
+    title: 词汇 Unit 3
+    granularity: vocabulary_batch
+    state: queued
+    estimated_minutes: 4
+    introduced_on: 2026-09-09
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 0, interval_days: 1, ease_factor: 2.50, repetitions: 0, lapses: 0}
+    defer_count: 0
+    last_quality: null
+    self_rating: null
+
+  - review_id: rv_eng1_vocab_0012
+    revision: 1
+    subject_id: eng1
+    knowledge_point_id: eng1.vocab.unit-04
+    title: 词汇 Unit 4
+    granularity: vocabulary_batch
+    state: queued
+    estimated_minutes: 4
+    introduced_on: 2026-09-09
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 0, interval_days: 1, ease_factor: 2.50, repetitions: 0, lapses: 0}
+    defer_count: 0
+    last_quality: null
+    self_rating: null
+
+  # Already deferred twice -> urgent, may borrow up to the hard cap.
+  - review_id: rv_math1_urgent_0013
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.limit.squeeze-theorem
+    title: 夹逼定理
+    granularity: concept
+    state: queued
+    estimated_minutes: 8
+    introduced_on: 2026-09-03
+    due_date: 2026-09-12
+    schedule: {mode: fixed_bootstrap, phase: 1, interval_days: 3, ease_factor: 2.50, repetitions: 1, lapses: 0}
+    defer_count: 2
+    last_quality: 3
+    self_rating: vague
+
+  # Not yet due: must never appear in either list for 2026-09-12.
+  - review_id: rv_math1_future_0014
+    revision: 1
+    subject_id: math1
+    knowledge_point_id: math1.differential.rolle
+    title: 罗尔定理
+    granularity: concept
+    state: queued
+    estimated_minutes: 10
+    introduced_on: 2026-09-11
+    due_date: 2026-09-15
+    schedule: {mode: fixed_bootstrap, phase: 0, interval_days: 1, ease_factor: 2.50, repetitions: 0, lapses: 0}
+    defer_count: 0
+    last_quality: null
+    self_rating: null
+
+  # Retired: never selected even though due.
+  - review_id: rv_cs408_retired_0015
+    revision: 1
+    subject_id: cs408
+    knowledge_point_id: cs408.ds.queue
+    title: 队列
+    granularity: concept
+    state: retired
+    estimated_minutes: 8
+    introduced_on: 2026-08-20
+    due_date: 2026-09-01
+    schedule: {mode: sm2_lite, phase: 5, interval_days: 30, ease_factor: 2.60, repetitions: 5, lapses: 0}
+    defer_count: 0
+    last_quality: 5
+    self_rating: fluent
