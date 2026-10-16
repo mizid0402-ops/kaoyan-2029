@@ -1,0 +1,12 @@
+# Synthetic public demo. No personal configuration or study history.
+schema_version: 1
+project_id: public-demo
+default_daily_minutes: 60
+review_reserve_ratio: 0.45
+hard_max_ratio: 0.60
+subjects:
+  - subject_id: demo
+    display_name: 示例科目
+    weight: 1.0
+    active: true
+    min_daily_minutes: 0

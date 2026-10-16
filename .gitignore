@@ -43,3 +43,15 @@ data/plans/
 data/routes/
 data/availability.yaml
 staging/
+
+# Public framework: real inputs and internal development artifacts stay local.
+data/
+state/
+local-inputs/
+review/
+AGENTS.md
+交接文档.md
+tools/archive/
+tools/migrations/
+tools/dispatch/
+study-output/
